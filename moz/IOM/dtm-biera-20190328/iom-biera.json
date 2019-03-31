@@ -1,0 +1,23 @@
+{
+    "label": "DTM - SITE ASSESSMENTS BEIRA DISTRICT March 28th",
+    "source": {
+        "type": "vector",
+        "layer": "dtm-mozambique-site-assessmen-9nar6v",
+        "url": "mapbox://ona.cmd0a8q3",
+        "data": "dtm-mozambique-site-assessment-round-1.csv",
+        "join": ["SITE_NAME", "SITE_NAME"]
+    },
+    "type": "circle",
+    "circle-opacity": 0.4,
+    "property": "IDP_IND",
+    "categories": {
+      "breaks": "yes",
+      "color": "#0074D9",
+      "clusters": 7
+    },
+    "popup": {
+        "header": "{{SITE_NAME}}",
+        "body": "<p style=text-align:left;><b>Site: </b>{{SITE_NAME}} ({{SITE_TYPE}})<br><b>Total Individuals: </b>{{IDP_IND}}<br><b>Total Householdes: </b>{{IDP_HH}}<br><b>Site Classification: </b>{{SITE_CLASSIFICATION}}<br><b>Prevent Return: </b>{{PREVENT_RETURN}}<p>"
+    },
+    "credit": "DTM - IOM Displacement Tracking Matrix"
+}
