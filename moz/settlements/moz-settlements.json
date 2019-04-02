@@ -17,7 +17,7 @@
        "text-size": 10,
        "text-field": "{Sett_Name}",
        "text-offset": [0, 1],
-       "icon-image": "circle-11",
+       "icon-image": "circle-11-black",
        "icon-size": 0.6,
        "icon-allow-overlap": true
      }
