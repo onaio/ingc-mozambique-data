@@ -1,40 +1,40 @@
-Province,District,PiN Flood,Female,Male, Children Under 18  
-Manica,Barue,"38,911","19,844","19,066","  19,455 "
-Manica,Cidade De Chimoio,"195,848","99,882","95,965","  97,924 "
-Manica,Gondola,"105,974","54,047","51,927","  52,987 "
-Manica,Guro,"5,092","2,597","2,495","  2,546 "
-Manica,Macate,"44,684","22,789","21,895","  22,342 "
-Manica,Machaze,"27,127","13,835","13,292","  13,563 "
-Manica,Macossa,"10,222","5,213","5,009","  5,111 "
-Manica,Manica,"47,278","24,112","23,166","  23,639 "
-Manica,Mossurize,"46,133","23,528","22,605","  23,067 "
-Manica,Sussundenga,"88,358","45,062","43,295","  44,179 "
-Manica,Tambara,"28,865","14,721","14,144","  14,432 "
-Manica,Vanduzi,"65,172","33,238","31,934","  32,586 "
-Sofala,Buzi,"93,163","47,513","45,650","  46,582 "
-Sofala,Caia,"20,167","10,285","9,882","  10,083 "
-Sofala,Chemba,"9,238","4,711","4,526","  4,619 "
-Sofala,Cheringoma,"12,301","6,274","6,028","  6,151 "
-Sofala,Chibabava,"70,546","35,978","34,567","  35,273 "
-Sofala,Cidade Da Beira,"280,425","143,017","137,408","  140,212 "
-Sofala,Dondo,"96,898","49,418","47,480","  48,449 "
-Sofala,Gorongosa,"38,290","19,528","18,762","  19,145 "
-Sofala,Machanga,"5,869","2,993","2,876","  2,934 "
-Sofala,Maringue,"20,766","10,591","10,175","  10,383 "
-Sofala,Marromeu,"16,465","8,397","8,068","  8,233 "
-Sofala,Muanza,"8,886","4,532","4,354","  4,443 "
-Sofala,Nhamatanda,"166,807","85,071","81,735","  83,403 "
-Tete,Changara,"6,748","3,441","3,306","  3,374 "
-Tete,Cidade de Tete,"32,120","16,381","15,739","  16,060 "
-Tete,Doa,"36,945","18,842","18,103","  18,473 "
-Tete,Mutarara,"43,597","22,234","21,362","  21,798 "
-Zambezia,Chinde,"17,946","9,153","8,794","  8,973 "
-Zambezia,Inhassunge,"4,815","2,455","2,359","  2,407 "
-Zambezia,Lugela,"9,910","5,054","4,856","  4,955 "
-Zambezia,Maganja Da Costa,"38,559","19,665","18,894","  19,279 "
-Zambezia,Milange,"32,531","16,591","15,940","  16,266 "
-Zambezia,Mocuba,"22,204","11,324","10,880","  11,102 "
-Zambezia,Morrumbala,"39,944","20,371","19,572","  19,972 "
-Zambezia,Namacurra,"12,719","6,487","6,232","  6,360 "
-Zambezia,Nicoadala,"9,492","4,841","4,651","  4,746 "
-,,"1,851,014","944,017","906,997","925,507"
+Province,District,PiN Flood,Female,Male,Children Under 18,people_affected
+Manica,Barue,38911,19844,19066,19455,58365
+Manica,Cidade De Chimoio,195848,99882,95965,97924,293771
+Manica,Gondola,105974,54047,51927,52987,158961
+Manica,Guro,5092,2597,2495,2546,7638
+Manica,Macate,44684,22789,21895,22342,67026
+Manica,Machaze,27127,13835,13292,13563,40690
+Manica,Macossa,10222,5213,5009,5111,15333
+Manica,Manica,47278,24112,23166,23639,70917
+Manica,Mossurize,46133,23528,22605,23067,69200
+Manica,Sussundenga,88358,45062,43295,44179,132536
+Manica,Tambara,28865,14721,14144,14432,43297
+Manica,Vanduzi,65172,33238,31934,32586,97758
+Sofala,Buzi,93163,47513,45650,46582,139745
+Sofala,Caia,20167,10285,9882,10083,30250
+Sofala,Chemba,9238,4711,4526,4619,13856
+Sofala,Cheringoma,12301,6274,6028,6151,18453
+Sofala,Chibabava,70546,35978,34567,35273,105818
+Sofala,Cidade Da Beira,280425,143017,137408,140212,420637
+Sofala,Dondo,96898,49418,47480,48449,145347
+Sofala,Gorongosa,38290,19528,18762,19145,57435
+Sofala,Machanga,5869,2993,2876,2934,8803
+Sofala,Maringue,20766,10591,10175,10383,31149
+Sofala,Marromeu,16465,8397,8068,8233,24698
+Sofala,Muanza,8886,4532,4354,4443,13329
+Sofala,Nhamatanda,166807,85071,81735,83403,250209
+Tete,Changara,6748,3441,3306,3374,10121
+Tete,Cidade de Tete,32120,16381,15739,16060,48180
+Tete,Doa,36945,18842,18103,18473,55418
+Tete,Mutarara,43597,22234,21362,21798,65394
+Zambezia,Chinde,17946,9153,8794,8973,26920
+Zambezia,Inhassunge,4815,2455,2359,2407,7221
+Zambezia,Lugela,9910,5054,4856,4955,14865
+Zambezia,Maganja Da Costa,38559,19665,18894,19279,57838
+Zambezia,Milange,32531,16591,15940,16266,48797
+Zambezia,Mocuba,22204,11324,10880,11102,33306
+Zambezia,Morrumbala,39944,20371,19572,19972,59915
+Zambezia,Namacurra,12719,6487,6232,6360,19079
+Zambezia,Nicoadala,9492,4841,4651,4746,14238
+,,1851014,944017,906997,925507,2776521
