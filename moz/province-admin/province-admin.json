@@ -1,0 +1,17 @@
+{
+  "label": "Fronteiras da Província",
+  "source": {
+    "type": "vector",
+    "layer": "mozambique_provinces_final-4s6ogr",
+    "url": "mapbox://ona.3agpy3pd"
+  },
+  "type": "line",
+  "paint": {
+    "line-width": 2,
+    "line-color": "#444",
+    "line-opacity": 0.8,
+    "line-gap-width": 0
+  },
+  "visible": true,
+  "category": "Boundaries & Labels"
+}

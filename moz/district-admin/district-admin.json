@@ -1,0 +1,16 @@
+{
+  "label": "Fronteiras Distritais",
+  "source": {
+    "type": "vector",
+    "layer": "mozambique_districts_final",
+    "url": "mapbox://ona.9zeb0vb0"
+  },
+  "type": "line",
+  "paint": {
+    "line-width": 1.5,
+    "line-color": "#737373",
+    "line-opacity": 0.5
+  },
+  "visible": false,
+  "category": "Boundaries & Labels"
+}

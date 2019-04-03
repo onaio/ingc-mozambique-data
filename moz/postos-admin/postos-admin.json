@@ -1,0 +1,17 @@
+{
+  "label": "Fronteiras dos Postos",
+  "source": {
+    "type": "vector",
+    "layer": "mozambique_postos-4kuvrh",
+    "url": "mapbox://ona.ajgigfjt"
+  },
+  "type": "line",
+  "paint": {
+    "line-width": 1.2,
+    "line-color": "#888",
+    "line-opacity": 1,
+    "line-dasharray": [1,2]
+  },
+  "visible": false,
+  "category": "Boundaries & Labels"
+}
