@@ -1,0 +1,19 @@
+{
+    "label": "Water Extent 19/03/2019 Sofala",
+    "source": {
+        "type": "vector",
+        "layer": "20190319-sofala-1ls2lf",
+        "url": "mapbox://ona.dv08px4m"
+      },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+        "paint": {
+          "fill-color": "#85144b",
+          "fill-opacity": 0.6,
+          "fill-outline-color": "#FF851B"
+         },
+    "credit": "Source: <a href='https://www.whereismytransport.com' target='_blank'>WhereIsMyTransport</a>"
+  }
