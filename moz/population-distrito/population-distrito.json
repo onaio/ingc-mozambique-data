@@ -1,0 +1,43 @@
+{
+    "label": "População Total - Distrito",
+    "source": {
+        "type": "vector",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-distrito/district_pop.csv",
+        "layer": "mozambique_districts_final",
+        "url": "mapbox://ona.9zeb0vb0",
+        "join": [
+            "Distrito",
+            "Distrito"
+        ]
+    },
+    "type": "fill",
+    "property": "pop_tot",
+    "categories": {
+        "breaks": "yes",
+        "color": "Reds",
+        "clusters": 5
+    },
+    "popup": {
+        "header": "Distrito",
+        "body": " <p style=text-align:left;> <b>População Total:</b> {{pop_tot}}<br><b>População Masculina:</b> {{male_pop}}<br><b>População Feminina:</b> {{female_pop}}<span style=float:right;>"
+    },
+    "visible": false,
+    "credit": "População Total - Distrito",
+    "category": "População",
+    "charts": {
+        "pie": {
+            "type": "breaks",
+            "level": "Distrito",
+            "column": "pop_tot",
+            "suffix": "%"
+        },
+        "primary": {
+            "type": "column",
+            "spec": {
+                "type": "percent",
+                "level": "Distrito",
+                "column": "pop_tot"
+            }
+        }
+    }
+}
