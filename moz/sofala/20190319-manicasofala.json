@@ -1,0 +1,18 @@
+{
+    "label": "Water Extent 19/03/2019 Manica/Sofala",
+    "source": {
+        "type": "vector",
+        "layer": "20190319-manicasofala-13ydwv",
+        "url": "mapbox://ona.2vialv86"
+      },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+        "paint": {
+          "fill-color": "#85144b",
+          "fill-opacity": 0.6,
+          "fill-outline-color": "#FF851B"
+         }
+  }

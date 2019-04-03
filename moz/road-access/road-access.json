@@ -1,0 +1,29 @@
+{
+    "label": "Road Access Constraints",
+    "source": {
+        "type": "vector",
+        "layer": "moztrsroads",
+        "url": "mapbox://ona.3mipwbxa"
+      },
+    "type": "line",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "line-color": {
+        "property": "status",
+        "type": "categorical",
+        "stops": [
+          ["Open", "#2ECC40"],
+          ["Restricted", "#FF851B"],
+          ["Closed", "#FF4136"]]
+      },
+      "line-width": 3,
+      "line-opacity": 0.8
+    },
+    "popup": {
+      "body": "<p style=text-align:left;> Status: {{status}} <br/></p>"
+    },
+    "credit": "Source: <a href='https://www.whereismytransport.com' target='_blank'>WhereIsMyTransport</a>"
+  }

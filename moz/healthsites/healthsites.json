@@ -1,0 +1,26 @@
+{
+    "label": "Health Centers",
+    "source": {
+        "type": "vector",
+        "layer": "moz-hc-a41d3a",
+        "url": "mapbox://ona.0gnkn20u"
+      },
+     "type": "symbol",
+     "minzoom": 5.5,
+     "paint": {
+       "text-color": "#000",
+       "text-halo-color": "#fff",
+       "text-halo-width": 1,
+       "text-halo-blur": 1
+      },
+     "layout": {
+       "text-size": 12,
+       "text-field": "{Name of Health facility}",
+       "text-offset": [0, 2],
+       "icon-image": "hospital-11",
+       "icon-size": 0.8,
+       "icon-allow-overlap": true
+     },
+    
+     "credit": "Nutrition Cluster (UNICEF), Samson Desie (sdesie@unicef.org)"
+   }
