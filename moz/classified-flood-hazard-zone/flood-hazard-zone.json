@@ -25,5 +25,5 @@
     "popup": {
       "body": "<p style=text-align:left;>Rio/River: {{rio}} <br/>{{Level}}</p>"
     },
-    "credit": "Source: <a href='https://geonode.ingc.gov.mz/layers/geonode:national_flood_multi' target='_blank'>National Directorate of Water Resource Management (DNGRH)</a>"
+    "credit": "Geonode - national_flood_multi"
   }

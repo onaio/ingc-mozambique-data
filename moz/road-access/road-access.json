@@ -25,5 +25,5 @@
     "popup": {
       "body": "<p style=text-align:left;> Status: {{status}} <br/></p>"
     },
-    "credit": "Source: <a href='https://www.whereismytransport.com' target='_blank'>WhereIsMyTransport</a>"
+    "credit": "HDX - hotosm_moz_roads"
   }

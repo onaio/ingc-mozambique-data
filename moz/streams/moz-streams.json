@@ -18,5 +18,5 @@
     "popup": {
       "body": "<p style=text-align:left;>{{TOPONIMO}}<br/></p>"
     },
-    "credit": "Source: <a href='https://geonode.ingc.gov.mz/layers/geonode:national_stream_network' target='_blank'>National Cartography and Tele-detection Centre, Mozambique (CENACARTA)</a>"
+    "credit": "Geonode - national_stream_network"
   }

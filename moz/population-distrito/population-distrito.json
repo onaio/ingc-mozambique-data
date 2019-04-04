@@ -22,7 +22,7 @@
         "body": " <p style=text-align:left;> <b>População Total:</b> {{pop_tot}}<br><b>População Masculina:</b> {{male_pop}}<br><b>População Feminina:</b> {{female_pop}}<span style=float:right;>"
     },
     "visible": false,
-    "credit": "População Total - Distrito",
+    "credit": "UN OCHA (início estimado)",
     "category": "População",
     "charts": {
         "pie": {
