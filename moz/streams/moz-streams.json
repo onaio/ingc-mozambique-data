@@ -11,19 +11,12 @@
       "line-join": "round"
     },
     "paint": {
-      "line-color": {
-        "property": "status",
-        "type": "categorical",
-        "stops": [
-          ["Open", "#2ECC40"],
-          ["Restricted", "#FF851B"],
-          ["Closed", "#FF4136"]]
-      },
+      "line-color": "#0074D9",
       "line-width": 3,
       "line-opacity": 0.8
     },
     "popup": {
-      "body": "<p style=text-align:left;> Status: {{status}} <br/></p>"
+      "body": "<p style=text-align:left;>{{TOPONIMO}}<br/></p>"
     },
-    "credit": "Source: <a href='https://www.whereismytransport.com' target='_blank'>WhereIsMyTransport</a>"
+    "credit": "Source: <a href='https://geonode.ingc.gov.mz/layers/geonode:national_stream_network' target='_blank'>National Cartography and Tele-detection Centre, Mozambique (CENACARTA)</a>"
   }
