@@ -3,7 +3,8 @@
     "source": {
         "type": "vector",
         "layer": "moz-streams-csc8c9",
-        "url": "mapbox://ona.anbo9ivx"
+        "url": "mapbox://ona.anbo9ivx",
+        "minZoom": 3
       },
     "type": "line",
     "layout": {
