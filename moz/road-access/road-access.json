@@ -1,5 +1,5 @@
 {
-    "label": "Road Access Constraints",
+    "label": "Restrições de acesso rodoviário",
     "source": {
         "type": "vector",
         "layer": "moztrsroads",

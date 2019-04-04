@@ -1,5 +1,5 @@
 {
-    "label": "Buildings",
+    "label": "Edifícios",
     "source": {
       "type": "vector",
       "layer": "building",

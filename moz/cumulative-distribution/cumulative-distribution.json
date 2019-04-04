@@ -1,5 +1,5 @@
 {
-    "label": "Cumulative Food Distribution",
+    "label": "Distribuição Alimentar Cumulativa",
     "source": {
       "type": "vector",
       "layer": "mozambique_districts_final",
