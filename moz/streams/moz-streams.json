@@ -1,0 +1,29 @@
+{
+    "label": "Rivers and Stream Network",
+    "source": {
+        "type": "vector",
+        "layer": "moz-streams-csc8c9",
+        "url": "mapbox://ona.anbo9ivx"
+      },
+    "type": "line",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "line-color": {
+        "property": "status",
+        "type": "categorical",
+        "stops": [
+          ["Open", "#2ECC40"],
+          ["Restricted", "#FF851B"],
+          ["Closed", "#FF4136"]]
+      },
+      "line-width": 3,
+      "line-opacity": 0.8
+    },
+    "popup": {
+      "body": "<p style=text-align:left;> Status: {{status}} <br/></p>"
+    },
+    "credit": "Source: <a href='https://www.whereismytransport.com' target='_blank'>WhereIsMyTransport</a>"
+  }
