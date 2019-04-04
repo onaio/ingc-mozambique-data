@@ -17,7 +17,7 @@
     },
     "popup": {
         "header": "{{SITE_NAME}}",
-        "body": "<p style=text-align:left;><b>Site: </b>{{SITE_NAME}} ({{SITE_TYPE}})<br><b>Total Individuals: </b>{{IDP_IND}}<br><b>Total Householdes: </b>{{IDP_HH}}<br><b>Site Classification: </b>{{SITE_CLASSIFICATION}}<br><b>Prevent Return: </b>{{PREVENT_RETURN}}<p>"
+        "body": "<p style=text-align:left;><b>Local: </b>{{SITE_NAME}} ({{SITE_TYPE}})<br><b>Total de Indivíduos: </b>{{IDP_IND}}<br><b>Total Householdes: </b>{{IDP_HH}}<br><b>Classificação do site: </b>{{SITE_CLASSIFICATION}}<br><b>Evitar o retorno: </b>{{PREVENT_RETURN}}<p>"
     },
-    "credit": "DTM - IOM Displacement Tracking Matrix"
+    "credit": "IOM"
 }

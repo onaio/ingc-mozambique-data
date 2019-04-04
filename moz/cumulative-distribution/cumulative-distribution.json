@@ -43,6 +43,6 @@
         "body": "<p style=text-align:left;> <b>Families:</b> {{families}} <br> <b>People:</b> {{people}} <br> <b>Children 5:</b> {{children_under_5}} <br> <span style=float:right;>"
     },
     "visible": false,
-    "credit": "Cumulative Distribution",
+    "credit": "WFP",
     "category": "Cumulative Distribution"
   }

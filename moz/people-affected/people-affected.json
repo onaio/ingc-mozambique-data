@@ -19,7 +19,7 @@
     },
     "popup": {
         "header": "District",
-        "body": "<p style=text-align:left;> <b>Female:</b> {{Female}} <br> <b>Male:</b> {{Male}} <br> <b>Children Under 18:</b> {{Children Under 18}} <br> <b>Total People Affected:</b> {{PiN Flood}}<span style=float:right;>"
+        "body": "<p style=text-align:left;> <b>Fêmea:</b> {{Female}} <br> <b>Masculino:</b> {{Male}} <br> <b>Crianças menores de 18 anos:</b> {{Children Under 18}} <br> <b>Total de pessoas afetadas:</b> {{PiN Flood}}<span style=float:right;>"
     },
     "visible": false,
     "credit": "UNICEF",

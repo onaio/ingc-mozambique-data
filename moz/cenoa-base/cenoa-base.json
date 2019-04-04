@@ -41,6 +41,6 @@
         "body": "<p style=text-align:left;> <b>Families Affected:</b> {{familias__afectadas_}} <br> <b>Persons Affected:</b> {{pessoas_afectadas_}} <span style=float:right;>"
     },
     "visible": false,
-    "credit": "Families and Persons Affected",
+    "credit": "INGC CENOE",
     "category": "Cumulative Distribution"
   }
