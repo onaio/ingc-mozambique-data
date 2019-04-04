@@ -1,5 +1,5 @@
 {
-    "label": "People Affected By District",
+    "label": "Pessoas afetadas pelo distrito    ",
     "source": {
         "type": "vector",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/people-affected/MOZ_Dist_Affected.csv",

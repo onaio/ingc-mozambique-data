@@ -1,5 +1,5 @@
 {
-    "label": "Roads",
+    "label": "Estradas",
     "source": {
       "type": "vector",
       "layer": "road",
