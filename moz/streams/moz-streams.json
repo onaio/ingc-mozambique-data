@@ -1,5 +1,5 @@
 {
-    "label": "Rivers and Stream Network",
+    "label": "Rede de rios e córregos",
     "source": {
         "type": "vector",
         "layer": "moz-streams-csc8c9",
