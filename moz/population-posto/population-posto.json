@@ -2,42 +2,31 @@
     "label": "População Total - Posto",
     "source": {
         "type": "vector",
-        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-posto/posto_pop.csv",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-posto/census_popultaion_posto.csv",
         "layer": "mozambique_postos-4kuvrh",
         "url": "mapbox://ona.ajgigfjt",
         "join": [
             "Posto",
-            "Posto"
+            "posto"
         ]
     },
     "type": "fill",
-    "property": "pop_tot",
+    "property": "population",
     "categories": {
         "breaks": "yes",
         "color": "Reds",
         "clusters": 5
     },
     "popup": {
-        "header": "Posto",
-        "body": " <p style=text-align:left;> <b>População Total:</b> {{pop_tot}}<br><b>População Masculina:</b> {{male_pop}}<br><b>População Feminina:</b> {{female_pop}}<span style=float:right;>"
+        "header": "posto",
+        "body": " <p style=text-align:left;> <b>População:</b> {{population}}</p>"
+    },
+    "aggregate": {
+        "timeseries": {
+            "field": "period"
+        }
     },
     "visible": false,
-    "credit": "Census population data from Bureau of Stats",
-    "category": "População",
-    "charts": {
-        "pie": {
-            "type": "breaks",
-            "level": "Posto",
-            "column": "pop_tot",
-            "suffix": "%"
-        },
-        "primary": {
-            "type": "column",
-            "spec": {
-                "type": "percent",
-                "level": "Posto",
-                "column": "pop_tot"
-            }
-        }
-    }
+    "credit": "PNational Bureau of Statistics Mozambique",
+    "category": "População"
 }

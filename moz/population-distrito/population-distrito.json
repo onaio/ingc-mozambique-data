@@ -2,42 +2,31 @@
     "label": "População Total - Distrito",
     "source": {
         "type": "vector",
-        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-distrito/district_pop.csv",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-distrito/census_population_district.csv",
         "layer": "mozambique_districts_final",
         "url": "mapbox://ona.9zeb0vb0",
         "join": [
             "Distrito",
-            "Distrito"
+            "distrito"
         ]
     },
     "type": "fill",
-    "property": "pop_tot",
+    "property": "population",
     "categories": {
         "breaks": "yes",
         "color": "Reds",
         "clusters": 5
     },
     "popup": {
-        "header": "Distrito",
-        "body": " <p style=text-align:left;> <b>População Total:</b> {{pop_tot}}<br><b>População Masculina:</b> {{male_pop}}<br><b>População Feminina:</b> {{female_pop}}<span style=float:right;>"
+        "header": "distrito",
+        "body": " <p style=text-align:left;> <b>População:</b> {{population}}</p>"
+    },
+    "aggregate": {
+        "timeseries": {
+            "field": "period"
+        }
     },
     "visible": false,
-    "credit": "UN OCHA (início estimado)",
-    "category": "População",
-    "charts": {
-        "pie": {
-            "type": "breaks",
-            "level": "Distrito",
-            "column": "pop_tot",
-            "suffix": "%"
-        },
-        "primary": {
-            "type": "column",
-            "spec": {
-                "type": "percent",
-                "level": "Distrito",
-                "column": "pop_tot"
-            }
-        }
-    }
+    "credit": "National Bureau of Statistics Mozambique",
+    "category": "População"
 }
