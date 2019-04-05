@@ -1,5 +1,5 @@
 {
-  "label": "Fronteiras Distritais",
+  "label": "Limites do Distrito",
   "source": {
     "type": "vector",
     "layer": "mozambique_districts_final",

@@ -1,5 +1,5 @@
 {
-    "label": "Rótulos dos Postos",
+    "label": "Nome do Posto",
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/postos-admin/mozambique_postas_centroids.geojson"

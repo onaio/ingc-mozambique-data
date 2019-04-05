@@ -1,5 +1,5 @@
 {
-    "label": "Rótulos do Distrito",
+    "label": "Nome do Distrito",
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/district-admin/mozambique_districts_centroids_final.geojson"

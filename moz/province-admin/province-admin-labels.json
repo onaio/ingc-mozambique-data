@@ -1,5 +1,5 @@
 {
-    "label": "Rótulos da Província",
+    "label": "Nome da Provincia",
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/province-admin/mozambique_provinces_centroids_final.geojson",
