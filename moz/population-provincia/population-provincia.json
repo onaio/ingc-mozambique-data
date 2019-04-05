@@ -3,9 +3,12 @@
     "source": {
         "type": "vector",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-provincia/census_population_province.csv",
-        "layer": "mozambique_provinces_final-4s6ogr",
-        "url": "mapbox://ona.3agpy3pd",
-        "join": ["Provincia", "provincia"]
+        "layer": "province_population_file-c09i3a",
+        "url": "mapbox://ona.3zdzvmw8",
+        "join": [
+            "PROVINCIA",
+            "provincia"
+        ]
     },
     "type": "fill",
     "property": "population",

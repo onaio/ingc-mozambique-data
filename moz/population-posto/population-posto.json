@@ -3,11 +3,11 @@
     "source": {
         "type": "vector",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-posto/census_popultaion_posto.csv",
-        "layer": "mozambique_postos-4kuvrh",
-        "url": "mapbox://ona.ajgigfjt",
+        "layer": "posto_level_pop",
+        "url": "mapbox://ona.5mqwqx53",
         "join": [
-            "Posto",
-            "posto"
+            "POSTO",
+            "Posto"
         ]
     },
     "type": "fill",
