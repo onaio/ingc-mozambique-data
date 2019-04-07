@@ -12,7 +12,7 @@
     "line-opacity": 0.8,
     "line-gap-width": 0
   },
-  "visible": true,
+  "visible": false,
   "credit": "HDX",
   "category": "Boundaries & Labels"
 }
