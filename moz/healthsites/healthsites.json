@@ -21,5 +21,6 @@
        "icon-size": 0.8,
        "icon-allow-overlap": true
      },
-     "credit": "HDX"
+     "menu-credit": "HDX",
+     "credit": "<a href=https://data.humdata.org/dataset/mozambique-health-facilities target=_blank data-credit=credit>HDX</a>"
    }

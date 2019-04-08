@@ -20,5 +20,6 @@
         "header": "{{SITE_NAME}}",
         "body": "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{people-food}})<br><p>"
     },
-    "credit": "OCHA"
+    "menu-credit": "HDX",
+    "credit": "<a href=https://data.humdata.org/dataset/mozambique-cyclone-idai-4w target=_blank data-credit=credit>HDX</a>"
 }

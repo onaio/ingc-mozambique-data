@@ -25,5 +25,6 @@
     "popup": {
       "body": "<p style=text-align:left;> Status: {{status}} <br/></p>"
     },
-    "credit": "HDX - hotosm_moz_roads"
+    "menu-credit": "HDX",
+    "credit": "<a href=https://data.humdata.org/dataset/1fd18272-438b-46a4-88ea-a414e264ddb6 target=_blank data-credit=credit>HDX</a>"
   }

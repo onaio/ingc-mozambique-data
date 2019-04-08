@@ -21,7 +21,8 @@
         "header": "NomeEsco_1"
     },
     "visible": false,
-    "credit": "HDX",
+    "menu-credit": "MoE",
+    "credit": "<a href=https://drive.google.com/open?id=1Nl8BJMNKyiN7_t7CET8fvKC8rp4KjhoZ target=_blank data-credit=credit>MoE</a>",
     "nondefault": true,
     "category": "Settlements + Services"
 }
