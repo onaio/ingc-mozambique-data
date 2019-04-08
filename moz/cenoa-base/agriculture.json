@@ -1,0 +1,40 @@
+{
+    "label": "Total Área Afetada em Hectares",
+    "source": {
+        "type": "vector",
+        "data": "data/cenoe_2019_04_06_formatted_final.csv",
+        "layer": "mozambique_districts_final",
+        "url": "mapbox://ona.9zeb0vb0",
+        "join": [
+            "Distrito",
+            "distrito"
+        ]
+    },
+    "type": "fill",
+    "property": "area_afectada_ha",
+    "categories": {
+        "breaks": "yes",
+        "color": "Reds",
+        "clusters": 5
+    },
+    "popup": {
+        "header": "distrito",
+        "body": " <p style=text-align:left;> <b>Área Afetada:</b> {{area_afectada_ha}}</p>"
+    },
+    "aggregate": {
+        "type": "sum",
+        "group-by": "distrito",
+        "date-by": "epoca",
+        "timeseries": {
+            "field": "period"
+        },
+        "extraProps": [
+            "epoca",
+            "area_afectada_ha",
+            "distrito"
+        ]
+    },
+    "visible": false,
+    "credit": "Agriculture / Crops"
+
+} 

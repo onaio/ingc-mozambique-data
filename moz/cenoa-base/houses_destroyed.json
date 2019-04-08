@@ -1,0 +1,40 @@
+{
+    "label": "Número Total de Casas Parcialmente ou Totalmente Destruídas",
+    "source": {
+        "type": "vector",
+        "data": "data/cenoe_2019_04_06_formatted_final.csv",
+        "layer": "mozambique_districts_final",
+        "url": "mapbox://ona.9zeb0vb0",
+        "join": [
+            "Distrito",
+            "distrito"
+        ]
+    },
+    "type": "fill",
+    "property": "casas_totalmente_destr",
+    "categories": {
+        "breaks": "yes",
+        "color": "Reds",
+        "clusters": 5
+    },
+    "popup": {
+        "header": "distrito",
+        "body": " <p style=text-align:left;> <b>Casas Parcialmente Destruídas:</b> {{casas_totalmente_destr}}</p>"
+    },
+    "aggregate": {
+        "type": "sum",
+        "group-by": "distrito",
+        "date-by": "epoca",
+        "timeseries": {
+            "field": "epoca"
+        },
+        "extraProps": [
+            "epoca",
+            "casas_totalmente_destr",
+            "distrito"
+        ]
+    },
+    "visible": false,
+    "credit": "Número Total de Casas Parcialmente ou Totalmente Destruídas"
+
+} 
