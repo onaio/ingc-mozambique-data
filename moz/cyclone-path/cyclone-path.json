@@ -1,0 +1,17 @@
+{
+    "label": "Cyclone Path",
+    "source": {
+      "type": "vector",
+      "layer": "cyclone_path",
+      "url": "mapbox://ona.8u791agt"
+    },
+    "type": "line",
+    "paint": {
+      "line-width": 1.2,
+      "line-color": "#888",
+      "line-opacity": 1
+    },
+    "visible": false,
+    "credit": "HDX",
+    "category": "Cyclone Path"
+  }
