@@ -9,7 +9,7 @@
     },
     "type": "circle",
     "circle-opacity": 0.4,
-    "circle-translate": [0,2],
+    "circle-translate": [0,10],
     "property": "nfi-shelter",
     "categories": {
       "breaks": "yes",
