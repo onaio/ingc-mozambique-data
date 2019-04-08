@@ -19,5 +19,6 @@
         "header": "{{SITE_NAME}}",
         "body": "<p style=text-align:left;><b>Local: </b>{{SITE_NAME}} ({{SITE_TYPE}})<br><b>Total de Indivíduos: </b>{{IDP_IND}}<br><b>Total Householdes: </b>{{IDP_HH}}<br><b>Classificação do site: </b>{{SITE_CLASSIFICATION}}<br><b>Evitar o retorno: </b>{{PREVENT_RETURN}}<p>"
     },
-    "credit": "IOM"
+    "menu-credit": "HDX",
+    "credit": "<a href=https://data.humdata.org/dataset/mozambique-displacement-data-site-assessment-idai-iom-dtm target=_blank data-credit=credit>HDX</a>"
 }

@@ -34,5 +34,6 @@
     "body": "<p style='text-align: left'><b>Classificação</b> {{CLASSIFICATION}}</p>"
   },
   "geo-columns": ["Longitude", "Latitude"],
-  "credit": "SIS-MA"
+  "menu-credit": "HDX",
+  "credit": "<a href=https://data.humdata.org/dataset/mozambique-health-facilities target=_blank data-credit=credit>HDX</a>"
  }

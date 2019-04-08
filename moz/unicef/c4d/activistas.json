@@ -22,6 +22,7 @@
       "body": " <p style=text-align:left;> <b>Numero de activistas por bairro</b> {{Numero de activistas por bairro}}</p>"
   },
   "visible": false,
-  "credit": "UNICEF C4D Programme",
+  "menu-credit": "UNICEF C4D Programme",
+  "credit": "<a href=https://docs.google.com/spreadsheets/d/1O7ntYdW4POaSjtPELn7iPGyfCGKYn7p6kpO1lqXlJRg/edit#gid=0 target=_blank data-credit=credit>UNICEF C4D Programme</a>",
   "category": "UNICEF"
 }

@@ -13,6 +13,7 @@
     "line-gap-width": 0
   },
   "visible": true,
-  "credit": "HDX",
+  "menu-credit": "HDX",
+  "credit": "<a href=https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019 target=_blank data-credit=credit>HDX</a>",
   "category": "Boundaries & Labels"
 }

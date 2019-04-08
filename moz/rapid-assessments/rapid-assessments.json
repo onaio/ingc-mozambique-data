@@ -28,5 +28,6 @@
     "body": "<p style='text-align: left'><b>Número de Pessoas Afetadas:</b> {{Number of inhabitants after the cyclone/flood (not including the displaced people):}}<br><b>Organização Assessor:</b> {{Assessor organisation:}}<br><b>Características do Site:</b> {{Site characteristics:}}<br><b>Versão Form:</b> {{form}}</p>" 
   },
   "geo-columns": ["longitude", "latitude"],
-  "credit": "UN OCHA"
+  "menu-credit": "UN OCHA",
+  "credit": "<a href=https://data.humdata.org/dataset/mozambique-rapid-needs-assessment target=_blank data-credit=credit>UN OCHA</a>"
  }

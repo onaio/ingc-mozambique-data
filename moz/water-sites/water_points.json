@@ -28,7 +28,8 @@
         "body": "<p style=text-align:left;> <b>Classifica:</b> {{classifica}}"
     },
     "visible": false,
-    "credit": "National Census Bureau and MSF",
+    "menu-credit": "National Census Bureau and MSF",
+    "credit": "<a href=https://drive.google.com/open?id=1Jii4btU9RAz4IIJj3OqMjyVqRUIpHKwz target=_blank data-credit=credit>National Census Bureau and MSF</a>",
     "nondefault": true,
     "category": "Settlements + Services"
 }

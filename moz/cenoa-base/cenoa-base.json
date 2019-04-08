@@ -41,6 +41,7 @@
         "body": "<p style=text-align:left;> <b>Famílias Afetadas:</b> {{familias__afectadas_}} <br> <b>Pessoas Afetadas:</b> {{pessoas_afectadas_}} <span style=float:right;>"
     },
     "visible": false,
-    "credit": "INGC CENOE",
+    "menu-credit": "INGC CENOE",
+    "credit": "<a href=https://docs.google.com/spreadsheets/d/1UgkivprveuErB1WXprPL9LemI_a_gFBfYfcG2xM7x7M/edit#gid=283168942 target=_blank data-credit=credit>INGC CENOE</a>",
     "category": "Cumulative Distribution"
   }

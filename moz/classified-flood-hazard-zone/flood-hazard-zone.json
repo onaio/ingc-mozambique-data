@@ -25,5 +25,6 @@
     "popup": {
       "body": "<p style=text-align:left;>Rio/River: {{rio}} <br/>{{Level}}</p>"
     },
-    "credit": "Geonode - national_flood_multi"
+    "menu-credit": "GEONODE",
+    "credit": "<a href=https://geonode.ingc.gov.mz/layers/geonode:national_flood_multi target=_blank data-credit=credit>GEONODE</a>"
   }

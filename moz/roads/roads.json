@@ -11,5 +11,6 @@
       "line-color": "#FF851B",
       "line-opacity": 0.6
     },
-    "credit": "HDX - hotosm_moz_roads"
+    "menu-credit": "INGC - GeoNode",
+    "credit": "<a href=https://geonode.ingc.gov.mz/layers/geonode:national_main_roads target=_blank data-credit=credit>INGC - GeoNode</a>"
   }
