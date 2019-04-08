@@ -2,7 +2,7 @@
     "label": "Número de Unidades Sanitarias Afetadas",
     "source": {
         "type": "vector",
-        "data": "data/cenoe_2019_04_06_formatted_final.csv",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cenoa-base/cenoe_2019_04_06_formatted_final.csv",
         "layer": "mozambique_districts_final",
         "url": "mapbox://ona.9zeb0vb0",
         "join": [
