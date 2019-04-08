@@ -21,7 +21,7 @@
         ],
         "icon-image": "noun_tap_2144895",
         "icon-allow-overlap": true,
-        "icon-size": 0.6
+        "icon-size": 0.4
     },
     "popup": {
         "header": "Nome",
