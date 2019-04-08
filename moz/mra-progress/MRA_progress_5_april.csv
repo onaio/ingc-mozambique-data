@@ -5,9 +5,7 @@ Status_code,Status,Province,District,Posto,Number of locations needed,Organisati
 0,Completed,Sofala,Buzi,Buzi,4-5,IFRC+Solidarites
 0,Completed,Sofala,Nhamatanda ,Nhamatanda ,4-5,CESVI/REACH
 1,On-going,Sofala,Nhamatanda ,Tica ,4-5,REACH/CESVI/Save/Cosaca
-1,On-going,Sofala,Dondo,Dondo city ,4-5,IFRC
-1,On-going,Sofala,Dondo,Dondo in-land,4-5,IFRC
-1,On-going,Sofala,Dondo,Dondo (coast),4-5,IFRC
+1,On-going,Sofala,Dondo,Dondo,4-5,IFRC
 1,On-going,Sofala,Dondo,Mafambisse ,4-5,Save/Cosaca
 2,planned,Sofala,Chibabava,Chibabava,4-5,Medair/FH
 2,planned,Sofala,Chibabava,Muxungue,4-5,Medair/FH
@@ -16,7 +14,7 @@ Status_code,Status,Province,District,Posto,Number of locations needed,Organisati
 5,TBC - IFRC,Sofala,Muanza,Muanza,4-5,IFRC
 3,NEED PARTNER,Sofala,Gorongoza,Gorongoza,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Gorongoza,Nhamadze,4-5,NEED PARTNER
-3,NEED PARTNER,Sofala,Gorongoza,Vanduzi,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Gorongoza,Vunduzi,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Cheringoma,Inhaminga,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Cheringoma,Inhamitanga,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Maringe,Subwe,4-5,NEED PARTNER
