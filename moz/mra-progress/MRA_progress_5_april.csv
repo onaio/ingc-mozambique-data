@@ -1,46 +1,50 @@
 Status_code,Status,Province,District,Posto,Number of locations needed,Organisation-team
-1,On-going,Manica,Gondola,Amatongas,4-5,REACH
-0,Completed,Sofala,Beira,Cidade Da Beira,,"IFRC, REACH, UNHABITAT"
-0,Completed,Sofala,Buzi,Buzi,4-5,IFRC+Solidarites
-2,planned,Manica,Gondola,Cafumpe,4-5,Save/COSACA/REACH
-3,NEED PARTNER,Sofala,Caia,Caia,4-5,NEED PARTNER
-3,NEED PARTNER,Manica,Barue,Catandica,4-5,NEED PARTNER
-2,planned,Sofala,Chibabava,Chibabava,4-5,Medair/MTI
-3,NEED PARTNER,Manica,Mossurize,Chiuraieru,4-5,NEED PARTNER
-3,NEED PARTNER,Manica,Barue,Choa,4-5,NEED PARTNER
-2,planned,Manica,Chimoio,Cidade De Chimoio,4-5,REACH
-3,NEED PARTNER,Manica,Mossurize,Dacata,4-5,NEED PARTNER
-3,NEED PARTNER,Sofala,Machanga,Divinhe,4-5,NEED PARTNER
-2,planned,Manica,Sussundenga,Dombe ,4-5,Save/COSACA/REACH
-3,NEED PARTNER,Sofala,Dondo,Dondo ,4-5,NEED PARTNER
-3,NEED PARTNER,Manica,Mossurize,Espungabera,4-5,NEED PARTNER
+0,Completed,Sofala,Beira,Beira city,,"IFRC, REACH, UNHABITAT"
+0,Completed,Sofala,Buzi,Sofala,4-5,IFRC+Solidarites
 0,Completed,Sofala,Buzi,Estaquinha,4-5,IFRC+Solidarites
-3,NEED PARTNER,Sofala,Muanza,Galinha,4-5,NEED PARTNER
-2,planned,Manica,Gondola,Gondoloa,4-5,Save/COSACA/REACH
-2,planned,Sofala,Chibabava,Goonda,4-5,Medair/MTI
+0,Completed,Sofala,Buzi,Buzi,4-5,IFRC+Solidarites
+0,Completed,Sofala,Nhamatanda ,Nhamatanda ,4-5,CESVI/REACH
+1,On-going,Sofala,Nhamatanda ,Tica ,4-5,REACH/CESVI/Save/Cosaca
+1,On-going,Sofala,Dondo,Dondo city ,4-5,IFRC
+1,On-going,Sofala,Dondo,Dondo in-land,4-5,IFRC
+1,On-going,Sofala,Dondo,Dondo (coast),4-5,IFRC
+1,On-going,Sofala,Dondo,Mafambisse ,4-5,Save/Cosaca
+2,planned,Sofala,Chibabava,Chibabava,4-5,Medair/FH
+2,planned,Sofala,Chibabava,Muxungue,4-5,Medair/FH
+2,planned,Sofala,Chibabava,Goonda,4-5,Medair/FH
+5,TBC - IFRC,Sofala,Muanza,Galinha,4-5,IFRC
+5,TBC - IFRC,Sofala,Muanza,Muanza,4-5,IFRC
 3,NEED PARTNER,Sofala,Gorongoza,Gorongoza,4-5,NEED PARTNER
-2,planned,Manica,Gondola,Inchope,4-5,REACH
+3,NEED PARTNER,Sofala,Gorongoza,Nhamadze,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Gorongoza,Vanduzi,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Cheringoma,Inhaminga,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Cheringoma,Inhamitanga,4-5,NEED PARTNER
-2,planned,Manica,Gondola,Macata,4-5,Save/COSACA/REACH
-3,NEED PARTNER,Sofala,Machanga,Machanga,4-5,NEED PARTNER
-1,On-going,Manica,Manica,Machipanda,4-5,REACH
-4,TBC,Sofala,Dondo,Mafambisse ,4-5,Save/COSACA - TBC
-2,planned,Manica,Manica,Manica,4-5,REACH
-3,NEED PARTNER,Sofala,Chupanga,Marromeu,4-5,NEED PARTNER
-2,planned,Manica,Gondola,Matsinho,4-5,REACH
-2,planned,Manica,Manica,Mavonde,4-5,REACH
-2,planned,Manica,Manica,Messica,4-5,REACH
-3,NEED PARTNER,Sofala,Muanza,Muanza,4-5,NEED PARTNER
-2,planned,Manica,Sussudenga,Muoha,4-5,REACH
-2,planned,Sofala,Chibabava,Muxungue,4-5,Medair/MTI
-3,NEED PARTNER,Sofala,Gorongoza,Nhamadze,4-5,NEED PARTNER
-1,On-going,Sofala,Nhamatanda ,Nhamatanda ,4-5,CESVI
-2,planned,Manica,Sussudenga,Rotanda,4-5,REACH
-0,Completed,Sofala,Buzi,Sofala,4-5,IFRC+Solidarites
 3,NEED PARTNER,Sofala,Maringe,Subwe,4-5,NEED PARTNER
-2,planned,Manica,Sussudenga,Sussundenga,4-5,Save/COSACA/REACH
-4,TBC,Sofala,Nhamatanda ,Tica ,4-5,CESVI/Save - TBC
-3,NEED PARTNER,Sofala,Gorongoza,Vunduzi,4-5,NEED PARTNER
-2,planned,Manica,Manica,Vanduzi,4-5,REACH
+3,NEED PARTNER,Sofala,Caia,Caia,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Chupanga,Marromeu,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Machanga,Machanga,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Machanga,Divinhe,4-5,NEED PARTNER
+1,On-going,Manica,Gondola,Amatongas,4-5,"REACH
+ADDITIONAL NEEDED!!"
+2,planned,Manica,Gondola,Cafumpe,4-5,Save/COSACA/REACH
+1,On-going,Manica,Gondola,Macate,4-5,Save/COSACA/REACH
+2,planned,Manica,Gondola,Gondola,4-5,"Save/COSACA/REACH
+ADDITIONAL NEEDED!!"
 2,planned,Manica,Gondola,Zembe,4-5,REACH
+2,planned,Manica,Gondola,Matsinho,4-5,REACH
+1,On-going,Manica,Gondola,Inchope,4-5,REACH
+1,On-going,Manica,Chimoio,Ciudade de Chimoio,4-5,REACH
+2,planned,Manica,Manica,Vanduzi,4-5,REACH
+2,planned,Manica,Manica,Mavonde,4-5,REACH
+0,Completed,Manica,Manica,Machipanda,4-5,REACH
+0,Completed,Manica,Manica,Manica,4-5,REACH
+1,On-going,Manica,Manica,Messica,4-5,REACH
+1,On-going,Manica,Sussundenga,Dombe ,4-5,Save/COSACA/REACH
+1,On-going,Manica,Sussudenga,Sussundenga,4-5,Save/COSACA/REACH
+4,Not priority,Manica,Sussudenga,Muoha,4-5,Not priority
+4,Not priority,Manica,Sussudenga,Rotanda,4-5,Not priority
+3,NEED PARTNER,Manica,Mossurize,Chiuraieru,4-5,NEED PARTNER
+3,NEED PARTNER,Manica,Mossurize,Espungabera,4-5,NEED PARTNER
+3,NEED PARTNER,Manica,Mossurize,Dakata,4-5,NEED PARTNER
+3,NEED PARTNER,Manica,Barue,Catandica,4-5,NEED PARTNER
+3,NEED PARTNER,Manica,Barue,Choa,4-5,NEED PARTNER
