@@ -14,7 +14,7 @@
   "property": "Status_code",
   "categories": {
       "breaks": "no",
-      "color": ["#2ECC40", "#00FFFF", "#FFDC00", "#FF4136", "#CCCCCC"],
+      "color": ["#2ECC40", "#7FDBFF", "#FFDC00", "#FF4136", "#AAAAAA"],
       "limit": [0, 1, 2, 3, 4],
       "label": ["Completed", "On-going", "Planned", "NEED PARTNER", "TBC"]
   },
