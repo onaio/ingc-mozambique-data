@@ -16,7 +16,7 @@
       "breaks": "no",
       "color": ["#2ECC40", "#7FDBFF", "#FFDC00", "#FF4136", "#AAAAAA"],
       "limit": [0, 1, 2, 3, 4, 5],
-      "label": ["Completed", "On-going", "planned", "NEED PARTNER", "Not Priority", "TBC - IFRC"]
+      "label": ["Completed", "On-going", "planned", "NEED PARTNER", "Not Priority", "TBC IFRC"]
   },
   "popup": {
       "header": "Posto",
