@@ -1,0 +1,27 @@
+{
+  "label": "C4D Activistas",
+  "source": {
+      "type": "vector",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/unicef/c4d/c4d_clean.csv",
+      "layer": "bairros-3qrw9d",
+      "url": "mapbox://ona.bvuc4ei0",
+      "join": [
+          "NAME",
+          "Neighborhood"
+      ]
+  },
+  "type": "fill",
+  "property": "Numero de activistas por bairro",
+  "categories": {
+      "breaks": "yes",
+      "color": ["YlGn"],
+      "clusters": 5
+  },
+  "popup": {
+      "header": "Bairro",
+      "body": " <p style=text-align:left;> <b>Numero de activistas por bairro</b> {{Numero de activistas por bairro}}</p>"
+  },
+  "visible": false,
+  "credit": "UNICEF C4D Programme",
+  "category": "UNICEF"
+}

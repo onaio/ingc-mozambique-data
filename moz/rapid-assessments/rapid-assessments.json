@@ -1,0 +1,32 @@
+{
+  "label": "Avaliação Rápida",
+  "source": {
+      "type": "geojson",
+      "featureType": "Point",
+      "data": ["https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/rapid-assessments/basic_info_assessment_forms_combination.csv", "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/rapid-assessments/basic_info_assessment_forms_combination.csv"],
+      "join": ["unique_id", "unique_id"],
+      "minzoom": 2
+  },
+  "type": "symbol",
+  "paint": {
+    "text-color": "#000",
+    "text-halo-color": "#fff",
+    "text-halo-width": 1,
+    "text-halo-blur": 1
+  },
+  "layout": {
+    "text-size": 12,
+    "text-field": "{Location name}",
+    "text-offset": [0, 2],
+    "icon-image": "circle-11-black",
+    "icon-size": 0.8,
+    "icon-allow-overlap": false,
+    "icon-ignore-placement": false
+  },
+  "popup": {
+    "header": "Location name",
+    "body": "<p style='text-align: left'><b>Número de Pessoas Afetadas:</b> {{Number of inhabitants after the cyclone/flood (not including the displaced people):}}<br><b>Organização Assessor:</b> {{Assessor organisation:}}<br><b>Características do Site:</b> {{Site characteristics:}}<br><b>Versão Form:</b> {{form}}</p>" 
+  },
+  "geo-columns": ["longitude", "latitude"],
+  "credit": "UN OCHA"
+ }

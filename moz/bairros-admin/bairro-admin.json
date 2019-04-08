@@ -1,0 +1,18 @@
+{
+  "label": "Limites da Bairro - Beira e Dondo",
+  "source": {
+    "type": "vector",
+    "layer": "bairros-3qrw9d",
+    "url": "mapbox://ona.bvuc4ei0"
+  },
+  "type": "line",
+  "paint": {
+    "line-width": 2,
+    "line-color": "#444",
+    "line-opacity": 0.8,
+    "line-gap-width": 0
+  },
+  "visible": false,
+  "credit": "HDX",
+  "category": "Boundaries & Labels"
+}
