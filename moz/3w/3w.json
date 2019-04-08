@@ -1,0 +1,22 @@
+{
+    "label": "3W - Segurança Alimentar - número de beneficiários assistidos (5 de Abril)",
+    "source": {
+        "type": "vector",
+        "layer": "dtm-mozambique-site-assessmen-9nar6v",
+        "url": "mapbox://ona.cmd0a8q3",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/3w/2019-04-05-3w-all.csv",
+        "join": ["Distrito", "Distrito"]
+    },
+    "type": "circle",
+    "circle-opacity": 0.4,
+    "property": "people-food",
+    "categories": {
+      "breaks": "yes",
+      "color": "#FF4136",
+      "clusters": 7
+    },
+    "popup": {
+        "header": "{{SITE_NAME}}",
+        "body": "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{people-food})<br>}<p>"
+    },
+    "credit": "OCHA"
