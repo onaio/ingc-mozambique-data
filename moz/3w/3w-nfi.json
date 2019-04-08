@@ -13,7 +13,7 @@
     "property": "nfi-shelter",
     "categories": {
       "breaks": "yes",
-      "color": "#B10DC9",
+      "color": "#85144b",
       "clusters": 7
     },
     "popup": {
