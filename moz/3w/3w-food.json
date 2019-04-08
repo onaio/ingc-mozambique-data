@@ -8,7 +8,7 @@
         "join": ["Distrito", "Distrito"]
     },
     "type": "circle",
-    "circle-opacity": 0.4,
+    "circle-opacity": 0.2,
     "circle-translate": [0,2],
     "property": "people-food",
     "categories": {
