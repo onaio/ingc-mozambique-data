@@ -18,10 +18,16 @@
     "text-size": 12,
     "text-field": "{Location name}",
     "text-offset": [0, 2],
-    "icon-image": "circle-11-black",
-    "icon-size": 0.8,
-    "icon-allow-overlap": false,
-    "icon-ignore-placement": false
+    "icon-image": {
+      "property": "form",
+      "stops": [
+        ["Rapid Needs Assessment", "circle-20-blue"],
+        ["Multisectoral Assessment", "circle-20-green"]
+      ],
+      "type": "categorical",
+      "default": "circle-20-black"
+    },
+    "icon-size": 1
   },
   "popup": {
     "header": "Location name",
