@@ -18,5 +18,6 @@
     "popup": {
       "body": "<p style=text-align:left;>{{TOPONIMO}}<br/></p>"
     },
-    "credit": "Geonode - national_stream_network"
+    "menu-credit": "Geonode",
+    "credit": "<a href=https://geonode.ingc.gov.mz/layers/geonode:national_stream_network target=_blank data-credit=credit>Geonode</a>"
   }

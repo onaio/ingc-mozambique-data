@@ -23,6 +23,7 @@
       "body": " <p style=text-align:left;> <b>Organização / equipe:</b> {{Organisation-team}}<br/><b>Número de locais necessários</b> {{Number of locations needed}}</p>"
   },
   "visible": false,
-  "credit": "PNational Bureau of Statistics Mozambique",
+  "menu-credit": "UNOCHA / ACAPS",
+  "credit": "<a href=https://docs.google.com/spreadsheets/d/1SqE99xOqlKo50K_T7UAyAFeNNMyDzVzubPHG1Ftr1oI/edit?usp=drive_web&ouid=103480531566942237640 target=_blank data-credit=credit>UNOCHA / ACAPS</a>",
   "category": "População"
 }

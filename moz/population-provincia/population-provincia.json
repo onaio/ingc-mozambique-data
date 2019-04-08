@@ -27,6 +27,7 @@
         }
     },
     "visible": false,
-    "credit": "National Bureau of Statistics Mozambique",
+    "menu-credit": "National Bureau of Statistics Mozambique",
+    "credit": "<a href=https://drive.google.com/open?id=1-l3IPX50KTtiYi3uJCHtOsWUYp0jYkwP target=_blank data-credit=credit>National Bureau of Statistics Mozambique</a>",
     "category": "População"
 }
