@@ -1,0 +1,19 @@
+{
+  "label": "Water Extent - April 26",
+  "source": {
+    "type": "vector",
+    "layer": "waterExtentapril26",
+    "url": "mapbox://ona.avse8qvd"
+  },
+  "type": "fill",
+  "layout": {
+    "line-cap": "round",
+    "line-join": "round"
+  },
+  "paint": {
+    "fill-color": "#85144b",
+    "fill-opacity": 0.6,
+    "fill-outline-color": "#FF851B"
+  },
+  "credit": "Source: <a href='https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019' target='_blank'>HDX - UNOSAT</a>"
+}
