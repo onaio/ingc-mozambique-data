@@ -35,6 +35,7 @@
         ]
     },
     "visible": false,
-    "credit": "Número de Unidades Sanitarias Afetadas"
+    "menu-credit": "INGC",
+    "credit": "<a href=https://docs.google.com/spreadsheets/d/1UgkivprveuErB1WXprPL9LemI_a_gFBfYfcG2xM7x7M/edit#gid=283168942 target=_blank data-credit=credit>INGC</a>"
 
 } 
