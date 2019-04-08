@@ -1,5 +1,5 @@
 {
-    "label": "3W - Abrigo/Artigos não alimentares - número de beneficiários assistidos (5 de Abril)",
+    "label": "3W - Abrigo Artigos não alimentares - número de beneficiários assistidos (5 de Abril)",
     "source": {
         "type": "vector",
         "layer": "mozambique_districts_centroid-1qmvkp",
@@ -18,7 +18,7 @@
     },
     "popup": {
         "header": "{{SITE_NAME}}",
-        "body": "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{people-food}})<br><p>"
+        "body": "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{nfi-shelter}})<br><p>"
     },
     "credit": "OCHA"
 }
