@@ -1,22 +1,22 @@
 {
-  "label": "MRA Progress (5 April)",
+  "label": "MRA Progress",
   "source": {
       "type": "vector",
       "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/mra-progress/MRA_progress_5_april.csv",
-      "layer": "mozambique_postos-4kuvrh",
-      "url": "mapbox://ona.ajgigfjt",
+      "layer": "moz_admin_3_hdx",
+      "url": "mapbox://ona.7rndra4l",
       "join": [
-          "Posto",
-          "Posto"
+          "ADM3_PCODE",
+          "Posto_PCODE"
       ]
   },
   "type": "fill",
   "property": "Status_code",
   "categories": {
       "breaks": "no",
-      "color": ["#2ECC40", "#7FDBFF", "#FFDC00", "#FF4136", "#AAAAAA"],
-      "limit": [0, 1, 2, 3, 4],
-      "label": ["Completed", "On-going", "Planned", "NEED PARTNER", "TBC"]
+      "color": ["#2ECC40", "#7FDBFF", "#FFDC00", "#FF4136","#756bb1", "#AAAAAA"],
+      "limit": [0, 1, 2, 3, 4, 5],
+      "label": ["Completed", "On-going", "Planned", "NEED PARTNER", "Not priority", "TBC"]
   },
   "popup": {
       "header": "Posto",
