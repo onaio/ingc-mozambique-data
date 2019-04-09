@@ -1,48 +1,48 @@
 Status_code,Status,Province,District,Posto,Posto_PCODE,Number of locations needed,Organisation-team
-3,NEED PARTNER,Manica,Barue,Catandica,MZ040101,n/a,NEED PARTNER
-3,NEED PARTNER,Manica,Barue,Choa,MZ040102,04-May,NEED PARTNER
-0,Completed,Sofala,Beira,Beira city,MZ090601,04-May,"IFRC, REACH, UNHABITAT"
-0,Completed,Sofala,Buzi,Buzi,MZ090101,04-May,IFRC+Solidarites
-0,Completed,Sofala,Buzi,Estaquinha,MZ090102,04-May,IFRC+Solidarites
-0,Completed,Sofala,Buzi,Sofala,MZ090103,04-May,IFRC+Solidarites
-3,NEED PARTNER,Sofala,Caia,Caia,MZ090201,04-May,NEED PARTNER
-3,NEED PARTNER,Sofala,Cheringoma,Inhaminga,MZ090401,04-May,NEED PARTNER
-3,NEED PARTNER,Sofala,Cheringoma,Inhamitanga,MZ090402,04-May,NEED PARTNER
-2,Planned,Sofala,Chibabava,Chibabava,MZ090501,04-May,Medair
-2,Planned,Sofala,Chibabava,Goonda,MZ090502,04-May,Medair
-2,Planned,Sofala,Chibabava,Muxungue,MZ090503,04-May,Medair
-1,On-going,Manica,Chimoio,Ciudade de Chimoio,MZ040201,04-May,REACH
-3,NEED PARTNER,Sofala,Chupanga,Marromeu,MZ091102,04-May,NEED PARTNER
-1,On-going,Sofala,Dondo,Dondo city ,MZ090701,04-May,IFRC
-2,Planned,Sofala,Dondo,Dondo in-land,MZ090701,04-May,IFRC
-0,Completed,Sofala,Dondo,Dondo (coast),MZ090701,04-May,IFRC
-1,On-going,Sofala,Dondo,Mafambisse ,MZ090702,04-May,Save/Cosaca
-1,On-going,Manica,Gondola,Amatongas,MZ040301,04-May,"REACH, ADDITIONAL NEEDED"
-2,Planned,Manica,Gondola,Cafumpe,MZ040302,04-May,Save/COSACA/REACH
-2,Planned,Manica,Gondola,Gondola,MZ040303,04-May,"Save/COSACA/REACH, ADDITIONAL NEEDED"
-1,On-going,Manica,Gondola,Inchope,MZ040304,04-May,REACH
-0,Completed,Manica,Gondola,Macate,MZ040501,04-May,Save/COSACA/REACH
-2,Planned,Manica,Gondola,Matsinho,MZ041201,04-May,REACH
-1,On-going,Manica,Gondola,Zembe,MZ040502,04-May,REACH
-3,NEED PARTNER,Sofala,Gorongoza,Gorongosa,MZ090801,04-May,NEED PARTNER
-3,NEED PARTNER,Sofala,Gorongoza,Nhamadze,MZ090802,04-May,NEED PARTNER
-3,NEED PARTNER,Sofala,Gorongoza,Vanduzi,MZ090803,04-May,NEED PARTNER
-3,NEED PARTNER,Sofala,Machanga,Divinhe,MZ090901,04-May,NEED PARTNER
-3,NEED PARTNER,Sofala,Machanga,Machanga,MZ090902,04-May,NEED PARTNER
-0,Completed,Manica,Manica,Machipanda,MZ040801,04-May,REACH
-0,Completed,Manica,Manica,Manica,MZ040802,04-May,REACH
-2,Planned,Manica,Manica,Mavonde,MZ040803,04-May,REACH
-1,On-going,Manica,Manica,Messica,MZ040804,04-May,REACH
-3,NEED PARTNER,Sofala,Maringe,Subwe,MZ091003,04-May,NEED PARTNER
-2,Planned,Manica,Mossurize,Chiuraieru,MZ040901,04-May,Tearfund/Horizont3000
-2,Planned,Manica,Mossurize,Dacata,MZ040902,04-May,Tearfund/Horizont3000
-2,Planned,Manica,Mossurize,Espungabera,MZ040903,04-May,Tearfund/Horizont3000
-1,On-going,Sofala,Muanza,Galinha,MZ091201,04-May,On-going additional needed
-5,TBC,Sofala,Muanza,Muanza,MZ091202,04-May,TBC - Gorongosa National Park
-0,Completed,Sofala,Nhamatanda ,Nhamatanda ,MZ091301,04-May,CESVI/REACH
-2,Planned,Sofala,Nhamatanda ,Tica ,MZ091302,04-May,REACH/CESVI/Save/Cosaca
-4,Not priority,Manica,Sussudenga,Muoha,MZ041002,04-May,Not priority
-4,Not priority,Manica,Sussudenga,Rotanda,MZ041003,04-May,Not priority
-1,On-going,Manica,Sussudenga,Sussundenga,MZ041004,04-May,Save/COSACA/REACH
-1,On-going,Manica,Sussundenga,Dombe ,MZ041001,04-May,Save/COSACA/REACH
-2,Planned,Manica,Vanduzi,Vanduzi,MZ041202,04-May,REACH
+3,NEED PARTNER,Manica,Barue,Catandica,MZ040101,4-5,NEED PARTNER
+3,NEED PARTNER,Manica,Barue,Choa,MZ040102,4-5,NEED PARTNER
+0,Completed,Sofala,Beira,Beira city,MZ090601,4-5,"IFRC, REACH, UNHABITAT"
+0,Completed,Sofala,Buzi,Buzi,MZ090101,4-5,IFRC+Solidarites
+0,Completed,Sofala,Buzi,Estaquinha,MZ090102,4-5,IFRC+Solidarites
+0,Completed,Sofala,Buzi,Sofala,MZ090103,4-5,IFRC+Solidarites
+3,NEED PARTNER,Sofala,Caia,Caia,MZ090201,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Cheringoma,Inhaminga,MZ090401,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Cheringoma,Inhamitanga,MZ090402,4-5,NEED PARTNER
+2,Planned,Sofala,Chibabava,Chibabava,MZ090501,4-5,Medair
+2,Planned,Sofala,Chibabava,Goonda,MZ090502,4-5,Medair
+2,Planned,Sofala,Chibabava,Muxungue,MZ090503,4-5,Medair
+1,On-going,Manica,Chimoio,Ciudade de Chimoio,MZ040201,4-5,REACH
+3,NEED PARTNER,Sofala,Chupanga,Marromeu,MZ091102,4-5,NEED PARTNER
+1,On-going,Sofala,Dondo,Dondo city ,MZ090701,4-5,IFRC
+2,Planned,Sofala,Dondo,Dondo in-land,MZ090701,4-5,IFRC
+0,Completed,Sofala,Dondo,Dondo (coast),MZ090701,4-5,IFRC
+1,On-going,Sofala,Dondo,Mafambisse ,MZ090702,4-5,Save/Cosaca
+1,On-going,Manica,Gondola,Amatongas,MZ040301,4-5,"REACH, ADDITIONAL NEEDED"
+2,Planned,Manica,Gondola,Cafumpe,MZ040302,4-5,Save/COSACA/REACH
+2,Planned,Manica,Gondola,Gondola,MZ040303,4-5,"Save/COSACA/REACH, ADDITIONAL NEEDED"
+1,On-going,Manica,Gondola,Inchope,MZ040304,4-5,REACH
+0,Completed,Manica,Gondola,Macate,MZ040501,4-5,Save/COSACA/REACH
+2,Planned,Manica,Gondola,Matsinho,MZ041201,4-5,REACH
+1,On-going,Manica,Gondola,Zembe,MZ040502,4-5,REACH
+3,NEED PARTNER,Sofala,Gorongoza,Gorongosa,MZ090801,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Gorongoza,Nhamadze,MZ090802,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Gorongoza,Vanduzi,MZ090803,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Machanga,Divinhe,MZ090901,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Machanga,Machanga,MZ090902,4-5,NEED PARTNER
+0,Completed,Manica,Manica,Machipanda,MZ040801,4-5,REACH
+0,Completed,Manica,Manica,Manica,MZ040802,4-5,REACH
+2,Planned,Manica,Manica,Mavonde,MZ040803,4-5,REACH
+1,On-going,Manica,Manica,Messica,MZ040804,4-5,REACH
+3,NEED PARTNER,Sofala,Maringe,Subwe,MZ091003,4-5,NEED PARTNER
+2,Planned,Manica,Mossurize,Chiuraieru,MZ040901,4-5,Tearfund/Horizont3000
+2,Planned,Manica,Mossurize,Dacata,MZ040902,4-5,Tearfund/Horizont3000
+2,Planned,Manica,Mossurize,Espungabera,MZ040903,4-5,Tearfund/Horizont3000
+1,On-going,Sofala,Muanza,Galinha,MZ091201,4-5,On-going additional needed
+5,TBC,Sofala,Muanza,Muanza,MZ091202,4-5,TBC - Gorongosa National Park
+0,Completed,Sofala,Nhamatanda ,Nhamatanda ,MZ091301,4-5,CESVI/REACH
+2,Planned,Sofala,Nhamatanda ,Tica ,MZ091302,4-5,REACH/CESVI/Save/Cosaca
+4,Not priority,Manica,Sussudenga,Muoha,MZ041002,4-5,Not priority
+4,Not priority,Manica,Sussudenga,Rotanda,MZ041003,4-5,Not priority
+1,On-going,Manica,Sussudenga,Sussundenga,MZ041004,4-5,Save/COSACA/REACH
+1,On-going,Manica,Sussundenga,Dombe ,MZ041001,4-5,Save/COSACA/REACH
+2,Planned,Manica,Vanduzi,Vanduzi,MZ041202,4-5,REACH
