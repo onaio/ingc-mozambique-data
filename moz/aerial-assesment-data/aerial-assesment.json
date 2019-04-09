@@ -1,9 +1,9 @@
 {
-    "label": "aerial assessment data",
+    "label": "Dados de avaliação aérea",
     "source": {
         "type": "geojson",
         "featureType": "Point",
-        "data": "data/moz_cycloneidai_aerialsurvey.csv",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/aerial-assesment-data/moz_cycloneidai_aerialsurvey.csv",
         "minzoom": 2
     },
     "type": "symbol",
@@ -40,7 +40,7 @@
         "uniqueid",
         "uniqueid"
       ],
-        "body": " <p style=text-align:left;> <b>Severity:</b> {{severity}}<br> <b> Estpop:</b> {{estpop}}<br><b> ponto de interesse:</b> {{pointofinterest}} <span style=float:right;>"
+        "body": " <p style=text-align:left;> <b>Gravidade:</b> {{severity}}<br> <b> População estimada:</b> {{estpop}}<br><b> ponto de interesse:</b> {{pointofinterest}} <span style=float:right;>"
     }, 
     "visible": false,
     "credit": "Zoom to see more health facilities",
