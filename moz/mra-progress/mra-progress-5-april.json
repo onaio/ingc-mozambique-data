@@ -16,7 +16,7 @@
       "breaks": "no",
       "color": ["#2ECC40", "#7FDBFF", "#FFDC00", "#FF4136","#756bb1", "#AAAAAA"],
       "limit": [0, 1, 2, 3, 4, 5],
-      "label": ["Completed", "On-going", "Planned", "NEED PARTNER", "Not Priority", "TBC"]
+      "label": ["Completed", "On-going", "Planned", "NEED PARTNER", "Not priority", "TBC"]
   },
   "popup": {
       "header": "Posto",
