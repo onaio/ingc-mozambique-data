@@ -1,0 +1,23 @@
+{
+  "label": "Número de Organizações por Província",
+  "source": {
+    "type": "geojson",
+    "featureType": "Point",
+    "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/4w-orgs-per-admin/province-org-counts.csv",
+    "join": ["adm1_code", "adm1_code"]
+  },
+  "type": "circle",
+  "property": "org_total",
+  "categories": {
+    "breaks": "yes",
+    "color": ["#0074D9", "#0074D9", "#0074D9", "#0074D9", "#0074D9"],
+    "clusters": 5
+  },
+  "popup": {
+    "header": "adm1_name",
+    "body": "<p style='text-align: left'><b>Organizações por Província:</b> {{org_total}}</p>"
+  },
+  "menu-credit": "OCHA - HDX",
+  "credit": "<a href='https://data.humdata.org/dataset/mozambique-cyclone-idai-4w' target='_blank'>OCHA - HDX</a>",
+  "visible": false
+}
