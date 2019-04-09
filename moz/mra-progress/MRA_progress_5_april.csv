@@ -1,7 +1,7 @@
 Status_code,Status,Province,District,Posto,Posto_PCODE,Number of locations needed,Organisation-team
 3,NEED PARTNER,Manica,Barue,Catandica,MZ040101,4-5,NEED PARTNER
 3,NEED PARTNER,Manica,Barue,Choa,MZ040102,4-5,NEED PARTNER
-0,Completed,Sofala,Beira,Beira city,MZ090601,4-5,"IFRC, REACH, UNHABITAT"
+0,Completed,Sofala,Beira,Beira,MZ090601,4-5,"IFRC, REACH, UNHABITAT"
 0,Completed,Sofala,Buzi,Buzi,MZ090101,4-5,IFRC+Solidarites
 0,Completed,Sofala,Buzi,Estaquinha,MZ090102,4-5,IFRC+Solidarites
 0,Completed,Sofala,Buzi,Sofala,MZ090103,4-5,IFRC+Solidarites
@@ -14,8 +14,6 @@ Status_code,Status,Province,District,Posto,Posto_PCODE,Number of locations neede
 1,On-going,Manica,Chimoio,Ciudade de Chimoio,MZ040201,4-5,REACH
 3,NEED PARTNER,Sofala,Chupanga,Marromeu,MZ091102,4-5,NEED PARTNER
 1,On-going,Sofala,Dondo,Dondo city ,MZ090701,4-5,IFRC
-2,Planned,Sofala,Dondo,Dondo in-land,MZ090701,4-5,IFRC
-0,Completed,Sofala,Dondo,Dondo (coast),MZ090701,4-5,IFRC
 1,On-going,Sofala,Dondo,Mafambisse ,MZ090702,4-5,Save/Cosaca
 1,On-going,Manica,Gondola,Amatongas,MZ040301,4-5,"REACH, ADDITIONAL NEEDED"
 2,Planned,Manica,Gondola,Cafumpe,MZ040302,4-5,Save/COSACA/REACH
@@ -26,7 +24,7 @@ Status_code,Status,Province,District,Posto,Posto_PCODE,Number of locations neede
 1,On-going,Manica,Gondola,Zembe,MZ040502,4-5,REACH
 3,NEED PARTNER,Sofala,Gorongoza,Gorongosa,MZ090801,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Gorongoza,Nhamadze,MZ090802,4-5,NEED PARTNER
-3,NEED PARTNER,Sofala,Gorongoza,Vanduzi,MZ090803,4-5,NEED PARTNER
+3,NEED PARTNER,Sofala,Gorongoza,Vunduzi,MZ090803,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Machanga,Divinhe,MZ090901,4-5,NEED PARTNER
 3,NEED PARTNER,Sofala,Machanga,Machanga,MZ090902,4-5,NEED PARTNER
 0,Completed,Manica,Manica,Machipanda,MZ040801,4-5,REACH
