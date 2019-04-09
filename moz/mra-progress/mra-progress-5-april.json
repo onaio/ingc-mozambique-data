@@ -6,8 +6,8 @@
       "layer": "mozambique_postos-4kuvrh",
       "url": "mapbox://ona.ajgigfjt",
       "join": [
-          "Posto",
-          "Posto"
+          "CodPost",
+          "Posto_PCODE"
       ]
   },
   "type": "fill",
@@ -16,7 +16,7 @@
       "breaks": "no",
       "color": ["#2ECC40", "#7FDBFF", "#FFDC00", "#FF4136","#756bb1", "#AAAAAA"],
       "limit": [0, 1, 2, 3, 4, 5],
-      "label": ["Completed", "On-going", "planned", "NEED PARTNER", "Not Priority", "TBC IFRC"]
+      "label": ["Completed", "On-going", "Planned", "NEED PARTNER", "Not Priority", "TBC"]
   },
   "popup": {
       "header": "Posto",
