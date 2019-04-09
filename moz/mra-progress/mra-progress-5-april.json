@@ -6,7 +6,7 @@
       "layer": "moz_admin_3_hdx",
       "url": "mapbox://ona.7rndra4l",
       "join": [
-          "ADM3_PCODE3",
+          "ADM3_PCODE",
           "Posto_PCODE"
       ]
   },
