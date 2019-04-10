@@ -1,0 +1,298 @@
+{
+    "label": "DTM",
+    "source": {
+        "type": "vector",
+        "layer": "dtm_round_2_tileset-an66ty",
+        "url": "mapbox://ona.bnldwnv1",
+        "data": "data/dtm_round_2_clean.csv",
+        "join": [
+            "site_id",
+            "site_id"
+        ]
+    },
+    "type": "circle",
+    "circle-opacity": 0.4,
+    "property": "idps",
+    "categories": {
+        "breaks": "yes",
+        "color": "#0074D9",
+        "clusters": 7
+    },
+    "detail-view": {
+        "UID": "provincia",
+        "title": {
+            "prop": "distrito",
+            "mustache": "{{{posto}}}"
+        },
+        "sub-title": {
+            "prop": "localizacao",
+            "mustache": "{{{site_name}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": [
+                        "longitude",
+                        "latitude"
+                    ],
+                    "join": ", "
+                },
+                "icon": "screenshot",
+                "alt": "GPS coordinates"
+            },
+            {
+                "value": "provincia",
+                "icon": "pushpin",
+                "alt": "Provincia"
+            },
+            {
+                "value": "distrito",
+                "icon": {
+                    "FA": "bookmark"
+                },
+                "alt": "Distrito"
+            },
+            {
+                "value": "posto",
+                "icon": "home",
+                "alt": "Posto"
+            },
+            {
+                "value": "localizacao",
+                "icon": {
+                    "FA": "building"
+                },
+                "alt": "Localizacao"
+            },
+            {
+                "value": {
+                    "prop": "site_class",
+                    "mustache": "{{{site_class}}}"
+                },
+                "alt": "Site Classification",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "site_type",
+                    "mustache": "{{{site_type}}}"
+                },
+                "alt": "Site Type",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "accessible",
+                    "mustache": "{{{accessible}}}"
+                },
+                "alt": "Is the location physically accessible?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "safe_secure",
+                    "mustache": "{{{safe_secure}}}"
+                },
+                "alt": "Is it safe and secure to access the location?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "familias",
+                    "mustache": "{{{familias}}}"
+                },
+                "alt": "Number of families/households:",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "idps",
+                    "mustache": "{{{idps}}}"
+                },
+                "alt": "Total number of IDP individuals:",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "vulnerables",
+                    "mustache": "{{{vulnerables}}}"
+                },
+                "alt": "Total Vulnerability:",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "need1",
+                    "mustache": "{{{need1}}}"
+                },
+                "alt": "1st most urgent need",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "need2",
+                    "mustache": "{{{need2}}}"
+                },
+                "alt": "2nd most urgent need",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "need3",
+                    "mustache": "{{{need3}}}"
+                },
+                "alt": "3rd most urgent need",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "main_water",
+                    "mustache": "{{{main_water}}}"
+                },
+                "alt": "What is the main source of water used by the IDPs for drinking?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "enough_water_cook",
+                    "mustache": "{{{enough_water_cook}}}"
+                },
+                "alt": "How many IDPs have enough water to cook, bath, do laundry and personal hygiene?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "enough_water_drink",
+                    "mustache": "{{{enough_water_drink}}}"
+                },
+                "alt": "How many IDPs have enough water to drink?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "enough_soap",
+                    "mustache": "{{{enough_soap}}}"
+                },
+                "alt": "How many IDPs have enough soap?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "saniation_fac",
+                    "mustache": "{{{saniation_fac}}}"
+                },
+                "alt": "What is the most common type of sanitation facilities (latrines/toilets) used by IDPs?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "less_3meals",
+                    "mustache": "{{{less_3meals}}}"
+                },
+                "alt": "In the past week, what proportion of households ate fewer than 3 meals per day because there was not enough food to eat?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "reach_health_fac",
+                    "mustache": "{{{reach_health_fac}}}"
+                },
+                "alt": "How long does it take to reach the nearest health facility from the site?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "healthcare_workes",
+                    "mustache": "{{{healthcare_workes}}}"
+                },
+                "alt": "Are female healthcare workers available at the health facility (e.g., doctors, nurses, midwives, community health workers…)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "where_birth",
+                    "mustache": "{{{where_birth}}}"
+                },
+                "alt": "Where do women give birth?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prop_school_u5",
+                    "mustache": "{{{prop_school_u5}}}"
+                },
+                "alt": "What is the proportion of IDP children 3-5 years old attending school?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prop_school_6_12",
+                    "mustache": "{{{prop_school_6_12}}}"
+                },
+                "alt": "What is the proportion of IDP children 6-12 years old attending school?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prop_school_13_17",
+                    "mustache": "{{{prop_school_13_17}}}"
+                },
+                "alt": "What is the proportion of IDP children 13-17 years old attending school?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "separated_toilet",
+                    "mustache": "{{{separated_toilet}}}"
+                },
+                "alt": "How many of the latrines in the site are separated for males and females?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "lock_toilet",
+                    "mustache": "{{{lock_toilet}}}"
+                },
+                "alt": "How many toile latrines lock from the inside in the site?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "lit_toilets",
+                    "mustache": "{{{lit_toilets}}}"
+                },
+                "alt": "How many toilets/latrines are well lit in the site?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "separate_baths",
+                    "mustache": "{{{separate_baths}}}"
+                },
+                "alt": "How many bathing facilities in the site are separated for males and females?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "bathing_locks",
+                    "mustache": "{{{bathing_locks}}}"
+                },
+                "alt": "How many bathing facilities in the site have functioning locks on the inside of doors?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "eviction_threat",
+                    "mustache": "{{{eviction_threat}}}"
+                },
+                "alt": "Is there an eviction threat?",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "popup": {
+        "header": "{{site_name}}",
+        "body": "<p style=text-align:left;><b>Site: </b>{{site_name }} ({{site_type}})<br><b>Total Individuals: </b>{{idps}}<br><b>Total Householdes: </b>{{familias}}<br><b>Site Classification: </b>{{site_class}}<br><b>Prevent Return: </b>{{prevent_return}}<p>"
+    },
+    "credit": "DTM - IOM Displacement Tracking Matrix"
+}
