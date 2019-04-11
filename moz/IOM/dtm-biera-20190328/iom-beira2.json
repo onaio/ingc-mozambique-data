@@ -121,10 +121,10 @@
             },
             {
                 "value": {
-                    "prop": "VULNERABILITIES AND NEEDS",
-                    "mustache": "{{{VULNERABILITIES AND NEEDS}}}"
+                    "prop": "vul",
+                    "mustache": "{{{vul}}}"
                 },
-                "alt": "VULNERABILITIES AND NEEDS",
+                "alt": "Section 1",
                 "useAltAsPrefix": true
             },
             {
@@ -161,10 +161,10 @@
             },
             {
                 "value": {
-                    "prop": " ",
-                    "mustache": "{{{ }}}"
+                    "prop": "shelter",
+                    "mustache": "{{{shelter}}}"
                 },
-                "alt": "SHELTER",
+                "alt": "Section 2",
                 "useAltAsPrefix": true
             },
             {
@@ -177,10 +177,10 @@
             },
             {
                 "value": {
-                    "prop": "",
-                    "mustache": "{{{}}}"
+                    "prop": "wash",
+                    "mustache": "{{{wash}}}"
                 },
-                "alt": "WASH",
+                "alt": "Section 3",
                 "useAltAsPrefix": true
             },
             {
@@ -233,10 +233,10 @@
             },
             {
                 "value": {
-                    "prop": "",
-                    "mustache": "{{{}}}"
+                    "prop": "food",
+                    "mustache": "{{{food}}}"
                 },
-                "alt": "FOOD",
+                "alt": "Section 4",
                 "useAltAsPrefix": true
             },
             {
@@ -273,10 +273,10 @@
             },
             {
                 "value": {
-                    "prop": "",
-                    "mustache": "{{{}}}"
+                    "prop": "health",
+                    "mustache": "{{{health}}}"
                 },
-                "alt": "HEALTH",
+                "alt": "Section 5",
                 "useAltAsPrefix": true
             },
             {
@@ -305,10 +305,10 @@
             },
             {
                 "value": {
-                    "prop": "",
-                    "mustache": "{{{}}}"
+                    "prop": "edu",
+                    "mustache": "{{{edu}}}"
                 },
-                "alt": "EDUCATION",
+                "alt": "Section 6",
                 "useAltAsPrefix": true
             },
             {
@@ -337,10 +337,10 @@
             },
             {
                 "value": {
-                    "prop": "",
-                    "mustache": "{{{}}}"
+                    "prop": "prot",
+                    "mustache": "{{{prot}}}"
                 },
-                "alt": "PROTECTION",
+                "alt": "Section 7",
                 "useAltAsPrefix": true
             },
             {
@@ -369,10 +369,10 @@
             },
             {
                 "value": {
-                    "prop": "",
-                    "mustache": "{{{}}}"
+                    "prop": "ret",
+                    "mustache": "{{{ret}}}"
                 },
-                "alt": "RETURN",
+                "alt": "Section 8",
                 "useAltAsPrefix": true
             },
             {
