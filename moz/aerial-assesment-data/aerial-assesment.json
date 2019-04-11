@@ -4,45 +4,48 @@
         "type": "geojson",
         "featureType": "Point",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/aerial-assesment-data/moz_cycloneidai_aerialsurvey.csv",
-        "minzoom": 2
+        "minzoom": 2,
+        "join": ["uniqueid", "uniqueid"]
     },
-    "type": "symbol",
+    "type": "circle",
     "paint": {
-        "text-color": "#0000ff",
-        "text-halo-color": "#fff",
-        "text-halo-width": 1.3,
-        "text-halo-blur": 1
-    },
-    "layout": {
-        "text-size": 10,
-        "text-offset": [
-            0,
-            2
-        ],
-        "icon-image": {
-            "property":"severity",
+        "circle-radius": {
+            "property": "estpop",
             "stops": [
-              ["No / Minor", "circle-15-black"],
-              ["Of concern", "circle-15-blue"],
-              ["Serious", "circle-20-green"],
-              ["Severe", "circle-20-blue"]
+                ["None", 5],
+                ["Less than 100", 7],
+                ["Between 101 and 1,000", 9],
+                ["Between 1,001 and 5,000", 12],
+                ["More than 5,000", 15]
             ],
             "type": "categorical",
-            "default": "circle-20-black"
-          },
-        "icon-allow-overlap": false,
-        "icon-ignore-placement": false
+            "default": 5
+        },
+        "circle-color": {
+            "property": "severity",
+            "stops": [
+                ["No / Minor", "#ffffb2"],
+                ["Of concern", "#fecc5c"],
+                ["Serious", "#fd8d3c"],
+                ["Severe", "#f03b20"],
+                ["Critical", "#bd0026"]
+            ],
+            "type": "categorical"
+        }
     },
+
+    "categories": {},
    
-   "geo-columns": ["lon", "lat"],
-   "popup": {
-    "join": [
-        "uniqueid",
-        "uniqueid"
-      ],
+    "geo-columns": ["lon", "lat"],
+    "popup": {
+        "join": [
+            "uniqueid",
+            "uniqueid"
+        ],
         "body": " <p style=text-align:left;> <b>Gravidade:</b> {{severity}}<br> <b> População estimada:</b> {{estpop}}<br><b> ponto de interesse:</b> {{pointofinterest}} <span style=float:right;>"
     }, 
     "visible": false,
-    "credit": "Zoom to see more health facilities",
+    "menu-credit": "INGC (National Disaster Management Authority of Mozambique), IFRC, UNDAC, MSF, DFID, Save the Children, and MapAction",
+    "credit": "<span style='display: block; margin-top: 8px'>Severity</span><ol style='margin-top: 2px' class='credit-ol color'><li style='background-color: #ffffb2'>No / Minor</li><li style='background-color: #fecc5c'>Of concern</li><li style='background-color: #fd8d3c'>Serious</li><li style='background-color: #f03b20'>Severe</li><li style='background-color: #bd0026'>Critical</li></ol><br><span>Estimated Population</span><ol class='credit-ol radius'><li><div style='height: 10px; width: 10px'></div>None</li><li><div style='height: 14px; width: 14px'></div>>100</li><li><div style='height: 18px; width: 18px'></div>101-1000</li><li><div style='height: 24px; width: 24px'></div>1001-5000</li><li><div style='height: 30px; width: 30px'></div>+5000</li></ol><br><a href='https://data.humdata.org/dataset/aerial-survey-idai-24-29-march-2019'>INGC (National Disaster Management Authority of Mozambique), IFRC, UNDAC, MSF, DFID, Save the Children, and MapAction</a>",
     "nondefault": true
 }
