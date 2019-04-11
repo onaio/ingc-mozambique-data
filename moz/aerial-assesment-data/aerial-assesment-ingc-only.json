@@ -1,5 +1,5 @@
 {
-    "label": "Dados de avaliação aérea",
+    "label": "Dados de avaliação aérea (March 24-29)",
     "source": {
         "type": "geojson",
         "featureType": "Point",
