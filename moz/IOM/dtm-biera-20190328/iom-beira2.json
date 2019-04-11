@@ -21,34 +21,15 @@
     "circle-opacity": 0.4,
     "property": "idps",
     "categories": {
-        "breaks": "no",
-        "label": [
-            "300",
-            "600",
-            "900",
-            "1200",
-            "1500"
-        ],
-        "limit": [
-            300,
-            600,
-            900,
-            1200,
-            150000
-        ],
-        "color": [
-            "#6baed6",
-            "#4292c6",
-            "#2171b5",
-            "#08519c",
-            "#08306b"
-        ]
+        "breaks": "yes",
+        "color": "#0074D9",
+        "clusters": 5
     },
     "detail-view": {
         "UID": "site_name",
         "title": {
-            "prop": "distrito",
-            "mustache": "{{{posto}}}"
+            "prop": "site_name",
+            "mustache": "{{{site_name}}}"
         },
         "sub-title": {
             "prop": "localizacao",
@@ -111,7 +92,7 @@
                     "prop": "accessible",
                     "mustache": "{{{accessible}}}"
                 },
-                "alt": "Is the location physically accessible?",
+                "alt": "Is the location physically accessible",
                 "useAltAsPrefix": true
             },
             {
@@ -119,7 +100,7 @@
                     "prop": "safe_secure",
                     "mustache": "{{{safe_secure}}}"
                 },
-                "alt": "Is it safe and secure to access the location?",
+                "alt": "Is it safe and secure to access the location",
                 "useAltAsPrefix": true
             },
             {
@@ -127,7 +108,7 @@
                     "prop": "familias",
                     "mustache": "{{{familias}}}"
                 },
-                "alt": "Number of families/households:",
+                "alt": "Number of families/households",
                 "useAltAsPrefix": true
             },
             {
@@ -135,7 +116,15 @@
                     "prop": "idps",
                     "mustache": "{{{idps}}}"
                 },
-                "alt": "Total number of IDP individuals:",
+                "alt": "Total number of IDP individuals",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "VULNERABILITIES AND NEEDS",
+                    "mustache": "{{{VULNERABILITIES AND NEEDS}}}"
+                },
+                "alt": "VULNERABILITIES AND NEEDS",
                 "useAltAsPrefix": true
             },
             {
@@ -143,7 +132,7 @@
                     "prop": "vulnerables",
                     "mustache": "{{{vulnerables}}}"
                 },
-                "alt": "Total Vulnerability:",
+                "alt": "Total Vulnerability",
                 "useAltAsPrefix": true
             },
             {
@@ -172,10 +161,34 @@
             },
             {
                 "value": {
+                    "prop": " ",
+                    "mustache": "{{{ }}}"
+                },
+                "alt": "SHELTER",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "nfi_needs_all",
+                    "mustache": "{{{nfi_needs_all}}}"
+                },
+                "alt": "Top 3 NFI needs",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "",
+                    "mustache": "{{{}}}"
+                },
+                "alt": "WASH",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
                     "prop": "main_water",
                     "mustache": "{{{main_water}}}"
                 },
-                "alt": "What is the main source of water used by the IDPs for drinking?",
+                "alt": "Main source of water used by the IDPs for drinking",
                 "useAltAsPrefix": true
             },
             {
@@ -183,7 +196,7 @@
                     "prop": "enough_water_cook",
                     "mustache": "{{{enough_water_cook}}}"
                 },
-                "alt": "How many IDPs have enough water to cook, bath, do laundry and personal hygiene?",
+                "alt": "Percentage of IDPs who have enough water to cook, bath, do laundry and personal hygiene",
                 "useAltAsPrefix": true
             },
             {
@@ -191,15 +204,23 @@
                     "prop": "enough_water_drink",
                     "mustache": "{{{enough_water_drink}}}"
                 },
-                "alt": "How many IDPs have enough water to drink?",
+                "alt": "Percentage of IDPs who have enough water to drink",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "enough_soap",
-                    "mustache": "{{{enough_soap}}}"
+                    "prop": "area_od",
+                    "mustache": "{{{area_od}}}"
                 },
-                "alt": "How many IDPs have enough soap?",
+                "alt": "Percentage of IDPs living where Open Defecation is visible",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "area_garbage",
+                    "mustache": "{{{area_garbage}}}"
+                },
+                "alt": "Percentage of IDPs living where garbage is visible",
                 "useAltAsPrefix": true
             },
             {
@@ -207,7 +228,15 @@
                     "prop": "saniation_fac",
                     "mustache": "{{{saniation_fac}}}"
                 },
-                "alt": "What is the most common type of sanitation facilities (latrines/toilets) used by IDPs?",
+                "alt": "Primary type of sanitation facilities",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "",
+                    "mustache": "{{{}}}"
+                },
+                "alt": "FOOD",
                 "useAltAsPrefix": true
             },
             {
@@ -215,15 +244,55 @@
                     "prop": "less_3meals",
                     "mustache": "{{{less_3meals}}}"
                 },
-                "alt": "In the past week, what proportion of households ate fewer than 3 meals per day because there was not enough food to eat?",
+                "alt": "Percentage of households ate fewer than 3 meals per day in the past week",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "reach_health_fac",
-                    "mustache": "{{{reach_health_fac}}}"
+                    "prop": "go_market",
+                    "mustache": "{{{go_market}}}"
                 },
-                "alt": "How long does it take to reach the nearest health facility from the site?",
+                "alt": "How people get access to the market",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "needs_market",
+                    "mustache": "{{{needs_market}}}"
+                },
+                "alt": "Can people buy what they need at the market",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "needs_market _reason",
+                    "mustache": "{{{needs_market _reason}}}"
+                },
+                "alt": "Reason why most people cannot buy what they need at the market",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "",
+                    "mustache": "{{{}}}"
+                },
+                "alt": "HEALTH",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "time_health_fac",
+                    "mustache": "{{{time_health_fac}}}"
+                },
+                "alt": "Distance from nearest health facility",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prevent_healthcare",
+                    "mustache": "{{{prevent_healthcare}}}"
+                },
+                "alt": "Main reason preventing IDP from accessing Healthcare Services",
                 "useAltAsPrefix": true
             },
             {
@@ -231,15 +300,15 @@
                     "prop": "healthcare_workes",
                     "mustache": "{{{healthcare_workes}}}"
                 },
-                "alt": "Are female healthcare workers available at the health facility (e.g., doctors, nurses, midwives, community health workers…)",
+                "alt": "Female healthcare workers available at the health facility",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "where_birth",
-                    "mustache": "{{{where_birth}}}"
+                    "prop": "",
+                    "mustache": "{{{}}}"
                 },
-                "alt": "Where do women give birth?",
+                "alt": "EDUCATION",
                 "useAltAsPrefix": true
             },
             {
@@ -247,7 +316,7 @@
                     "prop": "prop_school_u5",
                     "mustache": "{{{prop_school_u5}}}"
                 },
-                "alt": "What is the proportion of IDP children 3-5 years old attending school?",
+                "alt": "Percentage of IDP children 3-5 years old attending school",
                 "useAltAsPrefix": true
             },
             {
@@ -255,7 +324,7 @@
                     "prop": "prop_school_6_12",
                     "mustache": "{{{prop_school_6_12}}}"
                 },
-                "alt": "What is the proportion of IDP children 6-12 years old attending school?",
+                "alt": "Percentage of IDP children 6-12 years old attending school",
                 "useAltAsPrefix": true
             },
             {
@@ -263,47 +332,23 @@
                     "prop": "prop_school_13_17",
                     "mustache": "{{{prop_school_13_17}}}"
                 },
-                "alt": "What is the proportion of IDP children 13-17 years old attending school?",
+                "alt": "Percentage of IDP children 13-17 years old attending school",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "separated_toilet",
-                    "mustache": "{{{separated_toilet}}}"
+                    "prop": "",
+                    "mustache": "{{{}}}"
                 },
-                "alt": "How many of the latrines in the site are separated for males and females?",
+                "alt": "PROTECTION",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "lock_toilet",
-                    "mustache": "{{{lock_toilet}}}"
+                    "prop": "security",
+                    "mustache": "{{{security}}}"
                 },
-                "alt": "How many toile latrines lock from the inside in the site?",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "lit_toilets",
-                    "mustache": "{{{lit_toilets}}}"
-                },
-                "alt": "How many toilets/latrines are well lit in the site?",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "separate_baths",
-                    "mustache": "{{{separate_baths}}}"
-                },
-                "alt": "How many bathing facilities in the site are separated for males and females?",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "bathing_locks",
-                    "mustache": "{{{bathing_locks}}}"
-                },
-                "alt": "How many bathing facilities in the site have functioning locks on the inside of doors?",
+                "alt": "Is there security provided",
                 "useAltAsPrefix": true
             },
             {
@@ -313,13 +358,32 @@
                 },
                 "alt": "Is there an eviction threat?",
                 "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "lighting_community",
+                    "mustache": "{{{lighting_community}}}"
+                },
+                "alt": "Is there adequate lighting in the majority of communal points",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "",
+                    "mustache": "{{{}}}"
+                },
+                "alt": "RETURN",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prevent_return",
+                    "mustache": "{{{prevent_return}}}"
+                },
+                "alt": "What is preventing the largest IDP group from going home",
+                "useAltAsPrefix": true
             }
         ]
-    },
-    "aggregate": {
-        "timeseries": {
-            "field": "period"
-        }
     },
     "popup": {
         "header": "{{site_name}}",
