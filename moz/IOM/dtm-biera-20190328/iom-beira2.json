@@ -4,7 +4,7 @@
         "type": "vector",
         "layer": "dtm_round_2_tileset-an66ty",
         "url": "mapbox://ona.bnldwnv1",
-        "data": "data/dtm_round_2_clean.csv",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/IOM/dtm-biera-20190328/dtm_round_2_clean.csv",
         "join": [
             "site_id",
             "site_id"
