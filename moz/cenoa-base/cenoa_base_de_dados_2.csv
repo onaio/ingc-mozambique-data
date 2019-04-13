@@ -339,12 +339,12 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Janeiro,Zambezia,Morrumbala,MZ09,MZ0417,n/a,Ventos fortes,0,TRUE,0,1/2/2018,25,5,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
 2017-2018,Janeiro,Zambezia,Morrumbala,MZ09,MZ0417,n/a,Chuvas e ventos fortes,1,TRUE,0,1/2/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
 2016-2017,n/a,Inhambane,Morrumbene,MZ08,MZ0811,n/a,Ciclone,0,FALSE,0,2/15/2017,31837,8963,0,0,14,0,0,0,6768,2183,0,0,0,373,0,0,0,11,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
-2016-2017,n/a,Nampula,Mossuril,MZ03,MZ0316,n/a,Descarga atmosferica,0,FALSE,1,1/5/2017,5,1,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
-2016-2017,n/a,Nampula,Mossuril,MZ03,MZ0316,n/a,Descarga atmosferica,0,FALSE,1,2/5/2017,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
-2016-2017,n/a,Nampula,Mossuril,MZ03,MZ0316,n/a,Chuvas e ventos fortes,1,TRUE,0,2/22/2017,380,76,0,0,1,0,0,0,64,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
-2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0316,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,7775,1555,0,0,0,0,0,0,1555,0,0,0,23,0,0,0,0,3,0,0,0,26,0,0,0,0,0,0,n/a,n/a,n/a,n/a
-2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0316,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
-2018-2019,Marco,Manica,Mossurizi,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,4108,1003,0,0,1,0,2,0,1040,1286,0,26,10,45,4805,72,1,2,0,0,0,0,0,0,0,0,0,90,190557,35128,n/a,n/a
+2016-2017,n/a,Nampula,Mossuril,MZ03,MZ0316,n/a,Descarga atmosferica,0,FALSE,1,1/5/2017,5,1,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a
+2016-2017,n/a,Nampula,Mossuril,MZ03,MZ0316,n/a,Descarga atmosferica,0,FALSE,1,2/5/2017,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a
+2016-2017,n/a,Nampula,Mossuril,MZ03,MZ0316,n/a,Chuvas e ventos fortes,1,TRUE,0,2/22/2017,380,76,0,0,1,0,0,0,64,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a
+2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0316,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,7775,1555,0,0,0,0,0,0,1555,0,0,0,23,0,0,0,0,3,0,0,0,26,0,0,0,0,0,0,0,n/a,n/a,n/a
+2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0316,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a
+2018-2019,Marco,Manica,Mossurize,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,4108,1003,0,0,1,0,2,0,1040,1286,0,26,10,45,4805,72,1,2,0,0,0,0,0,0,0,0,0,90,190557,35128,n/a,n/a
 2016-2017,n/a,Sofala,Muanza,MZ07,MZ0712,n/a,Chuvas e ventos fortes,1,TRUE,0,11/19/2016,105,21,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
 2017-2018,Dezembro,Sofala,Muanza,MZ09,MZ0712,n/a,Vendaval,0,FALSE,0,12/13/2017,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
 2017-2018,Dezembro,Sofala,Muanza,MZ09,MZ0712,n/a,Chuvas e ventos fortes,1,TRUE,0,12/26/2017,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a,n/a,n/a
