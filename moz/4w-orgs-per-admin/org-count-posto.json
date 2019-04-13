@@ -10,7 +10,7 @@
   "property": "org_total",
   "categories": {
     "breaks": "yes",
-    "color": ["#0074D9", "#0074D9", "#0074D9", "#0074D9", "#0074D9"],
+    "color": ["#bdbdbd", "#969696", "#737373", "#525252", "#252525"],
     "clusters": 5
   },
   "popup": {

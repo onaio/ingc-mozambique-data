@@ -2,7 +2,7 @@
     "label": "Restrições de acesso rodoviário",
     "source": {
         "type": "vector",
-        "layer": "moztrsroads",
+        "layer": "moz-roads-access-8anyy4",
         "url": "mapbox://ona.3mipwbxa"
       },
     "type": "line",
@@ -21,6 +21,18 @@
       },
       "line-width": 3,
       "line-opacity": 0.8
+    },
+    "categories": {
+      "breaks": "no",
+      "label": [
+        "Open","Restricted","Closed"
+      ],
+      "type": [
+        " "
+      ],
+      "color": [
+        "#2ECC40","#FF851B","#FF4136"
+      ]
     },
     "popup": {
       "body": "<p style=text-align:left;> Status: {{status}} <br/></p>"
