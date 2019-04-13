@@ -23,6 +23,18 @@
         "icon-allow-overlap": true,
         "icon-size": 0.4
     },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            " "
+        ],
+        "type": [
+            " "
+        ],
+        "color": [
+            "#0080FF"
+        ]
+    },
     "popup": {
         "header": "Nome",
         "body": "<p style=text-align:left;> <b>Classifica:</b> {{classifica}}"

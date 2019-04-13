@@ -1,5 +1,5 @@
 {
-    "label": "DTM",
+    "label": "Displacement Tracking Matrix (DTM)",
     "source": {
         "type": "vector",
         "layer": "dtm_round_2_tileset-an66ty",

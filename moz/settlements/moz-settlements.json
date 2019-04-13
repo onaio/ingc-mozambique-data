@@ -21,6 +21,18 @@
        "icon-size": 0.6,
        "icon-allow-overlap": true
      },
+     "categories": {
+      "breaks": "no",
+      "label": [
+        " "
+      ],
+      "type": [
+        " "
+      ],
+      "color": [
+        "#3E3DA6"
+      ]
+    },
      "menu-credit": "IOM survey 2015",
      "credit": "<a href=https://drive.google.com/open?id=1yBwvH_PlcoMwgtLXEfyn3UF5PDM_yDsw target=_blank data-credit=credit>IOM survey 2015</a>"
    }

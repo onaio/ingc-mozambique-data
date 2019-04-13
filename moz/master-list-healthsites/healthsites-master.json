@@ -29,6 +29,18 @@
     "icon-allow-overlap": false,
     "icon-ignore-placement": false
   },
+  "categories": {
+    "breaks": "no",
+    "label": [
+      " "
+    ],
+    "type": [
+      " "
+    ],
+    "color": [
+      "#000000"
+    ]
+  },
   "popup": {
     "header": "US (Health unit name)",
     "body": "<p style='text-align: left'><b>Classificação</b> {{CLASSIFICATION}}</p>"
