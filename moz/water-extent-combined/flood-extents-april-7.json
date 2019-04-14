@@ -1,9 +1,9 @@
 {
-  "label": "Flood Extent - March 30",
+  "label": "Flood Extent in Tete and Zambezia Provinces - April 7",
   "source": {
     "type": "vector",
-    "layer": "floodExtentmarch30",
-    "url": "mapbox://ona.2ly9llfd"
+    "layer": "Flood_Extent_Tete_Zambezia_Pr-9n7snw",
+    "url": "mapbox://ona.8j4so6tu"
   },
   "type": "fill",
   "layout": {
