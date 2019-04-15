@@ -1,5 +1,5 @@
 {
-  "label": "Flood Extent Sofala, Zambezi and Tete Provinces - March 20",
+  "label": "Flood Extent Sofala, Zambezia and Tete Provinces - March 20",
   "source": {
     "type": "vector",
     "layer": "flood_extent_20-c3de4s",
@@ -14,6 +14,18 @@
     "fill-color": "#85144b",
     "fill-opacity": 0.6,
     "fill-outline-color": "#FF851B"
+  },
+  "categories": {
+    "breaks": "no",
+    "label": [
+      " "
+    ],
+    "type": [
+      " "
+    ],
+    "color": [
+      "#A5617A"
+    ]
   },
   "menu-credit": "HDX - UNOSAT",
   "credit": "<a href=https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019 target=_blank data-credit=credit>HDX - UNOSAT</a>"
