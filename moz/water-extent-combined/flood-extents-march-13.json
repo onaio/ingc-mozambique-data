@@ -1,9 +1,9 @@
 {
-  "label": "Flood Extent - March 13",
+  "label": "Flood Extent Sofala Province - March 13",
   "source": {
     "type": "vector",
-    "layer": "waterExtentapril13",
-    "url": "mapbox://ona.9wqlpdkn"
+    "layer": "Flood_Extent_Sofala_Province-dc7zci",
+    "url": "mapbox://ona.cg1omgu0"
   },
   "type": "fill",
   "layout": {

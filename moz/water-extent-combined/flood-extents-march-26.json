@@ -1,9 +1,9 @@
 {
-  "label": "Flood Extent - March 26",
+  "label": "Flood Extent Sofala Province - March 26",
   "source": {
     "type": "vector",
-    "layer": "floodExtentmarch26",
-    "url": "mapbox://ona.b4i7b010"
+    "layer": "flood_extent_26-byw5oj",
+    "url": "mapbox://ona.1jsz7h5l"
   },
   "type": "fill",
   "layout": {
@@ -15,5 +15,6 @@
     "fill-opacity": 0.6,
     "fill-outline-color": "#FF851B"
   },
-  "credit": "Source: Map Action"
+ "menu-credit": "HDX - UNOSAT",
+"credit": "<a href=https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019 target=_blank data-credit=credit>HDX - UNOSAT</a>"
 }

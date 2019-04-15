@@ -1,9 +1,9 @@
 {
-  "label": "Flood Extent - March 26",
+  "label": "Flood Extent Sofala and Manica Province - March 19",
   "source": {
     "type": "vector",
-    "layer": "waterExtentapril26",
-    "url": "mapbox://ona.avse8qvd"
+    "layer": "waterExtentapril19",
+    "url": "mapbox://ona.3pb6swf5"
   },
   "type": "fill",
   "layout": {
