@@ -11,6 +11,7 @@
         ]
     },
     "type": "circle",
+    "timestamp": "survey_date",
     "radius-range": [
         "9",
         "12",
