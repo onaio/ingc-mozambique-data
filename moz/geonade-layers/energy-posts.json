@@ -1,5 +1,5 @@
 {
-    "label": "National Energy Facilities",
+    "label": "Instalações Nacionais de Energia",
     "source": {
             "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/geonade-layers/energy.csv",
             "type": "vector",
