@@ -11,6 +11,7 @@
         ]
     },
     "type": "fill",
+    "timestamp": "period",
     "property": "population",
     "categories": {
         "breaks": "yes",
