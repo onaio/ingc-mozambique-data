@@ -1,5 +1,5 @@
 {
-    "label": "Land Use",
+    "label": "Uso da Terra",
     "source": {
         "type": "vector",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/geonade-layers/land_use_clean.csv",
