@@ -1,0 +1,75 @@
+{
+    "label": "National Energy Facilities",
+    "source": {
+            "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/geonade-layers/energy.csv",
+            "type": "vector",
+            "layer": "energy-aq3ql5",
+            "url": "mapbox://ona.a81uityn",
+            "join": [
+                "energy_id",
+                "energy_id"
+            ]
+        },
+    "type": "symbol",
+    "paint": {
+        "text-color": "#000",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1,
+        "text-halo-blur": 1
+    },
+    "layout": {
+        "text-size": 12,
+        "text-field": " ",
+        "text-offset": [
+            0,
+            2
+        ],
+        "icon-image": {
+            "property": "type",
+            "stops": [
+                [
+                    "Hydro",
+                    "elec-green"
+                ],
+                [
+                    "BlackTriangle",
+                    "elec-red"
+                ],
+                [
+                    "WhiteTriangle",
+                    "elec-purple"
+                ]
+            ],
+            "type": "categorical",
+            "default": "circle-20-black"
+        },
+        "icon-size": 1,
+        "icon-allow-overlap": true
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Hydro",
+            "BlackTriangle",
+            "WhiteTriangle"
+        ],
+        "type": [
+            " "
+        ],
+        "color": [
+            "#219F1D",
+            "#D50B0B",
+            "#BB5FC7"
+        ]
+    },
+    "popup": {
+        "header": "type",
+        "body": " "
+    },
+    "geo-columns": [
+        "longitude",
+        "latitude"
+    ],
+    "menu-credit": "GEONODE",
+    "credit": "<a href=https://geonode.ingc.gov.mz/layers/geonode:national_energy__facilities target=_blank data-credit=credit>GEONODE</a>"
+}
