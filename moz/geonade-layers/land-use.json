@@ -3,8 +3,8 @@
     "source": {
         "type": "vector",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/geonade-layers/land_use_clean.csv",
-        "layer": "national_land_use-0zy5hf",
-        "url": "mapbox://ona.87iavkmb",
+        "layer": "land_use_fixed",
+        "url": "mapbox://ona.7lhyulqh",
         "join": [
             "OBJECTID",
             "OBJECTID"
