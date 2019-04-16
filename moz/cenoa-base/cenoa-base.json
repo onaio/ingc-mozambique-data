@@ -12,6 +12,7 @@
       ]
     },
     "type": "fill",
+    "timestamp": "data",
     "property": "familias__afectadas_",
     "categories": {
         "breaks": "yes",
