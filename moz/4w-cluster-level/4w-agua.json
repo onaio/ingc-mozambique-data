@@ -1,0 +1,26 @@
+{
+    "label": "4W - Água, Saneamento e Higiene",
+    "source": {
+        "type": "vector",
+        "layer": "mozambique_districts_final",
+        "url": "mapbox://ona.9zeb0vb0",
+        "data": "data/4w_agua.csv",
+        "join": [
+            "Distrito",
+            "district"
+        ]
+    },
+    "type": "fill",
+    "property": "org_no",
+    "categories": {
+        "breaks": "yes",
+        "color": "Blues",
+        "clusters": 5
+    },
+    "popup": {
+        "header": "{{province}}",
+        "body": "<p style=text-align:left;><b>Distrito: </b>{{district }}<br><b>Número de Organizações: </b>{{org_no}}<p>"
+    },
+    "menu-credit": "HDX - UNOCHA",
+    "credit": "<a href=https://data.humdata.org/dataset/mozambique-cyclone-idai-4w target=_blank data-credit=credit>HDX - UNOCHA</a>"
+}
