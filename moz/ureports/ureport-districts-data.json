@@ -1,0 +1,26 @@
+{
+    "label": "Utilizadores SMS BIZ - Distrito",
+    "source": {
+        "type": "vector",
+        "layer": "mozambique_districts_final",
+        "url": "mapbox://ona.9zeb0vb0",
+        "data": "data/ureport_data_district_clean.csv",
+        "join": [
+            "Distrito",
+            "district"
+        ]
+    },
+    "type": "fill",
+    "circle-opacity": 0.4,
+    "property": "people_contacted",
+    "categories": {
+        "breaks": "yes",
+        "color": "YlGn",
+        "clusters": 5
+    },
+    "popup": {
+        "header": "{{district}}",
+        "body": "<p style=text-align:left;><b>Província: </b>{{province}}<br><b>Pessoas Contatadas: </b>{{people_contacted}}<p>"
+    },
+    "credit": "Ureports"
+}

@@ -1,0 +1,26 @@
+{
+    "label": "Utilizadores SMS BIZ - Posto",
+    "source": {
+        "type": "vector",
+        "layer": "mozambique_postos-4kuvrh",
+        "url": "mapbox://ona.ajgigfjt",
+        "data": "data/ureport_data_posto_clean.csv",
+        "join": [
+            "Posto",
+            "posto"
+        ]
+    },
+    "type": "fill",
+    "circle-opacity": 0.4,
+    "property": "people_contacted",
+    "categories": {
+        "breaks": "yes",
+        "color": "PuRd",
+        "clusters": 5
+    },
+    "popup": {
+        "header": "{{district}}",
+        "body": "<p style=text-align:left;><b>Província: </b>{{province}}<br><b>Posto: </b>{{posto}}<br><b>Pessoas Contatadas: </b>{{people_contacted}}<p>"
+    },
+    "credit": "Ureports"
+}
