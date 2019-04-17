@@ -11,6 +11,7 @@
         ]
     },
     "type": "fill",
+    "timestamp": "date",
     "property": "OBJECTID_1",
     "categories": {
         "breaks": "no",
