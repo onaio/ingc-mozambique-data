@@ -8,6 +8,7 @@
         "join": ["uniqueid", "uniqueid"]
     },
     "type": "circle",
+    "timeseries": "date",
     "paint": {
         "circle-radius": {
             "property": "estpop",
