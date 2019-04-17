@@ -1,0 +1,26 @@
+{
+    "label": "Utilizadores SMS BIZ - Provincia",
+    "source": {
+        "type": "vector",
+        "layer": "mozambique_provinces_final-4s6ogr",
+        "url": "mapbox://ona.3agpy3pd",
+        "data": "data/ureport_data_province_clean.csv",
+        "join": [
+            "Provincia",
+            "province"
+        ]
+    },
+    "type": "fill",
+    "circle-opacity": 0.4,
+    "property": "people_contacted",
+    "categories": {
+        "breaks": "yes",
+        "color": "Oranges",
+        "clusters": 3
+    },
+    "popup": {
+        "header": "{{province}}",
+        "body": "<p style=text-align:left;><b>Pessoas Contatadas: </b>{{people_contacted}}<p>"
+    },
+    "credit": "Ureports"
+}
