@@ -2,15 +2,15 @@
     "label": "4W - Água, Saneamento e Higiene",
     "source": {
         "type": "vector",
-        "layer": "mozambique_districts_final",
-        "url": "mapbox://ona.9zeb0vb0",
+        "layer": "mozambique_districts_centroid-1qmvkp",
+        "url": "mapbox://ona.515xpd4h",
         "data": "data/4w_agua.csv",
         "join": [
             "Distrito",
             "district"
         ]
     },
-    "type": "fill",
+    "type": "circle",
     "property": "org_no",
     "categories": {
         "breaks": "yes",

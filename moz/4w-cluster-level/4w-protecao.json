@@ -3,14 +3,14 @@
     "source": {
         "type": "vector",
         "layer": "mozambique_districts_final",
-        "url": "mapbox://ona.9zeb0vb0",
-        "data": "data/4w_protecao.csv",
+        "layer": "mozambique_districts_centroid-1qmvkp",
+        "url": "mapbox://ona.515xpd4h",
         "join": [
             "Distrito",
             "district"
         ]
     },
-    "type": "fill",
+    "type": "circle",
     "property": "org_no",
     "categories": {
         "breaks": "yes",
