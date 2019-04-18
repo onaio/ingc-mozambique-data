@@ -1,5 +1,5 @@
 {
-    "label": "Utilizadores SMS BIZ - Provincia",
+    "label": "U-Reporters/ Utilizadores SMS BIZ - Provincia",
     "source": {
         "type": "vector",
         "layer": "mozambique_provinces_final-4s6ogr",
