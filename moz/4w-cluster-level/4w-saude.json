@@ -4,7 +4,7 @@
         "type": "vector",
         "layer": "mozambique_districts_centroid-1qmvkp",
         "url": "mapbox://ona.515xpd4h",
-        "data": "data/4w_saude.csv",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/4w-cluster-level/4w_saude_final.csv",
         "join": [
             "Distrito",
             "district"
