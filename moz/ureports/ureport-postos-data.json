@@ -1,5 +1,5 @@
 {
-    "label": "Utilizadores SMS BIZ - Posto",
+    "label": "U-Reporters/Utilizadores SMS BIZ - Posto",
     "source": {
         "type": "vector",
         "layer": "mozambique_postos-4kuvrh",
