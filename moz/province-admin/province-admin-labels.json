@@ -14,7 +14,7 @@
     },
     "layout": {
         "text-size": 14,
-        "text-field": "{Provincia}",
+        "text-field": "{ADM1_PT}",
         "text-transform": "uppercase",
         "text-offset": [
             0,
@@ -22,7 +22,6 @@
         ]
     },
     "menu-credit": "HDX",
-    "credit": "<a href=https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019 target=_blank data-credit=credit>HDX</a>",
-    "visible": true,
+    "credit": "<a href=https://data.humdata.org/dataset/5e8d83a5-1210-49be-b7d9-cf286dbc15df target=_blank data-credit=credit>HDX</a>",
     "category": "Boundaries & Labels"
 }
