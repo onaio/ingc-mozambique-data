@@ -226,8 +226,8 @@
             },
             {
                 "value": {
-                    "prop": "saniation_fac",
-                    "mustache": "{{{saniation_fac}}}"
+                    "prop": "comm_fac_sanitation",
+                    "mustache": "{{{comm_fac_sanitation}}}"
                 },
                 "alt": "Primary type of sanitation facilities",
                 "useAltAsPrefix": true
@@ -298,8 +298,8 @@
             },
             {
                 "value": {
-                    "prop": "healthcare_workes",
-                    "mustache": "{{{healthcare_workes}}}"
+                    "prop": "female_workers_healthcare",
+                    "mustache": "{{{female_workers_healthcare}}}"
                 },
                 "alt": "Female healthcare workers available at the health facility",
                 "useAltAsPrefix": true
@@ -390,5 +390,7 @@
         "header": "{{site_name}}",
         "body": "<p style=text-align:left;><b>Site: </b>{{site_name }} ({{site_type}})<br><b>Total Individuals: </b>{{idps}}<br><b>Total Householdes: </b>{{familias}}<br><b>Site Classification: </b>{{site_class}}<br><b>Prevent Return: </b>{{prevent_return}}<p>"
     },
-    "credit": "DTM - IOM Displacement Tracking Matrix"
+    "visible": false,
+    "menu-credit": "DTM - IOM Displacement Tracking Matrix",
+    "credit": "<a href=https://displacement.iom.int/datasets/mozambique-site-assessment-cyclone-idai-response-round-2 target=_blank data-credit=credit>DTM</a>"
 }
