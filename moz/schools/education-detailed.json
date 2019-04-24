@@ -2,7 +2,7 @@
     "label": "Informação Escolar",
     "source": {
         "type": "vector",
-        "layer": "schools_map_detailed",
+        "layer": "schools_map_detailed-9b5m08",
         "url": "mapbox://ona.at7btwg0",
         "data": "data/education_database_complete.csv",
         "join": [
