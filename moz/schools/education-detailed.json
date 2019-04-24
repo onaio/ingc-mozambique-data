@@ -26,7 +26,7 @@
         ],
         "icon-image": "education-blue-shaded",
         "icon-size": 0.8,
-        "icon-allow-overlap": false,
+        "icon-allow-overlap": true,
         "icon-ignore-placement": false
     },
     "detail-view": {
