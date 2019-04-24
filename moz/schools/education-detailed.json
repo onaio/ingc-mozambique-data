@@ -8,7 +8,8 @@
         "join": [
             "school_id",
             "school_id"
-        ]
+        ],
+        "minzoom": 2
     },
     "type": "symbol",
     "paint": {
