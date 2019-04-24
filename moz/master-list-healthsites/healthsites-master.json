@@ -26,7 +26,7 @@
     "text-offset": [0, 2],
     "icon-image": "hospital-red-shaded",
     "icon-size": 0.8,
-    "icon-allow-overlap": false,
+    "icon-allow-overlap": true,
     "icon-ignore-placement": false
   },
   "categories": {
