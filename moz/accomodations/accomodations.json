@@ -57,14 +57,16 @@
         "text-halo-blur": 1
     },
     "layout": {
-        "text-size": 10,
-        "text-field": "{Informacoes_gerais/centre_name}",
+        "text-size": 2,
+        "text-field": "",
         "text-offset": [
             0,
             2
         ],
-        "icon-image": "police-station",
-        "icon-allow-overlap": true
+        "icon-image": "house-brown",
+        "icon-size": 0.8,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true
     },
     "categories": {
         "breaks": "no",
