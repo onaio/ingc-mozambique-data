@@ -80,13 +80,7 @@
             "#654321"
         ]
    },
-"visible": false,
-"highlight-filter-property": "Acomodação",
-"highlight-layout": {
-    "icon-image": "house-brown",
-    "icon-size": 1.25
-},
-    "popup": {
+       "popup": {
         "join": [
             "meta/instanceID",
             "meta/instanceID"
@@ -195,5 +189,6 @@
             }
         ]
     },
+    "visible": false,
     "credit": "ONA Form - INGC"
 }
