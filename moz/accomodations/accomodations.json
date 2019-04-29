@@ -1,0 +1,199 @@
+{
+    "label": "Centros de Acomodação",
+    "source": {
+        "type": "geojson",
+        "featureType": "Point",
+        "data": [
+            398457
+        ],
+        "join": [
+            "_id"
+        ],
+        "minzoom": 1,
+        "relation": {
+            "type": "many-to-one",
+            "key": [
+                "one"
+            ]
+        }
+    },
+    "aggregate": {
+        "filter": [
+            "Informacoes_gerais/Provincia",
+            "Informacoes_gerais/Distrito",
+            "Informacoes_gerais/Posto",
+            "Informacoes_gerais/Bairro"
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all",
+            "all",
+            "all"
+        ],
+        "filter-label": [
+            "Provincia",
+            "Distrito",
+            "Posto",
+            "Bairro"
+        ],
+        "sub-filter": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "accepted-sub-filter-values": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "type": "symbol",
+    "paint": {
+        "text-color": "#0000ff",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 1
+    },
+    "layout": {
+        "text-size": 2,
+        "text-field": "",
+        "text-offset": [
+            0,
+            2
+        ],
+        "icon-image": "house-brown",
+        "icon-size": 0.8,
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Centros de Acomodação"
+        ],
+        "type": [
+            "Centros de Acomodação"
+        ],
+        "color": [
+            "#000099"
+        ]
+   },
+"visible": false,
+"highlight-filter-property": "Acomodação",
+"highlight-layout": {
+    "icon-image": "house-brown",
+    "icon-size": 1.25
+},
+    "popup": {
+        "join": [
+            "meta/instanceID",
+            "meta/instanceID"
+        ],
+        "body": "{{Informacoes_gerais/centre_name}}"
+    },
+    "geo-column": "Informacoes_gerais/center_coordinates",
+    "detail-view": {
+        "UID": "Informacoes_gerais/centre_name",
+        "title": {
+            "prop": "Informacoes_gerais/centre_name",
+            "mustache": "{{{Informacoes_gerais/centre_name}}}"
+        },
+        "sub-title": {
+            "prop": "Informacoes_gerais/Provincia",
+            "mustache": "{{{Informacoes_gerais/Provincia}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": "Informacoes_gerais/Distrito",
+                    "mustache": "{{{Informacoes_gerais/Distrito}}}"
+                },
+                "alt": "Distrito",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Informacoes_gerais/Posto",
+                    "mustache": "{{{Informacoes_gerais/Posto}}}"
+                },
+                "alt": "Posto",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_1",
+                    "mustache": "{{{Pop_Info/Pop_1}}}"
+                },
+                "alt": "Numero de Pessoas ",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_2",
+                    "mustache": "{{{Pop_Info/Pop_2}}}"
+                },
+                "alt": "Numero de Famílias",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_3",
+                    "mustache": "{{{Pop_Info/Pop_3}}}"
+                },
+                "alt": "Numero de Homens",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_4",
+                    "mustache": "{{{Pop_Info/Pop_4}}}"
+                },
+                "alt": "Numero de Mulheres",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_5",
+                    "mustache": "{{{Pop_Info/Pop_5}}}"
+                },
+                "alt": "Numero de Crianças",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_6",
+                    "mustache": "{{{Pop_Info/Pop_6}}}"
+                },
+                "alt": "Numero de Idosos",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/Pop_7",
+                    "mustache": "{{{Pop_Info/Pop_7}}}"
+                },
+                "alt": "Numero de Portadores de Deficiência",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/observations",
+                    "mustache": "{{{Pop_Info/observations}}}"
+                },
+                "alt": "Observação",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pop_Info/status",
+                    "mustache": "{{{Pop_Info/status}}}"
+                },
+                "alt": "Estado",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "credit": "ONA Form - INGC"
+}
