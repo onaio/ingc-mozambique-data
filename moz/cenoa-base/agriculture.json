@@ -22,36 +22,21 @@
         "body": " <p style=text-align:left;> <b>Área Afetada:</b> {{area_afectada_ha}}</p>"
     },
     "aggregate": {
-        "filter": [
-            "provincia",
-            "distrito",
-            "periodo",
-            "ocorrencia_"
-        ],
-        "accepted-filter-values": [
-            "all",
-            "all",
-            "all",
-            "all"
-        ],
-        "filter-label": [
-            "Provincia",
-            "Distrito",
-            "Periodo",
-            "Ocorrencia"
-        ],
-        "sub-filter": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "accepted-sub-filter-values": [
-            "",
-            "",
-            "",
-            ""
-        ],
+       "filter": [
+        "distrito"
+    ],
+    "accepted-filter-values": [
+        "all"
+    ],
+    "filter-label": [
+        "Distrito"
+    ],
+    "sub-filter": [
+        ""
+    ],
+    "accepted-sub-filter-values": [
+        ""
+    ],
         "type": "sum",
         "group-by": "distrito",
         "date-by": "epoca",
