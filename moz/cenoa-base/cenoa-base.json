@@ -22,33 +22,18 @@
       },
     "aggregate": {
       "filter": [
-        "provincia",
-        "distrito",
-        "periodo",
-        "ocorrencia_"
+        "distrito"
       ],
       "accepted-filter-values": [
-        "all",
-        "all",
-        "all",
         "all"
       ],
       "filter-label": [
-        "Provincia",
-        "Distrito",
-        "Periodo",
-        "Ocorrencia"
+        "Distrito"
       ],
       "sub-filter": [
-        "",
-        "",
-        "",
         ""
       ],
       "accepted-sub-filter-values": [
-        "",
-        "",
-        "",
         ""
       ],
         "type": "sum",
