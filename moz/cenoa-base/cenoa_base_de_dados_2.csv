@@ -1,4 +1,27 @@
 epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrencia_,chuvas,ventos_fortes,descarga_atmosferica,data,pessoas_afectadas_,familias__afectadas_,pessoas_indirectamente_afectadas,familias_indirectamente_afectadas,feridos,obitos,obitos2,grupos_vulneraveis,casas_parcialmente_dest,casas_totalmente_destr,casas_inundadas,escolas_afectadas,salas_de_aulas_parcialmente_destruidas,salas_de_aulas_totalmente_destruidas,alunos_afectados,prof_afectados,casas_de_culto,unidades_sanitarias,hospital_parcialmente_destruidas,hospital_totalmente_destruidas,centro_de_saude_parcialmente_destruidas,postes_de_energia,rede_de_pesca,embarcacoes,posto_de_transformacao,posto_policial,pensoes_para_hospedagem,sistema_de_abastecimento_de_agua,area_afectada_ha,familias_afectadas,accoes_em_curso,observacoes
+2018/2019,Abril,Cabo delgado,Palma,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,60,12,0,0,1,0,0,0,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Ibo,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,15000,4600,0,0,0,0,0,0,4600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,25,5,0,0,0,0,1,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,15,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Montepuez,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,1630,326,0,0,0,0,0,0,326,10,0,0,1,0,60,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Metuge,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,3600,720,0,0,0,0,0,0,707,13,0,2,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,.,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Muidumbe,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,11620,2324,0,0,2,0,0,2745,2041,283,0,7,19,0,2850,123,3,2,0,0,0,15,0,0,0,0,0,2,490,147,n/a,n/a
+2018/2019,Abril,Cabo delgado,Mecufi,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,1645,329,0,0,1,0,0,0,0,8,319,1,3,0,0,0,0,1,0,0,0,9,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Quissanga,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,21150,4230,0,0,2,0,2,0,3940,300,0,0,13,0,50,2,1,5,0,0,0,42,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Mueda,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,20105,4021,0,0,7,0,1,196,3952,69,0,2,16,7,1720,31,3,0,0,0,0,0,0,0,0,0,0,1,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Meluco,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,350,70,0,0,0,0,0,0,0,70,0,2,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Namuno,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,3,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,0,0,0,0,0,0,0,0,0,0,0,1,0,2,210,4,0,2,0,0,0,10,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Mocimboa_da_Praia,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,420,84,0,0,0,0,0,0,69,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Balama,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,5,1,0,0,0,0,0,0,0,0,0,1,3,0,250,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,935,187,0,0,1,0,0,0,167,20,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,45,9,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,10,2,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Pemba,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,85,17,0,0,0,0,1,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Ancuabe,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,4815,963,0,0,0,0,0,0,570,393,26,11,9,27,1800,52,4,0,0,0,0,0,0,0,0,0,0,0,253,20,n/a,n/a
+2018/2019,Abril,Cabo delgado,Nangade,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,616,160,0,0,0,0,0,98,160,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Macomia,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,85225,17045,0,0,22,0,23,0,15405,1640,0,13,47,18,11789,212,10,4,0,0,0,234,0,0,0,0,0,0,0,0,n/a,n/a
+2018/2019,Abril,Cabo delgado,Chiure,n/a,n/a,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,910,182,0,0,3,0,0,0,79,103,0,13,10,16,3168,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2018-2019,Abril,Cabo Delgado,Palma,,,,Ciclone,0,,0,4/25/2019,45,9,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2018-2019,Abril,Cabo Delgado,Ibo,,,,Ciclone,0,,0,4/25/2019,15000,4600,0,0,0,0,0,0,4600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2018-2019,Abril,Cabo Delgado,Quissanga,,,,Ciclone,0,,0,4/25/2019,0,0,0,0,0,0,0,0,0,0,0,0,1,0,50,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
