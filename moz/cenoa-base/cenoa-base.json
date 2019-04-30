@@ -21,6 +21,36 @@
         "clusters": 7
       },
     "aggregate": {
+      "filter": [
+        "provincia",
+        "distrito",
+        "periodo",
+        "ocorrencia_"
+      ],
+      "accepted-filter-values": [
+        "all",
+        "all",
+        "all",
+        "all"
+      ],
+      "filter-label": [
+        "Provincia",
+        "Distrito",
+        "Periodo",
+        "Ocorrencia"
+      ],
+      "sub-filter": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "accepted-sub-filter-values": [
+        "",
+        "",
+        "",
+        ""
+      ],
         "type": "sum",
         "group-by": "distrito",
         "date-by": "epoca",
