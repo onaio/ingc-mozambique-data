@@ -1,16 +1,14 @@
 {
     "label": "Informação Escolar",
     "source": {
-        "type": "vector",
-        "layer": "schools_map_detailed-9b5m08",
-        "url": "mapbox://ona.at7btwg0",
-        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/schools/education_database_complete.csv",
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/schools/education_detail.geojson",
         "join": [
             "school_id",
             "school_id"
         ],
         "minzoom": 2
-},
+    },
     "type": "symbol",
     "paint": {
         "text-color": "#000",
@@ -89,7 +87,15 @@
                     "prop": "telefone",
                     "mustache": "{{{telefone}}}"
                 },
-                "alt": "Telefone?",
+                "alt": "Telefone",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "telefone",
+                    "mustache": "{{{telefone}}}"
+                },
+                "alt": "Telefone",
                 "useAltAsPrefix": true
             },
             {
@@ -182,18 +188,18 @@
             }
         ]
     },
-"categories": {
-    "breaks": "no",
-    "label": [
-      " "
-    ],
-    "type": [
-      " "
-    ],
-    "color": [
-      "#484848"
-    ]
-  },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            " "
+        ],
+        "type": [
+            " "
+        ],
+        "color": [
+            "#484848"
+        ]
+    },
     "popup": {
         "header": "{{povoada}}",
         "body": "<p style=text-align:left;><b>Escola: </b>{{nome_da_escola }}<p>"
