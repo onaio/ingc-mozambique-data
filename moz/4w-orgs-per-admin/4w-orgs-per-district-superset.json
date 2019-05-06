@@ -17,6 +17,18 @@
     "color": "Oranges",
     "clusters": 5
   },
+  "aggregate": {
+    "filter": ["orgs"],
+    "accepted-filter-values": ["multi"],
+    "filter-label": ["Organisations"],
+    "filter-type": ["vBool"]
+  },
+  "data-parse": {
+    "orgs": {
+      "type": "multiple",
+      "split": ","
+    }
+  },
   "popup": {
     "body": " <p style=text-align:left;><b># of Orgs:</b> {{org_count}}</p><p>Note: this data needs to be cleaned in Superset.</p>"
   },
