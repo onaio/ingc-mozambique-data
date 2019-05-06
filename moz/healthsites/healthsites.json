@@ -17,7 +17,7 @@
        "text-size": 12,
        "text-field": "{Name of Health facility}",
        "text-offset": [0, 2],
-       "icon-image": "hospital-11",
+       "icon-image": "hospital-red-shaded",
        "icon-size": 0.8,
        "icon-allow-overlap": true
      },

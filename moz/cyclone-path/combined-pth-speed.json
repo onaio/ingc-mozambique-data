@@ -1,0 +1,18 @@
+{
+    "label": "Ciclone Kenneth e Velocidade do Vento",
+    "layers": [
+        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-path/cyclone-predict.json",
+        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-path/cyclonepath-cabodelgado.json"
+    ],
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Ciclone Kenneth"
+        ],
+        "color": [
+            "#808080"
+        ]
+    },
+    "visible": false,
+    "credit": "  "
+}

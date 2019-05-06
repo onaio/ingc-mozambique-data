@@ -22,6 +22,21 @@
         "body": " <p style=text-align:left;> <b>Casas Parcialmente Destruídas:</b> {{casas_totalmente_destr}}</p>"
     },
     "aggregate": {
+        "filter": [
+            "distrito"
+        ],
+        "accepted-filter-values": [
+            "all"
+        ],
+        "filter-label": [
+            "Distrito"
+        ],
+        "sub-filter": [
+            ""
+        ],
+        "accepted-sub-filter-values": [
+            ""
+        ],
         "type": "sum",
         "group-by": "distrito",
         "date-by": "epoca",

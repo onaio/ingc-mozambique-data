@@ -21,6 +21,21 @@
         "clusters": 7
       },
     "aggregate": {
+      "filter": [
+        "distrito"
+      ],
+      "accepted-filter-values": [
+        "all"
+      ],
+      "filter-label": [
+        "Distrito"
+      ],
+      "sub-filter": [
+        ""
+      ],
+      "accepted-sub-filter-values": [
+        ""
+      ],
         "type": "sum",
         "group-by": "distrito",
         "date-by": "epoca",

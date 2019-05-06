@@ -1,5 +1,5 @@
 {
-    "label": "Ciclone Tropical 24S (Vinte e Quatro) e Área a Ser Afectada",
+    "label": "Ciclone Kenneth",
     "source": {
         "type": "vector",
         "layer": "cyclonepath-cabodelgado-6hs9bl",
@@ -7,13 +7,13 @@
     },
     "type": "line",
     "paint": {
-        "line-width": 3,
+        "line-width": 2,
         "line-color": "#67001f",
         "line-opacity": 0.8
     },
     "visible": false,
-    "menu-credit": "JTWC Tropical Warnings",
-    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+    "menu-credit": "UNOSAT",
+    "credit": "UNOSAT",
     "category": "Cyclone Path",
     "default": true
 }

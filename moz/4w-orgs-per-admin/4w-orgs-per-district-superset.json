@@ -1,0 +1,25 @@
+{
+  "label": "Número de Organizações por Distrito (Live)",
+  "source": {
+    "type": "vector",
+    "data": {
+      "type": "superset",
+      "slice-id": 229
+    },
+    "layer": "moz_hdx_distritos",
+    "url": "mapbox://ona.c8dl08eb",
+    "join": ["ADM2_PCODE", "distrito_code"]
+  },
+  "type": "fill",
+  "property": "org_count",
+  "categories": {
+    "breaks": "yes",
+    "color": "Oranges",
+    "clusters": 5
+  },
+  "popup": {
+    "body": " <p style=text-align:left;><b># of Orgs:</b> {{org_count}}</p><p>Note: this data needs to be cleaned in Superset.</p>"
+  },
+  "visible": false,
+  "credit": "<a href='https://discover.ona.io//superset/slice_json/229' target='_blank'>Superset Connector</a>"
+}
