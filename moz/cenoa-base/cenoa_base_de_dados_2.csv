@@ -245,13 +245,13 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Novembro,Tete,Zumbu,MZ09,MZ1015,n/a,Chuvas e ventos fortes,1,TRUE,0,11/23/2017,2,1,0,0,2,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,As pessoas feridas foram transferidas para o hospital vizinho da Zambia e o obito sera feito o seu funeral.,n/a
 2017-2018,Novembro,Niassa,Cidade de Lichinga,MZ09,MZ0802,n/a,Ventos fortes,0,TRUE,0,11/23/2017,44,16,0,0,1,0,0,0,4,16,0,1,3,2,915,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,n/a,n/a
 2017-2018,Novembro,Niassa,Mandimba,MZ09,MZ0809,n/a,Ventos fortes,0,TRUE,0,11/23/2017,9,2,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Uma equipa distrital, encontra-se no terreno para in loco da situacao e levantamento das necessidades.",n/a
-2017-2018,Novembro,Niassa,Mandimba,MZ09,MZ0809,n/a,Descarga atmosferica,0,FALSE,1,11/26/2017,5,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"A vítima foi encaminhado ao hospital distrital, onde veio a perde a vida.",n/a
+2017-2018,Novembro,Niassa,Mandimba,MZ09,MZ0809,n/a,Descarga atmosferica,0,FALSE,1,11/26/2017,5,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"A vÃ­tima foi encaminhado ao hospital distrital, onde veio a perde a vida.",n/a
 2017-2018,Novembro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,11/27/2017,2,1,0,0,1,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"As vitimas foram encaminhadas ao hospital distrital de Morrupa, onde uma veio a perder a vida e o menor ainda encontra-se internado.",n/a
 2017-2018,Novembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas fortes,1,FALSE,0,11/27/2017,465,92,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Novembro,Cabo Delgado,Ancuabe,MZ09,MZ0101,n/a,Chuvas e ventos fortes,1,TRUE,0,11/27/2017,215,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Novembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas fortes,1,FALSE,0,11/27/2017,600,120,0,0,0,1,1,0,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Dezembro,Niassa,Lago,MZ09,MZ0806,n/a,Ventos fortes,0,TRUE,0,3/12/2017,475,95,0,0,0,0,0,0,93,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
-2017-2018,Dezembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas e ventos fortes,1,TRUE,0,4/12/2017,30,6,0,0,2,1,1,0,6,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"na zona de produção de Ncoripo, registou se um obito de uma senhora de 42 anos, que se encontrava debaixo de uma arvore",n/a
+2017-2018,Dezembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas e ventos fortes,1,TRUE,0,4/12/2017,30,6,0,0,2,1,1,0,6,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"na zona de produÃ§Ã£o de Ncoripo, registou se um obito de uma senhora de 42 anos, que se encontrava debaixo de uma arvore",n/a
 2017-2018,Dezembro,Cabo Delgado,Mueda,MZ09,MZ0112,n/a,Chuvas e ventos fortes,1,TRUE,0,2/12/2017,95,19,0,0,0,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Novembro,Cabo Delgado,Pemba,MZ09,MZ0117,n/a,Chuvas fortes,1,FALSE,0,11/30/2017,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Novembro,Nampula,Nacala,MZ09,MZ0719,n/a,Chuvas fortes,1,FALSE,0,11/21/2017,27,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
@@ -273,7 +273,7 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Dezembro,Sofala,Muanza,MZ09,MZ0912,n/a,Chuvas e ventos fortes,1,TRUE,0,12/26/2017,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Dezembro,Sofala,Chemba,MZ09,MZ0903,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,12/26/2017,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Dezembro,Zambezia,Morrumbala,MZ09,MZ1118,n/a,Chuvas fortes,1,FALSE,0,12/26/2017,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
-2017-2018,Dezembro,Nampula,Ilha De MoÃ§ambique,MZ09,MZ0704,n/a,Descarga atmosferica,0,FALSE,1,12/26/2017,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Nampula,Ilha De MoÃÂ§ambique,MZ09,MZ0704,n/a,Descarga atmosferica,0,FALSE,1,12/26/2017,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Dezembro,Sofala,Nhamatanda,MZ09,MZ0913,n/a,Chuvas fortes,1,FALSE,0,12/26/2017,40,8,0,4,0,2,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Dezembro,Sofala,Caia,MZ09,MZ0902,n/a,Chuvas fortes,1,FALSE,0,12/26/2017,105,21,0,0,0,2,0,0,17,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Dezembro,Sofala,Cidade da Beira,MZ09,MZ0906,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,12/25/2017,520,104,0,0,0,0,3,0,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
@@ -315,7 +315,7 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Janeiro,Cabo Delgado,Metuge,MZ09,MZ0109,n/a,Chuvas e ventos fortes,1,TRUE,0,1/24/2018,1370,274,0,0,0,0,0,0,183,57,34,0,6,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Meconta,MZ09,MZ0709,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,11854,2369,0,0,0,0,0,0,1323,1043,0,0,6,75,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0716,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,7775,1555,0,0,0,0,0,0,1555,0,0,0,23,0,0,0,0,3,0,0,0,26,0,0,0,0,0,0,0,0,n/a,n/a
-2017-2018,Janeiro,Nampula,Ilha De MoÃ§ambique,MZ09,MZ0704,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,3430,686,0,0,0,0,0,0,686,0,0,0,35,0,0,0,0,0,0,0,0,38,0,0,0,0,0,1,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Ilha De MoÃÂ§ambique,MZ09,MZ0704,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,3430,686,0,0,0,0,0,0,686,0,0,0,35,0,0,0,0,0,0,0,0,38,0,0,0,0,0,1,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Monapo,MZ09,MZ0715,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,35660,7132,0,0,0,0,0,0,3257,3875,0,0,47,24,0,0,6,0,0,0,0,22,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Nacala,MZ09,MZ0719,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,400,80,0,0,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Mogincual,MZ09,MZ0712,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,255,51,0,0,0,0,0,0,27,24,0,0,17,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
@@ -323,7 +323,7 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Janeiro,Nampula,Nacala-A-Velha,MZ09,MZ0720,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,1225,245,0,0,0,0,0,0,170,75,0,0,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Nacaroa,MZ09,MZ0721,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,3010,602,0,0,0,0,0,0,39,6,0,0,3,7,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Ribaue,MZ09,MZ0723,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,0,0,0,0,0,0,0,0,317,0,0,0,0,5,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,n/a,n/a
-2017-2018,Janeiro,Nampula,LiÃºpo,MZ09,MZ0707,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,115,23,0,0,0,0,0,0,13,10,0,0,0,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,LiÃÂºpo,MZ09,MZ0707,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,115,23,0,0,0,0,0,0,13,10,0,0,0,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas e ventos fortes,1,TRUE,0,1/14/2018,70,14,0,0,0,0,0,0,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,1429,289,0,0,0,0,0,0,50,260,0,0,0,12,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Niassa,Maua,MZ09,MZ0811,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,48,10,0,0,0,0,0,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
@@ -347,7 +347,7 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Janeiro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas fortes,1,FALSE,0,1/22/2018,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Murrupula,MZ09,MZ0718,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0716,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
-2017-2018,Janeiro,Nampula,Ilha De MoÃ§ambique,MZ09,MZ0704,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Ilha De MoÃÂ§ambique,MZ09,MZ0704,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Niassa,Cidade de Lichinga,MZ09,MZ0802,n/a,Chuvas fortes,1,FALSE,0,1/23/2018,120,24,0,0,0,0,0,0,23,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Maputo,Cidade da Matola,MZ09,MZ0502,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,1/25/2018,510,102,0,0,1,0,0,0,0,2,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Janeiro,Niassa,Mecanhelas,MZ09,MZ0813,n/a,Chuvas fortes,1,FALSE,0,1/24/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,n/a,n/a
@@ -387,7 +387,7 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2017-2018,Fevereiro,Manica,Gondola,MZ09,MZ0403,n/a,Chuvas e ventos fortes,1,TRUE,0,2/27/2018,65,13,0,0,0,0,0,0,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Marco,Tete,Cidade de Tete,MZ09,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,1/3/2018,15,3,0,0,0,3,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Marco,Zambezia,Milange,MZ09,MZ1113,n/a,Sismo,1,TRUE,n/a,8/3/2018,0,0,0,0,1,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
-2017-2018,Marco,Niassa,Lago,MZ09,MZ0806,n/a,Chuvas fortes,1,TRUE,n/a,3/13/2018,23,5,0,0,0,0,0,0,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"·         Do trabalho feito no terreno pela equipe, consta que as famílias as famílias afectadas estão abrigadas nas casas dos seus familiares.",n/a
+2017-2018,Marco,Niassa,Lago,MZ09,MZ0806,n/a,Chuvas fortes,1,TRUE,n/a,3/13/2018,23,5,0,0,0,0,0,0,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Â·Â Â Â Â Â Â Â Â  Do trabalho feito no terreno pela equipe, consta que as famÃ­lias as famÃ­lias afectadas estÃ£o abrigadas nas casas dos seus familiares.",n/a
 2017-2018,Abril,Sofala,Cidade da Beira,n/a,MZ0906,n/a,Chuvas fortes,1,n/a,n/a,10/4/2018,1235,247,0,0,0,0,0,0,0,4,247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Abril,Cabo Delgado,Quissanga,n/a,MZ0118,n/a,n/a,n/a,n/a,n/a,4/15/2018,20,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2017-2018,Abril,Cabo Delgado,Palma,n/a,MZ0116,n/a,n/a,n/a,n/a,n/a,4/18/2018,2500,500,0,0,0,0,0,0,0,0,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
@@ -468,7 +468,7 @@ epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrenci
 2018-2019,Abril,Nampula,Memba,n/a,MZ0711,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,10090,2061,0,0,0,0,2,0,1107,954,0,0,0,0,0,0,14,0,0,0,0,0,0,46,0,0,0,0,0,0,n/a,n/a
 2018-2019,Abril,Nampula,Nacala-A-Velha,n/a,MZ0720,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,1360,272,0,0,0,0,0,0,198,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2018-2019,Abril,Nampula,Mogincual,n/a,MZ0712,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,1265,253,0,0,0,0,0,0,163,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
-2018-2019,Abril,Nampula,LiÃºpo,n/a,MZ0707,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,283,53,0,0,0,0,0,0,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,LiÃÂºpo,n/a,MZ0707,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,283,53,0,0,0,0,0,0,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
 2018-2019,Marco,Tete,Marara,MZ05,MZ1010,,Depressao tropical,0,FALSE,0,3/6/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,38,,n/a
 2018-2019,Marco,Tete,Tsangano,MZ05,MZ1014,,Depressao tropical,0,FALSE,0,3/6/2019,18475,3695,0,0,9,1,1,0,0,3695,0,10,21,0,1437,0,25,0,0,0,0,0,0,0,0,0,0,0,100,197,,n/a
 2018-2019,Marco,Tete,Macanga,MZ05,MZ1008,,Depressao tropical,0,FALSE,0,3/8/2019,6460,1292,0,0,11,3,3,0,1109,203,0,8,17,0,1585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,n/a
