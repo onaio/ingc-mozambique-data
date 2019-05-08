@@ -2,12 +2,12 @@
     "label": "Famílias e Pessoas Afetadas",
     "source": {
       "type": "vector",
-      "layer": "mozambique_districts_final",
-      "url": "mapbox://ona.9zeb0vb0",
       "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cenoa-base/cenoa_base_de_dados_2.csv",
       "minzoom": 2,
+      "layer": "moz_hdx_distritos",
+      "url": "mapbox://ona.c8dl08eb",
       "join": [
-        "Distrito",
+        "ADM0_EN",
         "distrito"
       ]
     },
