@@ -38,7 +38,7 @@
             ""
         ],
         "type": "sum",
-        "group-by": "distrito",
+        "group-by": "distrito_pcode",
         "date-by": "epoca",
         "timeseries": {
             "field": "epoca"
@@ -46,7 +46,7 @@
         "extraProps": [
             "epoca",
             "casas_parcialmente_dest",
-            "distrito"
+            "distrito_pcode"
         ]
     },
     "visible": false,
