@@ -5,19 +5,16 @@
       "layer": "moz_hdx_distritos",
       "url": "mapbox://ona.c8dl08eb",
       "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cenoa-base/cenoa_base_de_dados_2.csv",
-      "minzoom": 2,
       "join": [
         "ADM2_PCODE",
         "distrito_pcode"
       ]
     },
     "type": "fill",
-    "timestamp": "data",
     "property": "familias__afectadas_",
     "categories": {
         "breaks": "yes",
         "color": "Blues",
-        "vector-prop": "Distrito",
         "clusters": 7
       },
     "aggregate": {
