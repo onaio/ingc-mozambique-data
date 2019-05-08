@@ -45,14 +45,11 @@
         "extraProps": [
             "epoca",
             "familias__afectadas_",
-            "pessoas_afectadas_"
+            "pessoas_afectadas_",
+            "distrito_pcode"
         ]
     },
     "popup": {
-        "join": [
-            "distrito_pcode",
-            "ADM2_PCODE"
-        ],
         "header": "district",
         "body": "<p style=text-align:left;> <b>Famílias Afetadas:</b> {{familias__afectadas_}} <br> <b>Pessoas Afetadas:</b> {{pessoas_afectadas_}} <span style=float:right;>"
     },
