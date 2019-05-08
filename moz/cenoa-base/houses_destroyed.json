@@ -6,8 +6,8 @@
         "layer": "mozambique_districts_final",
         "url": "mapbox://ona.9zeb0vb0",
         "join": [
-            "Distrito",
-            "distrito"
+            "ADM2_PCODE",
+            "distrito_pcode"
         ]
     },
     "type": "fill",
