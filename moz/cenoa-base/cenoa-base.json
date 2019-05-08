@@ -7,8 +7,8 @@
       "layer": "moz_hdx_distritos",
       "url": "mapbox://ona.c8dl08eb",
       "join": [
-        "ADM0_EN",
-        "distrito"
+        "ADM2_PCODE",
+        "distrito_pcode"
       ]
     },
     "type": "fill",
