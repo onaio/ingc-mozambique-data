@@ -38,7 +38,7 @@
         ""
     ],
         "type": "sum",
-        "group-by": "distrito",
+        "group-by": "distrito_pcode",
         "date-by": "epoca",
         "timeseries": {
             "field": "period"
@@ -46,7 +46,7 @@
         "extraProps": [
             "epoca",
             "area_afectada_ha",
-            "distrito"
+            "distrito_pcode"
         ]
     },
     "visible": false,

@@ -37,7 +37,7 @@
         ""
       ],
         "type": "sum",
-        "group-by": "distrito",
+        "group-by": "distrito_pcode",
         "date-by": "epoca",
         "timeseries": {
             "field": "period"
@@ -50,8 +50,8 @@
     },
     "popup": {
         "join": [
-            "distrito",
-            "Distrito"
+            "distrito_pcode",
+            "ADM2_PCODE"
         ],
         "header": "district",
         "body": "<p style=text-align:left;> <b>Famílias Afetadas:</b> {{familias__afectadas_}} <br> <b>Pessoas Afetadas:</b> {{pessoas_afectadas_}} <span style=float:right;>"
