@@ -2,7 +2,7 @@
     "label": "Pontos de Agua",
     "source": {
         "type": "geojson",
-        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/district-admin/water_sites.geojson"
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/water-sites/water_sites.geojson"
     },
     "type": "symbol",
     "paint": {
