@@ -2,7 +2,7 @@
     "label": "Pontos de Agua",
     "source": {
         "type": "vector",
-        "layer": "mozambique_water_points-dtri32",
+        "layer": "all_three",
         "url": "mapbox://ona.52nqym9z"
     },
     "type": "symbol",
@@ -14,7 +14,7 @@
     },
     "layout": {
         "text-size": 10,
-        "text-field": "{nome}",
+        "text-field": "{Nome}",
         "text-offset": [
             0,
             2
