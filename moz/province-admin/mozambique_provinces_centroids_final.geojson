@@ -2,16 +2,16 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Cabo Delgado", "ADM1_PCODE": "MZ01" }, "geometry": { "type": "Point", "coordinates": [ 39.365251129262425, -12.461983030913977 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Gaza", "ADM1_PCODE": "MZ02" }, "geometry": { "type": "Point", "coordinates": [ 32.803791054687899, -23.322040892541754 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Inhambane", "ADM1_PCODE": "MZ03" }, "geometry": { "type": "Point", "coordinates": [ 34.514779559947179, -22.81021518182931 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Manica", "ADM1_PCODE": "MZ04" }, "geometry": { "type": "Point", "coordinates": [ 33.43002424763813, -19.02450270147461 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Maputo", "ADM1_PCODE": "MZ05" }, "geometry": { "type": "Point", "coordinates": [ 32.450480218343358, -25.5318866961575 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Maputo City", "ADM1_PCODE": "MZ06" }, "geometry": { "type": "Point", "coordinates": [ 32.624585612878548, -25.961702946075512 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Nampula", "ADM1_PCODE": "MZ07" }, "geometry": { "type": "Point", "coordinates": [ 39.248460893892037, -14.967656516844338 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Niassa", "ADM1_PCODE": "MZ08" }, "geometry": { "type": "Point", "coordinates": [ 36.46164050812235, -13.059399194779616 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Sofala", "ADM1_PCODE": "MZ09" }, "geometry": { "type": "Point", "coordinates": [ 34.670659456179692, -19.063107811433706 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Tete", "ADM1_PCODE": "MZ10" }, "geometry": { "type": "Point", "coordinates": [ 32.768525191351124, -15.518198674726728 ] } },
-{ "type": "Feature", "properties": { "ADM0_EN": "Mozambique", "ADM0_PT": "MoÃ§ambique", "ADM0_PCODE": "MZ", "ADM1_PT": "Zambezia", "ADM1_PCODE": "MZ11" }, "geometry": { "type": "Point", "coordinates": [ 36.982527935243851, -16.656232334225077 ] } }
+{ "type": "Feature", "properties": { "Provincia": "Inhambane" }, "geometry": { "type": "Point", "coordinates": [ 34.51413095078351, -22.809297948496528 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Gaza" }, "geometry": { "type": "Point", "coordinates": [ 32.801431382582201, -23.319367690713484 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Manica" }, "geometry": { "type": "Point", "coordinates": [ 33.424266455576266, -19.004609790343476 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Maputo-Cidade" }, "geometry": { "type": "Point", "coordinates": [ 32.626701437051238, -25.965126790197377 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Maputo Provincia" }, "geometry": { "type": "Point", "coordinates": [ 32.45227668456036, -25.531481606154401 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Nampula" }, "geometry": { "type": "Point", "coordinates": [ 39.250358421616838, -14.967131294330656 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Sofala" }, "geometry": { "type": "Point", "coordinates": [ 34.66181974913485, -19.078863267335347 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Tete" }, "geometry": { "type": "Point", "coordinates": [ 32.768572520581564, -15.517308891255194 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Zambezia" }, "geometry": { "type": "Point", "coordinates": [ 36.983386479842409, -16.656711055345433 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Niassa" }, "geometry": { "type": "Point", "coordinates": [ 36.461537758336007, -13.059315438382573 ] } },
+{ "type": "Feature", "properties": { "Provincia": "Cabo Delgado" }, "geometry": { "type": "Point", "coordinates": [ 39.365558905713833, -12.460908423704632 ] } }
 ]
 }

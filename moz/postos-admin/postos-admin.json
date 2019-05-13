@@ -2,8 +2,8 @@
   "label": "Limites do Posto",
   "source": {
     "type": "vector",
-    "layer": "moz_hdx_postos",
-    "url": "mapbox://ona.b77aft2d"
+    "layer": "name_postos",
+    "url": "mapbox://ona.6bqpcbs2"
   },
   "type": "line",
   "paint": {
@@ -13,7 +13,7 @@
     "line-dasharray": [1,2]
   },
   "visible": false,
-  "menu-credit": "HDX",
-  "credit": "<a href=https://data.humdata.org/dataset/5e8d83a5-1210-49be-b7d9-cf286dbc15df target=_blank data-credit=credit>HDX</a>",
+  "menu-credit": " ",
+  "credit": " ",
   "category": "Boundaries & Labels"
 }
