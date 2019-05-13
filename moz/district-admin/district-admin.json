@@ -2,8 +2,8 @@
   "label": "Limites do Distrito",
   "source": {
     "type": "vector",
-    "layer": "moz_hdx_distritos",
-    "url": "mapbox://ona.c8dl08eb"
+    "layer": "name_district",
+    "url": "mapbox://ona.atvwc0af"
   },
   "type": "line",
   "paint": {
@@ -12,7 +12,7 @@
     "line-opacity": 0.5
   },
   "visible": false,
-  "menu-credit": "HDX",
-  "credit": "<a href=https://data.humdata.org/dataset/5e8d83a5-1210-49be-b7d9-cf286dbc15df target=_blank data-credit=credit>HDX</a>",
+  "menu-credit": " ",
+  "credit": " ",
   "category": "Boundaries & Labels"
 }

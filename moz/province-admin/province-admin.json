@@ -2,8 +2,8 @@
   "label": "Limites da Provincia",
   "source": {
     "type": "vector",
-    "layer": "moz_hdx_provincia-440dbt",
-    "url": "mapbox://ona.54k3x73o"
+    "layer": "name_province",
+    "url": "mapbox://ona.bvmunedl"
   },
   "type": "line",
   "paint": {
@@ -13,6 +13,6 @@
     "line-gap-width": 0
   },
   "visible": true,
-  "menu-credit": "HDX",
+  "menu-credit": " ",
   "category": "Boundaries & Labels"
 }
