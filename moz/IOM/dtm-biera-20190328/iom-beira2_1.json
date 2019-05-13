@@ -10,34 +10,21 @@
             "site_id"
         ]
     },
-    "type": "symbol",
-    "paint": {
-        "text-color": "#000",
-        "text-halo-color": "#fff",
-        "text-halo-width": 1,
-        "text-halo-blur": 1
-    },
-    "layout": {
-        "icon-allow-overlap": true,
-        "icon-image": {
-            "property": "site_class",
-            "stops": [
-                [
-                    "Spontaneous",
-                    "circle-20-blue"
-                ],
-                [
-                    "Planned",
-                    "circle-20-green"
-                ],
-                [
-                    "Pre Identified Site/For Relocation",
-                    "circle-20-black"
-                ]
-            ],
-            "type": "categorical"
-        },
-        "icon-size": 1
+    "type": "circle",
+    "timestamp": "survey_date",
+    "radius-range": [
+        "9",
+        "12",
+        "15",
+        "18",
+        "21"
+    ],
+    "circle-opacity": 0.4,
+    "property": "idps",
+    "categories": {
+        "breaks": "yes",
+        "color": "#0074D9",
+        "clusters": 5
     },
     "detail-view": {
         "UID": "site_name",
