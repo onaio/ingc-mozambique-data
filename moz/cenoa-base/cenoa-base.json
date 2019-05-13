@@ -2,11 +2,11 @@
     "label": "Famílias e Pessoas Afetadas",
     "source": {
       "type": "vector",
-      "layer": "moz_hdx_distritos",
-      "url": "mapbox://ona.c8dl08eb",
+      "layer": "code_district_newest",
+      "url": "mapbox://ona.0379vvt2",
       "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cenoa-base/cenoa_base_de_dados_2.csv",
       "join": [
-        "ADM2_PCODE",
+        "CodDist",
         "distrito_pcode"
       ]
     },
