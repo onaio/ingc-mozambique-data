@@ -2,7 +2,7 @@
   "label": "Limites do Posto",
   "source": {
     "type": "vector",
-    "layer": "name_postos",
+    "layer": "name_posto",
     "url": "mapbox://ona.6bqpcbs2"
   },
   "type": "line",
