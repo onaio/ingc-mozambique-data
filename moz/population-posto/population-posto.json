@@ -3,10 +3,10 @@
     "source": {
         "type": "vector",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/population-posto/census_popultaion_posto.csv",
-        "layer": "posto_level_pop",
-        "url": "mapbox://ona.5mqwqx53",
+        "layer": "name_posto",
+        "url": "mapbox://ona.6bqpcbs2",
         "join": [
-            "POSTO",
+            "Posto",
             "Posto"
         ]
     },
