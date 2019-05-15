@@ -2,8 +2,8 @@
     "label": "U-Reporters/ Utilizadores SMS BIZ - Provincia",
     "source": {
         "type": "vector",
-        "layer": "mozambique_provinces_final-4s6ogr",
-        "url": "mapbox://ona.3agpy3pd",
+        "layer": "name_province",
+        "url": "mapbox://ona.bvmunedl",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/ureports/ureport_data_province_clean.csv",
         "join": [
             "Provincia",
