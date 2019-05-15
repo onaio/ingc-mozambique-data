@@ -2,8 +2,8 @@
     "label": "U-Reporters/ Utilizadores SMS BIZ - Posto",
     "source": {
         "type": "vector",
-        "layer": "mozambique_postos-4kuvrh",
-        "url": "mapbox://ona.ajgigfjt",
+        "layer": "name_posto",
+        "url": "mapbox://ona.6bqpcbs2",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/ureports/ureport_data_posto_clean.csv",
         "join": [
             "Posto",
