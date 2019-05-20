@@ -1,0 +1,13 @@
+{
+    "label": "Drone Mapping Coverage",
+    "source": {
+        "type": "geojson",
+        "data": "data/moz-drone-cover.geojson"
+    },
+    "type": "line",
+    "paint": {
+      "line-width": 3,
+      "line-color": "#FFDC00",
+      "line-opacity": 0.8
+    }
+}
