@@ -1,0 +1,32 @@
+{
+    "label": "Cyclone Kenneth Flood Extent",
+    "source": {
+        "type": "vector",
+        "layer": "kenneth_cyclone_floods",
+        "url": "mapbox://ona.6leisw7o"
+    },
+    "type": "fill",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+    "paint": {
+        "fill-color": "#85144b",
+        "fill-opacity": 0.6,
+        "fill-outline-color": "#FF851B"
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            " "
+        ],
+        "type": [
+            " "
+        ],
+        "color": [
+            "#A5617A"
+        ]
+    },
+    "menu-credit": " ",
+    "credit": "Zoom into Cabo Delgado "
+}
