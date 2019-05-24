@@ -1,5 +1,5 @@
 {
-    "label": "Ciclone caminho",
+    "label": "Ciclone Idai – Rota",
     "source": {
       "type": "vector",
       "layer": "cyclone_path",

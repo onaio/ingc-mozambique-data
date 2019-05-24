@@ -200,6 +200,43 @@
             "#484848"
         ]
     },
+    "aggregate": {
+        "filter": [
+            "provincia",
+            "distrito",
+            "posto",
+            "localidade",
+            "povoado"
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all",
+            "all",
+            "all",
+            "all"
+        ],
+        "filter-label": [
+            "Provincia",
+            "Distrito",
+            "Posto",
+            "Localidade",
+            "Povoado"
+        ],
+        "sub-filter": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "accepted-sub-filter-values": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
     "popup": {
         "header": "{{povoada}}",
         "body": "<p style=text-align:left;><b>Escola: </b>{{nome_da_escola }}<p>"

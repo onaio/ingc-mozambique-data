@@ -399,6 +399,48 @@
             }
         ]
     },
+    "aggregate": {
+        "filter": [
+            "provincia",
+            "distrito",
+            "posto",
+            "localizacao",
+            "site_class",
+            "site_type"
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all",
+            "all",
+            "all",
+            "all",
+            "all"
+        ],
+        "filter-label": [
+            "Provincia",
+            "Distrito",
+            "Posto",
+            "Localizacao",
+            "Site Class",
+            "Site Type"
+        ],
+        "sub-filter": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "accepted-sub-filter-values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
     "popup": {
         "header": "{{site_name}}",
         "body": "<p style=text-align:left;><b>Site: </b>{{site_name }} ({{site_type}})<br><b>Total Individuals: </b>{{idps}}<br><b>Total Householdes: </b>{{familias}}<br><b>Site Classification: </b>{{site_class}}<br><b>Prevent Return: </b>{{prevent_return}}<p>"

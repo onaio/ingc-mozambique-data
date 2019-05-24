@@ -44,6 +44,33 @@
       "#0000ff"
     ]
   },
+  "aggregate": {
+    "filter": [
+      "CLASSIFICATION",
+      "ADMIN1NAME",
+      "ADMIN2NAMES"
+    ],
+    "accepted-filter-values": [
+      "all",
+      "all",
+      "all"
+    ],
+    "filter-label": [
+      "Classification",
+      "Provincia",
+      "Distrito"
+    ],
+    "sub-filter": [
+      "",
+      "",
+      ""
+    ],
+    "accepted-sub-filter-values": [
+      "",
+      "",
+      ""
+    ]
+  },
   "popup": {
     "header": "US (Health unit name)",
     "body": "<p style='text-align: left'><b>Classificação</b> {{CLASSIFICATION}}</p>"
