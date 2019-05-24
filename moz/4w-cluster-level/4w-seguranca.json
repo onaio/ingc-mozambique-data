@@ -10,7 +10,7 @@
             "district"
         ]
     },
-    "type": "circle",
+    "type": "fill",
     "property": "org_no",
     "categories": {
         "breaks": "yes",
