@@ -2,8 +2,8 @@
     "label": "Displacement Tracking Matrix (DTM)",
     "source": {
         "type": "vector",
-        "layer": "dtm_round_5-d97nfv",
-        "url": "mapbox://ona.7e2dmbzv",
+        "layer": "dtm_round_2_tileset-an66ty",
+        "url": "mapbox://ona.bnldwnv1",
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/IOM/dtm-biera-20190328/dtm_round_2_clean.csv",
         "join": [
             "site_id",
@@ -23,12 +23,16 @@
             "property": "site_class",
             "stops": [
                 [
-                    "Accommodation Center",
+                    "Spontaneous",
                     "circle-20-blue"
                 ],
                 [
-                    "Resettlement site",
+                    "Planned",
                     "circle-20-green"
+                ],
+                [
+                    "Pre Identified Site/For Relocation",
+                    "circle-20-black"
                 ]
             ],
             "type": "categorical"
@@ -139,6 +143,14 @@
             },
             {
                 "value": {
+                    "prop": "vulnerables",
+                    "mustache": "{{{vulnerables}}}"
+                },
+                "alt": "Total Vulnerability",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
                     "prop": "need1",
                     "mustache": "{{{need1}}}"
                 },
@@ -195,10 +207,18 @@
             },
             {
                 "value": {
-                    "prop": "water_prob",
-                    "mustache": "{{{water_prob}}}"
+                    "prop": "enough_water_cook",
+                    "mustache": "{{{enough_water_cook}}}"
                 },
-                "alt": "Water problem is present",
+                "alt": "Percentage of IDPs who have enough water to cook, bath, do laundry and personal hygiene",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "enough_water_drink",
+                    "mustache": "{{{enough_water_drink}}}"
+                },
+                "alt": "Percentage of IDPs who have enough water to drink",
                 "useAltAsPrefix": true
             },
             {
@@ -219,10 +239,26 @@
             },
             {
                 "value": {
+                    "prop": "comm_fac_sanitation",
+                    "mustache": "{{{comm_fac_sanitation}}}"
+                },
+                "alt": "Primary type of sanitation facilities",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
                     "prop": "food",
                     "mustache": "{{{food}}}"
                 },
                 "alt": "Section 4",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "less_3meals",
+                    "mustache": "{{{less_3meals}}}"
+                },
+                "alt": "Percentage of households ate fewer than 3 meals per day in the past week",
                 "useAltAsPrefix": true
             },
             {
@@ -275,26 +311,10 @@
             },
             {
                 "value": {
-                    "prop": "med_aval",
-                    "mustache": "{{{med_aval}}}"
+                    "prop": "female_workers_healthcare",
+                    "mustache": "{{{female_workers_healthcare}}}"
                 },
-                "alt": "Medication Availability",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "women_birth_professional",
-                    "mustache": "{{{women_birth_professional}}}"
-                },
-                "alt": "Do women seek professional Childbirth",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "cholera",
-                    "mustache": "{{{cholera}}}"
-                },
-                "alt": "Cholera Cases",
+                "alt": "Female healthcare workers available at the health facility",
                 "useAltAsPrefix": true
             },
             {
@@ -307,26 +327,26 @@
             },
             {
                 "value": {
-                    "prop": "access_school",
-                    "mustache": "{{{access_school}}}"
+                    "prop": "prop_school_u5",
+                    "mustache": "{{{prop_school_u5}}}"
                 },
-                "alt": "Do Children have Access to School",
+                "alt": "Percentage of IDP children 3-5 years old attending school",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "not_access_comb",
-                    "mustache": "{{{not_access_comb}}}"
+                    "prop": "prop_school_6_12",
+                    "mustache": "{{{prop_school_6_12}}}"
                 },
-                "alt": "Reasons for not having access to school",
+                "alt": "Percentage of IDP children 6-12 years old attending school",
                 "useAltAsPrefix": true
             },
             {
                 "value": {
-                    "prop": "perc_attend",
-                    "mustache": "{{{perc_attend}}}"
+                    "prop": "prop_school_13_17",
+                    "mustache": "{{{prop_school_13_17}}}"
                 },
-                "alt": "Percentage Students Accessing School",
+                "alt": "Percentage of IDP children 13-17 years old attending school",
                 "useAltAsPrefix": true
             },
             {
@@ -343,6 +363,38 @@
                     "mustache": "{{{security}}}"
                 },
                 "alt": "Is there security provided",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "eviction_threat",
+                    "mustache": "{{{eviction_threat}}}"
+                },
+                "alt": "Is there an eviction threat?",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "lighting_community",
+                    "mustache": "{{{lighting_community}}}"
+                },
+                "alt": "Is there adequate lighting in the majority of communal points",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "ret",
+                    "mustache": "{{{ret}}}"
+                },
+                "alt": "Section 8",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prevent_return",
+                    "mustache": "{{{prevent_return}}}"
+                },
+                "alt": "What is preventing the largest IDP group from going home",
                 "useAltAsPrefix": true
             }
         ]
