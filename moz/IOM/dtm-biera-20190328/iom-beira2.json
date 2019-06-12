@@ -4,7 +4,7 @@
         "type": "vector",
         "layer": "dtm_round_5-d97nfv",
         "url": "mapbox://ona.7e2dmbzv",
-        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/IOM/dtm-biera-20190328/dtm_round_2_clean.csv",
+        "data": "data/dtm_round_2_clean.csv",
         "join": [
             "site_id",
             "site_id"
@@ -163,6 +163,22 @@
             },
             {
                 "value": {
+                    "prop": "nfi_needs_all",
+                    "mustache": "{{{nfi_needs_all}}}"
+                },
+                "alt": "Top 3 NFI needs",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "reason_NFI_needs",
+                    "mustache": "{{{reason_NFI_needs}}}"
+                },
+                "alt": "Main Reason why NFI needs are not being met",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
                     "prop": "shelter",
                     "mustache": "{{{shelter}}}"
                 },
@@ -171,10 +187,26 @@
             },
             {
                 "value": {
-                    "prop": "nfi_needs_all",
-                    "mustache": "{{{nfi_needs_all}}}"
+                    "prop": "sleep_outdoors",
+                    "mustache": "{{{sleep_outdoors}}}"
                 },
-                "alt": "Top 3 NFI needs",
+                "alt": "Percentage of Households Sleeping Outdoors",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "sleep_emergency_shelter",
+                    "mustache": "{{{sleep_emergency_shelter}}}"
+                },
+                "alt": "Percentage of People Households in Emergency Shelters",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "sleep_permanent_shelter",
+                    "mustache": "{{{sleep_permanent_shelter}}}"
+                },
+                "alt": "Percentage of Households Sleeping in Permanent Shelters",
                 "useAltAsPrefix": true
             },
             {
@@ -187,8 +219,8 @@
             },
             {
                 "value": {
-                    "prop": "main_water",
-                    "mustache": "{{{main_water}}}"
+                    "prop": "main_water_source",
+                    "mustache": "{{{main_water_source}}}"
                 },
                 "alt": "Main source of water used by the IDPs for drinking",
                 "useAltAsPrefix": true
@@ -198,7 +230,7 @@
                     "prop": "water_prob",
                     "mustache": "{{{water_prob}}}"
                 },
-                "alt": "Water problem is present",
+                "alt": "Water problem present",
                 "useAltAsPrefix": true
             },
             {
@@ -215,6 +247,54 @@
                     "mustache": "{{{area_garbage}}}"
                 },
                 "alt": "Percentage of IDPs living where garbage is visible",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "functioning_latrines",
+                    "mustache": "{{{functioning_latrines}}}"
+                },
+                "alt": "Functioning Latrines Present",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "functioning_bath_spaces",
+                    "mustache": "{{{functioning_bath_spaces}}}"
+                },
+                "alt": "Functioning Bathing Spaces Present",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "handwashing_stations",
+                    "mustache": "{{{handwashing_stations}}}"
+                },
+                "alt": "Functioning Handwashing Stations Present",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "temp_water_points",
+                    "mustache": "{{{temp_water_points}}}"
+                },
+                "alt": "Number of temporary water points",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "water_per_person",
+                    "mustache": "{{{water_per_person}}}"
+                },
+                "alt": "Average amount of water obtained per day per person",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "queue_water",
+                    "mustache": "{{{queue_water}}}"
+                },
+                "alt": "How long do people queue for water",
                 "useAltAsPrefix": true
             },
             {
@@ -247,6 +327,30 @@
                     "mustache": "{{{needs_market _reason}}}"
                 },
                 "alt": "Reason why most people cannot buy what they need at the market",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "received_food",
+                    "mustache": "{{{received_food}}}"
+                },
+                "alt": "Have people received food distribution at this site",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "last_received_food",
+                    "mustache": "{{{last_received_food}}}"
+                },
+                "alt": "Last food distribution at this site",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "prop_received_food",
+                    "mustache": "{{{prop_received_food}}}"
+                },
+                "alt": "Proportion of households have received the most recent food distribution",
                 "useAltAsPrefix": true
             },
             {
@@ -344,6 +448,46 @@
                 },
                 "alt": "Is there security provided",
                 "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "security",
+                    "mustache": "{{{security}}}"
+                },
+                "alt": "Is there security provided",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "return",
+                    "mustache": "{{{return}}}"
+                },
+                "alt": "Do Majority want to return to their homes",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "reason_1_no_go",
+                    "mustache": "{{{reason_1_no_go}}}"
+                },
+                "alt": "Reason 1 for Refusing to Return",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "reason_2_no_go",
+                    "mustache": "{{{reason_2_no_go}}}"
+                },
+                "alt": "Reason 2 for Refusing to Return",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "reason_3_no_go",
+                    "mustache": "{{{reason_3_no_go}}}"
+                },
+                "alt": "Reason 3 for Refusing to Return",
+                "useAltAsPrefix": true
             }
         ]
     },
@@ -391,7 +535,7 @@
     },
     "popup": {
         "header": "{{site_name}}",
-        "body": "<p style=text-align:left;><b>Site: </b>{{site_name }} ({{site_type}})<br><b>Total Individuals: </b>{{idps}}<br><b>Total Householdes: </b>{{familias}}<br><b>Site Classification: </b>{{site_class}}<br><b>Prevent Return: </b>{{prevent_return}}<p>"
+        "body": "<p style=text-align:left;><b>Site: </b>{{site_name}} ({{site_type}})<br><b>Total Individuals: </b>{{idps}}<br><b>Total Householdes: </b>{{familias}}<br><b>Site Classification: </b>{{site_class}}<br><b>Do Majority Want to Return: </b>{{return}}<p>"
     },
     "visible": false,
     "menu-credit": "DTM - IOM Displacement Tracking Matrix",
