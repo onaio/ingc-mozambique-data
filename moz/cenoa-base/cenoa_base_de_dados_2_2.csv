@@ -1,0 +1,492 @@
+epoca,periodo,provincia,distrito,provincia_pcode,distrito_pcode,avisos,ocorrencia_,chuvas,ventos_fortes,descarga_atmosferica,data,pessoas_afectadas_,familias__afectadas_,pessoas_indirectamente_afectadas,familias_indirectamente_afectadas,feridos,obitos,obitos2,grupos_vulneraveis,casas_parcialmente_dest,casas_totalmente_destr,casas_inundadas,escolas_afectadas,salas_de_aulas_parcialmente_destruidas,salas_de_aulas_totalmente_destruidas,alunos_afectados,prof_afectados,casas_de_culto,unidades_sanitarias,hospital_parcialmente_destruidas,hospital_totalmente_destruidas,centro_de_saude_parcialmente_destruidas,postes_de_energia,rede_de_pesca,embarcacoes,posto_de_transformacao,posto_policial,pensoes_para_hospedagem,sistema_de_abastecimento_de_agua,area_afectada_ha,familias_afectadas,accoes_em_curso,observacoes
+2016-2017,,Maputo Cidade,KaMpfumo,MZ11,MZ1101,n/a,Ventos fortes,0,TRUE,0,10/24/2016,2255,451,0,0,117,0,0,0,436,15,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaTembe,MZ11,MZ1102,n/a,Ventos fortes,0,TRUE,0,12/11/2016,20,4,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMaxakeni,MZ11,MZ1103,n/a,Ventos fortes,0,TRUE,0,12/11/2016,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMavota,MZ11,MZ1104,n/a,Chuvas e ventos fortes,1,TRUE,0,12/11/2016,65,13,0,0,0,0,0,0,2,0,11,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,n/a,MZ10,n/a,n/a,Ventos fortes,0,TRUE,0,10/24/2016,22460,4492,0,0,51,0,0,0,4018,474,0,65,155,31,0,0,0,7,0,0,0,0,0,0,0,0,0,3,0,0,n/a,n/a
+2016-2017,,Maputo,Boane,MZ10,MZ0501,n/a,Chuvas e ventos fortes,1,TRUE,0,9/12/2016,590,118,0,0,4,0,0,0,110,8,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Cidade da Matola,MZ10,MZ0502,n/a,Chuvas e ventos fortes,1,TRUE,0,9/12/2016,1380,276,0,0,1,0,0,0,272,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade de Xai-Xai,MZ09,MZ0207,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,130,26,0,0,0,0,0,0,30,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade De Xai-Xai,MZ09,MZ0207,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,22220,7055,0,0,2,0,0,0,2939,6253,0,0,127,140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Bilene,MZ09,MZ0201,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,300,60,0,0,0,0,0,0,60,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chokwe,MZ09,MZ0205,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,0,16,0,0,0,0,0,0,118,56,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Guija,MZ09,MZ0208,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,1460,292,0,0,1,0,0,0,373,66,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mandlakaze,MZ09,MZ0211,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,0,0,0,0,0,0,0,0,22,488,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mabalane,MZ09,MZ0210,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,38,10,0,0,0,0,0,0,10,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Massangena,MZ09,MZ0213,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chibuto,MZ09,MZ0202,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Massingir,MZ09,MZ0214,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chicualacuala,MZ09,MZ0203,n/a,Chuvas e ventos fortes,1,TRUE,0,10/24/2016,0,0,0,0,0,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade De Xai-Xai,MZ09,MZ0207,n/a,Chuvas fortes,1,FALSE,0,11/11/2016,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Homoine,MZ08,MZ0304,n/a,Ventos fortes,0,TRUE,0,11/14/2016,85,17,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Caia,MZ07,MZ0902,n/a,Ventos fortes,0,TRUE,0,6/11/2016,2890,578,0,0,45,0,0,0,185,393,0,0,5,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Gorongosa,MZ07,MZ0908,n/a,Chuvas e ventos fortes,1,TRUE,0,11/20/2016,330,66,0,0,1,0,0,0,65,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Muanza,MZ07,MZ0912,n/a,Chuvas e ventos fortes,1,TRUE,0,11/19/2016,105,21,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Manica,Manica,MZ06,MZ0408,n/a,Chuvas e ventos fortes,1,TRUE,0,11/13/2016,0,0,0,0,0,0,0,0,0,0,0,4,19,0,2492,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Manica,Sussundenga,MZ06,MZ0410,n/a,Chuvas e ventos fortes,1,TRUE,0,11/14/2016,180,36,0,0,0,0,0,0,22,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Mutarara,MZ05,MZ1013,n/a,Ventos fortes,0,TRUE,0,3/10/2016,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Zumbu,MZ05,MZ1015,n/a,Chuvas fortes,1,FALSE,0,11/15/2016,10,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Ventos fortes,0,TRUE,0,11/20/2016,45,9,0,0,0,0,0,0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Zumbu,MZ05,MZ1015,n/a,Chuvas e ventos fortes,1,TRUE,0,11/25/2016,170,34,0,0,0,0,0,0,30,4,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Ventos fortes,0,TRUE,0,11/26/2016,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Magoe,MZ05,MZ1009,n/a,Chuvas e ventos fortes,1,TRUE,0,11/27/2016,45,9,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Zumbu,MZ05,MZ1015,n/a,Chuvas e ventos fortes,1,TRUE,0,5/12/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,5/12/2016,10,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Molundo,MZ04,MZ0415,n/a,Chuvas e ventos fortes,1,TRUE,0,2/11/2016,385,77,0,0,0,0,0,0,32,45,0,2,0,5,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Dere,MZ04,MZ0404,n/a,Chuvas e ventos fortes,1,TRUE,0,5/11/2016,0,0,0,0,0,0,0,0,0,0,0,1,1,0,53,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Luabo,MZ04,MZ1109,n/a,Chuvas e ventos fortes,1,TRUE,0,5/11/2016,0,0,0,0,0,0,0,0,0,0,0,1,2,0,200,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Milange,MZ04,MZ1113,n/a,Chuvas e ventos fortes,1,TRUE,0,5/11/2016,0,0,0,0,0,0,0,0,0,0,0,2,7,0,776,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Mopeia,MZ04,MZ1117,n/a,Chuvas e ventos fortes,1,TRUE,0,5/11/2016,0,0,0,0,0,0,0,0,0,0,0,1,1,0,102,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Mocuba,MZ04,MZ1114,n/a,Chuvas e ventos fortes,1,TRUE,0,5/11/2016,0,0,0,0,0,0,0,0,0,0,0,1,1,0,230,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Cidade de Quelimane,MZ04,MZ1103,n/a,Chuvas e ventos fortes,1,TRUE,0,5/11/2016,0,0,0,0,0,0,0,0,0,0,0,1,2,0,150,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Morrumbala,MZ04,MZ1118,n/a,Chuvas e ventos fortes,1,TRUE,0,11/26/2016,140,28,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Ile,MZ04,MZ1107,n/a,Descarga atmosferica,0,FALSE,1,11/19/2016,8,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Ile,MZ04,MZ1107,n/a,Ventos fortes,0,TRUE,0,10/30/2016,0,0,0,0,0,0,0,0,19,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Gurue,MZ04,MZ1106,n/a,Chuvas e ventos fortes,1,TRUE,0,5/12/2016,270,54,0,0,0,0,0,0,54,0,0,4,4,0,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Mocuba,MZ04,MZ1114,n/a,Chuvas e ventos fortes,1,TRUE,0,7/12/2016,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mecuburi,MZ03,MZ0710,n/a,Ventos fortes,0,TRUE,0,11/18/2016,200,40,0,0,0,0,0,0,25,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Erati,MZ03,MZ0703,n/a,Chuvas e ventos fortes,1,TRUE,0,2/12/2016,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Rapale,MZ03,MZ0722,n/a,Chuvas e ventos fortes,1,TRUE,0,4/12/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Monapo,MZ03,MZ0715,n/a,Chuvas e ventos fortes,1,TRUE,0,3/12/2016,1640,328,0,0,2,0,0,0,328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mecuburi,MZ03,MZ0710,n/a,Ventos fortes,0,TRUE,0,7/12/2016,1025,205,0,0,0,0,0,0,205,0,0,0,18,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Maua,MZ01,MZ0811,n/a,Chuvas e ventos fortes,1,TRUE,0,10/28/2016,141,28,0,0,2,0,0,0,28,0,0,1,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Majune,MZ01,MZ0808,n/a,Chuvas e ventos fortes,1,TRUE,0,1/11/2016,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Mandimba,MZ01,MZ0809,n/a,Ventos fortes,0,TRUE,0,11/16/2016,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Mandimba,MZ01,MZ0809,n/a,Chuvas e ventos fortes,1,TRUE,0,4/12/2016,150,30,0,0,4,0,0,0,22,8,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Lago,MZ01,MZ0806,n/a,Chuvas e ventos fortes,1,TRUE,0,4/12/2016,100,20,0,0,0,0,0,0,20,0,0,0,0,0,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Dondo,MZ07,MZ0907,n/a,Chuvas fortes,1,FALSE,0,12/18/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Chemba,MZ07,MZ0903,n/a,Chuvas fortes,1,FALSE,0,12/17/2016,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Nhamatanda,MZ07,MZ0913,n/a,Chuvas e ventos fortes,1,TRUE,0,12/17/2016,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Marromeu,MZ07,MZ0911,n/a,Chuvas e ventos fortes,1,TRUE,0,12/18/2016,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Moamba,MZ10,MZ0507,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,430,86,0,0,0,0,0,0,21,65,0,0,7,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Magude,MZ10,MZ0503,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Namaacha,MZ10,MZ0508,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Manica,Cidade de Chimoio,MZ06,MZ0402,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,10,2,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chokwe,MZ09,MZ0205,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Massingir,MZ09,MZ0214,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chongoene,MZ09,MZ0206,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,110,23,0,0,0,0,0,0,22,0,0,2,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chibuto,MZ09,MZ0202,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,125,25,0,0,0,0,0,0,18,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mandlakaze,MZ09,MZ0211,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Mandimba,MZ01,MZ0809,n/a,Chuvas e ventos fortes,1,TRUE,0,12/25/2016,164,47,0,0,2,0,0,0,0,47,0,0,2,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Nhamatanda,MZ07,MZ0913,n/a,Chuvas e ventos fortes,1,TRUE,0,12/25/2016,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Chimbonila,MZ01,MZ0801,n/a,Chuvas e ventos fortes,1,TRUE,0,12/22/2016,555,111,0,0,2,0,0,0,0,111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMavota,MZ11,MZ1104,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Montepuez,MZ02,MZ0111,n/a,Chuvas e ventos fortes,1,TRUE,0,12/26/2016,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Guija,MZ09,MZ0208,062/INAM-DAPT/999/2016,Chuvas fortes,1,FALSE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Bilene,MZ09,MZ0201,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,40,8,0,0,0,0,0,0,8,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade de Xai-Xai,MZ09,MZ0207,n/a,Chuvas fortes,1,FALSE,0,12/28/2016,50,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mandlakaze,MZ09,MZ0211,n/a,Chuvas fortes,1,FALSE,0,12/28/2016,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaNlhamankulo,MZ11,MZ1107,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMubukwane,MZ11,MZ1106,062/INAM-DAPT/999/2016,Chuvas e ventos fortes,1,TRUE,0,12/24/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mecuburi,MZ03,MZ0710,n/a,Chuvas fortes,1,FALSE,0,12/28/2016,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mogovolas,MZ03,MZ0713,n/a,Chuvas e ventos fortes,1,TRUE,0,12/25/2016,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Lugela,MZ04,MZ1110,n/a,Chuvas e ventos fortes,1,TRUE,0,12/26/2016,69,14,0,0,0,0,0,0,7,7,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chongoene,MZ09,MZ0206,n/a,Chuvas fortes,1,FALSE,0,12/28/2016,50,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Boane,MZ10,MZ0501,n/a,Chuvas fortes,1,FALSE,0,12/28/2016,100,20,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Muecate,MZ03,MZ0717,n/a,Ventos fortes,0,TRUE,0,12/30/2016,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Mandimba,MZ01,MZ0809,n/a,Chuvas e ventos fortes,1,TRUE,0,1/2/2017,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Chimbonila,MZ01,MZ0801,n/a,Descarga atmosferica,0,FALSE,1,12/31/2016,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Lago,MZ01,MZ0806,n/a,Chuvas e ventos fortes,1,TRUE,0,1/3/2017,55,11,0,0,1,0,0,0,11,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Balama,MZ02,MZ0102,n/a,Chuvas e ventos fortes,1,TRUE,0,1/3/2017,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Panda,MZ08,MZ0312,n/a,Chuvas e ventos fortes,1,TRUE,0,12/25/2016,20,4,0,0,0,0,0,0,3,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Mabote,MZ08,MZ0308,n/a,Chuvas e ventos fortes,1,TRUE,0,12/25/2016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Murrupula,MZ03,MZ0718,n/a,Chuvas fortes,1,FALSE,0,3/1/2017,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Memba,MZ03,MZ0711,n/a,Ventos fortes,0,TRUE,0,3/1/2017,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Sanga,MZ01,MZ0819,n/a,Chuvas e ventos fortes,1,TRUE,0,4/1/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cahora Bassa,MZ05,MZ1002,n/a,Chuvas e ventos fortes,1,TRUE,0,4/1/2017,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mossuril,MZ03,MZ0716,n/a,Descarga atmosferica,0,FALSE,1,5/1/2017,5,1,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Nacala,MZ03,MZ0719,n/a,Chuvas fortes,1,FALSE,0,10/1/2017,660,132,0,0,0,0,0,0,88,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mecuburi,MZ03,MZ0710,n/a,Descarga atmosferica,0,FALSE,1,11/1/2017,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Nacaroa,MZ03,MZ0721,n/a,Chuvas e ventos fortes,1,TRUE,0,11/1/2017,390,78,0,0,0,0,0,0,78,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Malema,MZ03,MZ0708,n/a,Chuvas fortes,1,FALSE,0,11/1/2017,5,1,0,0,0,0,0,0,1,0,0,0,23,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Magoe,MZ05,MZ1009,n/a,Descarga atmosferica,0,FALSE,1,12/1/2017,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Changara,MZ05,MZ1003,n/a,Chuvas e ventos fortes,1,TRUE,0,12/1/2017,30,6,0,0,0,0,0,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Manica,Cidade de Chimoio,MZ06,MZ0402,n/a,Chuvas fortes,1,FALSE,0,12/1/2017,25,5,0,0,0,0,0,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Metarica,MZ01,MZ0815,n/a,Chuvas e ventos fortes,1,TRUE,0,1/14/2017,9,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMaxakeni,MZ11,MZ1103,n/a,Chuvas fortes,1,FALSE,0,1/15/2017,205,41,0,0,0,0,0,0,1,4,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMavota,MZ11,MZ1104,n/a,Chuvas fortes,1,FALSE,0,1/15/2017,2450,490,0,0,0,0,0,0,0,2,488,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMubukwane,MZ11,MZ1106,n/a,Chuvas fortes,1,FALSE,0,1/15/2017,4000,800,0,0,0,0,0,0,0,1,800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaNlhamankulo,MZ11,MZ1107,n/a,Chuvas fortes,1,FALSE,0,1/15/2017,1160,232,0,0,0,0,0,0,0,0,232,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Cidade da Matola,MZ10,MZ0502,n/a,Chuvas fortes,1,FALSE,0,1/15/2017,3890,778,0,0,0,0,0,0,0,2,776,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Magude,MZ10,MZ0503,n/a,Chuvas fortes,1,FALSE,0,1/15/2017,360,72,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade De Xai-Xai,MZ09,MZ0207,n/a,Chuvas fortes,1,FALSE,0,1/16/2017,1780,356,0,0,0,0,0,0,0,0,355,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2017,55,11,0,0,0,0,0,0,4,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Buzi,MZ07,MZ0901,n/a,Chuvas fortes,1,FALSE,0,1/17/2017,25,5,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Maxixe,MZ08,MZ0310,n/a,Chuvas fortes,1,FALSE,0,1/16/2017,270,54,0,0,0,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Cidade de Inhambane,MZ08,MZ0301,n/a,Chuvas fortes,1,FALSE,0,1/16/2017,531,106,0,0,0,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Govuro,MZ08,MZ0303,n/a,Chuvas fortes,1,FALSE,0,1/17/2017,1829,507,6000,1200,2,0,0,0,0,160,243,2,0,0,74,7,0,0,0,0,0,0,0,0,0,0,0,27,0,0,n/a,n/a
+2016-2017,,Inhambane,Cidade de Inhambane,MZ08,MZ0301,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2017,1225,245,0,0,0,0,0,0,0,0,282,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Homoine,MZ08,MZ0304,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Maxixe,MZ08,MZ0310,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2017,490,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaTembe,MZ11,MZ1102,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2017,295,59,0,0,0,0,0,0,0,0,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMpfumo,MZ11,MZ1101,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2017,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaNlhamankulo,MZ11,MZ1107,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2017,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Moamba,MZ10,MZ0507,n/a,Ventos fortes,0,TRUE,0,1/17/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Mocimboa da Praia,MZ02,MZ0110,n/a,Chuvas e ventos fortes,1,TRUE,0,1/16/2017,17,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,1/21/2017,35,7,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Mutarara,MZ05,MZ1013,n/a,Chuvas e ventos fortes,1,TRUE,0,1/21/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,1/19/2017,370,74,0,0,0,0,0,0,50,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Machanga,MZ07,MZ0909,n/a,Inundacoes,0,FALSE,0,1/26/2017,1505,301,43205,10164,0,0,0,0,0,47,349,21,0,7,6909,256,1,0,0,0,0,0,0,0,0,0,0,31,0,0,n/a,n/a
+2016-2017,,Tete,Cahora Bassa,MZ05,MZ1002,n/a,Chuvas e ventos fortes,1,TRUE,0,1/23/2017,10,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Montepuez,MZ02,MZ0111,n/a,Chuvas e ventos fortes,1,TRUE,0,1/21/2017,665,133,0,0,0,0,0,0,127,6,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Nhamatanda,MZ07,MZ0913,n/a,Inundacoes,0,FALSE,0,1/22/2017,6785,1357,0,0,0,0,0,0,0,785,955,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Boane,MZ10,MZ0501,n/a,Descarga atmosferica,0,FALSE,1,1/25/2017,5,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Boane,MZ10,MZ0501,n/a,Chuvas e ventos fortes,1,TRUE,0,1/25/2017,60,12,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Cidade da Matola,MZ10,MZ0502,n/a,Chuvas e ventos fortes,1,TRUE,0,1/25/2017,2745,549,0,0,0,0,0,0,0,0,549,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Namaacha,MZ10,MZ0508,n/a,Chuvas e ventos fortes,1,TRUE,0,1/25/2017,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Lago,MZ01,MZ0806,n/a,Chuvas fortes,1,FALSE,0,1/25/2017,45,9,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Quissanga,MZ02,MZ0118,n/a,Chuvas e ventos fortes,1,TRUE,0,1/26/2017,0,0,0,0,0,0,0,0,0,0,0,0,2,0,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Mandimba,MZ01,MZ0809,n/a,Descarga atmosferica,0,FALSE,1,1/29/2017,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Mutarara,MZ05,MZ1013,n/a,Descarga atmosferica,0,FALSE,1,1/28/2017,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Meconta,MZ03,MZ0709,n/a,Chuvas fortes,1,FALSE,0,1/31/2017,10,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mecuburi,MZ03,MZ0710,n/a,Chuvas fortes,1,FALSE,0,1/30/2017,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mossuril,MZ03,MZ0716,n/a,Descarga atmosferica,0,FALSE,1,5/2/2017,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Malema,MZ03,MZ0708,n/a,Chuvas e ventos fortes,1,TRUE,0,1/31/2017,25,5,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,6/2/2017,15,3,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,7/2/2017,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Magoe,MZ05,MZ1009,n/a,Chuvas e ventos fortes,1,TRUE,0,7/2/2017,35,7,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Descarga atmosferica,0,FALSE,1,7/2/2017,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Ribaue,MZ03,MZ0723,n/a,Chuvas fortes,1,FALSE,0,6/2/2017,5,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Malema,MZ03,MZ0708,n/a,Chuvas fortes,1,FALSE,0,6/2/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,9/2/2017,80,16,0,0,0,0,0,0,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Memba,MZ03,MZ0711,n/a,Descarga atmosferica,0,FALSE,1,9/2/2017,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Cidade de Pemba,MZ02,MZ0104,n/a,Chuvas fortes,1,FALSE,0,9/2/2017,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Muembe,MZ01,MZ0816,n/a,Descarga atmosferica,0,FALSE,1,11/2/2017,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Marrupa,MZ01,MZ0810,n/a,Chuvas e ventos fortes,1,TRUE,0,11/2/2017,18,4,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade de Xai-Xai,MZ09,MZ0207,n/a,Ciclone,0,FALSE,0,2/15/2017,0,0,0,0,0,0,0,0,0,0,0,2,5,0,600,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chongoene,MZ09,MZ0206,n/a,Ciclone,0,FALSE,0,2/15/2017,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mandlakaze,MZ09,MZ0211,n/a,Ciclone,0,FALSE,0,2/15/2017,115,23,0,0,0,0,0,0,23,0,0,1,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMavota,MZ11,MZ1104,n/a,Ciclone,0,FALSE,0,2/15/2017,40,8,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMpfumo,MZ11,MZ1101,n/a,Ciclone,0,FALSE,0,2/16/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chibuto,MZ09,MZ0202,n/a,Ciclone,0,FALSE,0,2/16/2017,35,7,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Ribaue,MZ03,MZ0723,n/a,Chuvas fortes,1,FALSE,0,2/17/2017,0,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Nacala-A-Velha,MZ03,MZ0720,n/a,Chuvas e ventos fortes,1,TRUE,0,2/18/2017,95,19,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Bilene,MZ09,MZ0201,n/a,Ciclone,0,FALSE,0,2/16/2017,130,26,0,0,0,0,0,0,0,0,0,1,2,0,288,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mabalane,MZ09,MZ0210,n/a,Ciclone,0,FALSE,0,2/16/2017,0,0,0,0,0,0,0,0,0,0,0,1,2,5,90,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chigubo,MZ09,MZ0204,n/a,Ciclone,0,FALSE,0,2/16/2017,535,107,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Mapai,MZ09,MZ0212,n/a,Ciclone,0,FALSE,0,2/16/2017,3,1,0,0,0,0,0,0,4,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chicualacuala,MZ09,MZ0203,n/a,Ciclone,0,FALSE,0,2/16/2017,405,96,0,0,0,0,0,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Manica,Cidade de Chimoio,MZ06,MZ0402,n/a,Chuvas e ventos fortes,1,TRUE,0,7/2/2017,76,17,0,0,0,0,0,0,44,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Murrupula,MZ03,MZ0718,n/a,Chuvas e ventos fortes,1,TRUE,0,2/18/2017,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mossuril,MZ03,MZ0716,n/a,Chuvas e ventos fortes,1,TRUE,0,2/22/2017,380,76,0,0,1,0,0,0,64,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Monapo,MZ03,MZ0715,n/a,Chuvas e ventos fortes,1,TRUE,0,2/20/2017,45,9,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Nacala-A-Velha,MZ03,MZ0720,n/a,Chuvas fortes,1,FALSE,0,2/20/2017,155,31,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Muidumbe,MZ02,MZ0113,n/a,Chuvas e ventos fortes,1,TRUE,0,2/22/2017,30,6,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Cidade de Inhambane,MZ08,MZ0301,n/a,Ciclone,0,FALSE,0,2/15/2017,70546,13950,0,0,1,0,0,0,10722,747,0,0,0,181,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Funhalouro,MZ08,MZ0302,n/a,Ciclone,0,FALSE,0,2/15/2017,10870,2174,0,0,0,0,0,0,25,1,0,0,0,8,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Homoine,MZ08,MZ0304,n/a,Ciclone,0,FALSE,0,2/15/2017,77675,15535,0,0,0,0,0,0,1940,207,0,0,0,431,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Inharrime,MZ08,MZ0305,n/a,Ciclone,0,FALSE,0,2/15/2017,276,90,0,0,4,0,0,0,115,12,0,0,0,31,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Jangamo,MZ08,MZ0307,n/a,Ciclone,0,FALSE,0,2/15/2017,11359,2268,0,0,4,0,0,0,1978,279,0,0,0,151,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Massinga,MZ08,MZ0309,n/a,Ciclone,0,FALSE,0,2/15/2017,194040,38808,0,0,68,0,0,0,38808,29236,0,0,0,251,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Maxixe,MZ08,MZ0310,n/a,Ciclone,0,FALSE,0,2/15/2017,105843,21195,0,0,0,0,0,0,10619,763,0,0,0,200,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Morrumbene,MZ08,MZ0311,n/a,Ciclone,0,FALSE,0,2/15/2017,31837,8963,0,0,14,0,0,0,6768,2183,0,0,0,373,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Panda,MZ08,MZ0312,n/a,Ciclone,0,FALSE,0,2/15/2017,2570,595,0,0,0,0,0,0,300,284,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Vilankulo,MZ08,MZ0313,n/a,Ciclone,0,FALSE,0,2/15/2017,675,135,0,0,0,0,0,0,8,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Zavala,MZ08,MZ0314,n/a,Ciclone,0,FALSE,0,2/15/2017,44000,8800,0,0,0,0,0,0,19,0,0,0,0,20,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Mabote,MZ08,MZ0308,n/a,Ciclone,0,FALSE,0,2/15/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Nampula,Mogovolas,MZ03,MZ0713,n/a,Chuvas e ventos fortes,1,TRUE,0,2/28/2017,0,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Cidade da Beira,MZ07,MZ0906,n/a,Inundacoes,0,FALSE,0,1/3/2017,368165,73633,0,0,0,0,0,228833,1158,643,76964,0,0,0,0,0,0,3,0,0,0,7,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Inhambane,Govuro,MZ08,MZ0303,n/a,Inundacoes,0,FALSE,0,4/3/2017,1820,364,0,0,0,0,0,0,10,28,364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Sofala,Machanga,MZ07,MZ0909,n/a,Inundacoes,0,FALSE,0,4/3/2017,27045,5409,0,0,0,0,0,0,219,86,5104,16,0,0,5422,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,n/a,n/a
+2016-2017,,Gaza,Chibuto,MZ09,MZ0202,n/a,Inundacoes,0,FALSE,0,3/3/2017,1542,308,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Chokwe,MZ09,MZ0205,n/a,Inundacoes,0,FALSE,0,2/3/2017,3015,603,0,0,0,0,0,0,7,1,634,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Guija,MZ09,MZ0208,n/a,Inundacoes,0,FALSE,0,3/3/2017,1859,372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Cidade De Xai-Xai,MZ09,MZ0207,n/a,Inundacoes,0,FALSE,0,3/3/2017,1106,221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMaxakeni,MZ11,MZ1103,n/a,Inundacoes,0,FALSE,0,3/3/2017,1750,350,0,0,0,0,0,0,0,0,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo Cidade,KaMavota,MZ11,MZ1104,n/a,Inundacoes,0,FALSE,0,3/3/2017,310,62,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Mocimboa da Praia,MZ02,MZ0110,n/a,Chuvas e ventos fortes,1,TRUE,0,9/3/2017,20,4,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Gaza,Limpopo,MZ09,MZ0209,n/a,Descarga atmosferica,0,FALSE,1,10/3/2017,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Morrumbala,MZ04,MZ1118,n/a,Chuvas fortes,1,FALSE,0,3/26/2017,6,1,0,0,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Maputo,Marracuene,MZ10,MZ0505,n/a,Chuvas e ventos fortes,1,TRUE,0,3/24/2017,875,175,0,0,0,0,0,0,175,0,0,1,3,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Niassa,Majune,MZ01,MZ0808,n/a,Chuvas e ventos fortes,1,TRUE,0,3/27/2017,7,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Zambezia,Mocubela,MZ04,MZ1115,n/a,Chuvas fortes,1,FALSE,0,1/4/2017,36,7,0,0,2,0,0,0,7,0,0,0,1,0,150,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2016-2017,,Cabo Delgado,Muidumbe,MZ02,MZ0113,n/a,Inundacoes,0,FALSE,0,1/4/2017,20,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Chokwe,MZ09,MZ0205,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,1530,306,0,0,0,0,0,0,306,0,0,2,3,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Guija,MZ09,MZ0208,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,290,58,0,0,0,0,0,0,58,0,0,6,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Mabalane,MZ09,MZ0210,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,315,63,0,0,0,0,0,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Massingir,MZ09,MZ0214,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,90,18,0,0,3,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Chigubo,MZ09,MZ0204,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,380,76,0,0,0,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Chicualacuala,MZ09,MZ0203,n/a,Ventos fortes,0,TRUE,0,8/10/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Massangena,MZ09,MZ0213,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,5,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Gaza,Mapai,MZ09,MZ0212,n/a,Chuvas e ventos fortes,1,TRUE,0,8/10/2017,175,35,0,0,0,0,0,0,35,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Maputo,Magude,MZ09,MZ0503,n/a,Chuvas e ventos fortes,1,TRUE,0,10/10/2017,65,13,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Manica,Cidade de Chimoio,MZ09,MZ0402,n/a,Chuvas e ventos fortes,1,TRUE,0,10/10/2017,4535,907,0,0,1,0,0,0,907,0,0,0,59,2,6705,153,8,2,0,0,0,18,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Manica,Gondola,MZ09,MZ0403,n/a,Chuvas e ventos fortes,1,TRUE,0,10/10/2017,1340,268,0,0,0,0,0,0,268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Manica,Sussundenga,MZ09,MZ0410,n/a,Chuvas e ventos fortes,1,TRUE,0,10/10/2017,100,20,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Manica,Manica,MZ09,MZ0408,n/a,Chuvas e ventos fortes,1,TRUE,0,10/10/2017,16,8,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Nampula,Malema,MZ09,MZ0708,n/a,Ventos fortes,0,TRUE,0,12/10/2017,0,0,0,0,0,0,0,0,0,0,0,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Nampula,Ribaue,MZ09,MZ0723,n/a,Ventos fortes,0,TRUE,0,10/14/2017,20,4,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Manica,Vanduzi,MZ09,MZ0412,n/a,Chuvas e ventos fortes,1,TRUE,0,10/10/2017,1150,230,0,0,0,0,0,0,145,85,0,0,20,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Nampula,Mogovolas,MZ09,MZ0713,n/a,Chuvas e ventos fortes,1,TRUE,0,3/11/2017,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Outubro,Nampula,Nacaroa,MZ09,MZ0721,n/a,Chuvas e ventos fortes,1,TRUE,0,2/11/2017,45,9,0,0,3,0,0,0,9,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Niassa,Mandimba,MZ09,MZ0809,n/a,Ventos fortes,0,TRUE,0,11/17/2017,65,10,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Cidade de Xai-Xai,MZ09,MZ0207,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Limpopo,MZ09,MZ0209,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,65,13,0,0,0,0,0,0,13,0,0,1,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Chongoene,MZ09,MZ0206,n/a,Chuvas fortes,1,FALSE,0,11/15/2017,20,4,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Chokwe,MZ09,MZ0205,n/a,Ventos fortes,0,TRUE,0,11/15/2017,10,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Guija,MZ09,MZ0208,n/a,Ventos fortes,0,TRUE,0,11/15/2017,1550,310,0,0,1,0,0,0,310,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Chibuto,MZ09,MZ0202,n/a,,0,FALSE,0,11/15/2017,0,0,0,0,0,0,0,0,0,0,0,1,0,0,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Mabalane,MZ09,MZ0210,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,335,67,0,0,0,0,0,0,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Chicualacuala,MZ09,MZ0203,n/a,Descarga atmosferica,0,FALSE,1,11/15/2017,5,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Mandlakaze,MZ09,MZ0211,n/a,Descarga atmosferica,0,FALSE,1,11/15/2017,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Gaza,Mapai,MZ09,MZ0212,n/a,Chuvas fortes,1,FALSE,0,11/15/2017,20,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo Cidade,KaMaxakeni,MZ09,MZ1103,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,1485,297,0,0,0,0,0,0,4,0,293,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo Cidade,KaMavota,MZ09,MZ1104,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,35,7,0,0,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo Cidade,KaMubukwane,MZ09,MZ1106,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo Cidade,KaNhaca,MZ09,MZ1105,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo,Boane,MZ09,MZ0501,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,125,25,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo,Magude,MZ09,MZ0503,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,230,46,0,0,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo,Marracuene,MZ09,MZ0505,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,290,58,0,0,17,0,0,0,47,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo,Cidade da Matola,MZ09,MZ0502,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,45,9,0,0,0,0,0,0,9,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Maputo,Moamba,MZ09,MZ0507,n/a,Chuvas e ventos fortes,1,TRUE,0,11/15/2017,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Niassa,Ngauma,MZ09,MZ0817,n/a,Chuvas e ventos fortes,1,TRUE,0,12/11/2017,172,90,0,0,0,0,0,0,83,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas e ventos fortes,1,TRUE,0,11/20/2017,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Niassa,Sanga,MZ09,MZ0819,n/a,Chuvas e ventos fortes,1,TRUE,0,11/20/2017,35,7,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Tete,Zumbu,MZ09,MZ1015,n/a,Chuvas e ventos fortes,1,TRUE,0,11/23/2017,2,1,0,0,2,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,As pessoas feridas foram transferidas para o hospital vizinho da Zambia e o obito sera feito o seu funeral.,n/a
+2017-2018,Novembro,Niassa,Cidade de Lichinga,MZ09,MZ0802,n/a,Ventos fortes,0,TRUE,0,11/23/2017,44,16,0,0,1,0,0,0,4,16,0,1,3,2,915,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Niassa,Mandimba,MZ09,MZ0809,n/a,Ventos fortes,0,TRUE,0,11/23/2017,9,2,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Uma equipa distrital, encontra-se no terreno para in loco da situacao e levantamento das necessidades.",n/a
+2017-2018,Novembro,Niassa,Mandimba,MZ09,MZ0809,n/a,Descarga atmosferica,0,FALSE,1,11/26/2017,5,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"A vÃ­tima foi encaminhado ao hospital distrital, onde veio a perde a vida.",n/a
+2017-2018,Novembro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,11/27/2017,2,1,0,0,1,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"As vitimas foram encaminhadas ao hospital distrital de Morrupa, onde uma veio a perder a vida e o menor ainda encontra-se internado.",n/a
+2017-2018,Novembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas fortes,1,FALSE,0,11/27/2017,465,92,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Cabo Delgado,Ancuabe,MZ09,MZ0101,n/a,Chuvas e ventos fortes,1,TRUE,0,11/27/2017,215,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas fortes,1,FALSE,0,11/27/2017,600,120,0,0,0,1,1,0,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Niassa,Lago,MZ09,MZ0806,n/a,Ventos fortes,0,TRUE,0,3/12/2017,475,95,0,0,0,0,0,0,93,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas e ventos fortes,1,TRUE,0,4/12/2017,30,6,0,0,2,1,1,0,6,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"na zona de produÃ§Ã£o de Ncoripo, registou se um obito de uma senhora de 42 anos, que se encontrava debaixo de uma arvore",n/a
+2017-2018,Dezembro,Cabo Delgado,Mueda,MZ09,MZ0112,n/a,Chuvas e ventos fortes,1,TRUE,0,2/12/2017,95,19,0,0,0,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Cabo Delgado,Pemba,MZ09,MZ0117,n/a,Chuvas fortes,1,FALSE,0,11/30/2017,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Nampula,Nacala,MZ09,MZ0719,n/a,Chuvas fortes,1,FALSE,0,11/21/2017,27,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Inhambane,Vilankulo,MZ09,MZ0313,n/a,Chuvas e ventos fortes,1,TRUE,0,12/14/2017,1370,274,0,0,0,0,0,0,257,17,0,4,9,5,1600,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Cabo Delgado,Cidade de Pemba,MZ09,MZ0104,n/a,Chuvas fortes,1,FALSE,0,12/16/2017,0,0,0,0,0,0,0,0,11,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Nampula,Nacala-A-Velha,MZ09,MZ0720,n/a,Chuvas e ventos fortes,1,TRUE,0,12/17/2017,105,21,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Niassa,Ngauma,MZ09,MZ0817,n/a,Chuvas e ventos fortes,1,TRUE,0,12/15/2017,533,105,533,105,0,0,0,0,65,40,0,1,2,2,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Muanza,MZ09,MZ0912,n/a,Vendaval,0,FALSE,0,12/13/2017,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Chemba,MZ09,MZ0903,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,12/14/2017,10,2,0,0,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Zambezia,Pebane,MZ09,MZ1123,n/a,Queimadas descontroladas,0,FALSE,0,6/11/2017,95,19,0,0,0,0,0,0,5,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Zambezia,Pebane,MZ09,MZ1123,n/a,Vendaval,0,FALSE,0,9/11/2017,70,14,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Zambezia,Molumbo,MZ09,MZ1116,n/a,Descarga atmosferica,0,FALSE,1,9/11/2017,710,142,0,0,0,0,0,0,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Zambezia,Alto Molocue,MZ09,MZ1101,n/a,Chuvas e ventos fortes,1,TRUE,0,9/11/2017,60,12,0,0,0,0,0,0,12,0,0,0,7,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Zambezia,Gurue,MZ09,MZ1106,n/a,Chuvas e ventos fortes,1,TRUE,0,11/20/2017,860,172,0,0,0,0,0,0,172,0,0,0,6,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Novembro,Zambezia,Milange,MZ09,MZ1113,n/a,Chuvas e ventos fortes,1,TRUE,0,11/30/2017,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Nampula,Nacala-A-Velha,MZ09,MZ0720,n/a,Chuvas e ventos fortes,1,TRUE,0,11/18/2017,105,21,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Cabo Delgado,Metuge,MZ09,MZ0109,n/a,Chuvas e ventos fortes,1,TRUE,0,12/19/2017,35,7,0,0,0,0,0,0,2,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Nampula,Mogovolas,MZ09,MZ0713,n/a,Chuvas e ventos fortes,1,TRUE,0,12/26/2017,550,110,0,0,0,0,0,0,74,36,0,0,5,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Muanza,MZ09,MZ0912,n/a,Chuvas e ventos fortes,1,TRUE,0,12/26/2017,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Chemba,MZ09,MZ0903,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,12/26/2017,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Zambezia,Morrumbala,MZ09,MZ1118,n/a,Chuvas fortes,1,FALSE,0,12/26/2017,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Nampula,Ilha De MoÃÂ§ambique,MZ09,MZ0704,n/a,Descarga atmosferica,0,FALSE,1,12/26/2017,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Nhamatanda,MZ09,MZ0913,n/a,Chuvas fortes,1,FALSE,0,12/26/2017,40,8,0,4,0,2,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Caia,MZ09,MZ0902,n/a,Chuvas fortes,1,FALSE,0,12/26/2017,105,21,0,0,0,2,0,0,17,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Sofala,Cidade da Beira,MZ09,MZ0906,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,12/25/2017,520,104,0,0,0,0,3,0,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Dezembro,Zambezia,Derre,MZ09,MZ1104,n/a,Chuvas fortes,1,FALSE,0,12/27/2017,150,30,0,0,0,0,0,0,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Gaza,Chokwe,MZ09,MZ0205,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,575,115,0,0,0,3,0,0,115,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Gaza,Massingir,MZ09,MZ0214,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,20,4,0,0,0,0,0,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Gaza,Guija,MZ09,MZ0208,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,335,67,0,0,1,0,0,0,67,0,0,2,5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Gaza,Chibuto,MZ09,MZ0202,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,1650,330,0,0,0,0,0,0,329,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Gaza,Mabalane,MZ09,MZ0210,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,633,107,0,0,0,0,0,0,107,0,0,1,4,0,315,6,3,1,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Gaza,Chigubo,MZ09,MZ0204,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,0,0,300,60,0,0,0,0,0,0,0,0,2,0,60,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Tete,Cidade de Tete,MZ09,MZ1006,n/a,Ventos fortes,0,TRUE,0,3/1/2018,30,6,0,0,0,0,0,0,6,0,0,1,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Manica,Gondola,MZ09,MZ0403,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,60,12,0,0,0,0,0,0,12,0,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Manica,Cidade de Chimoio,MZ09,MZ0402,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,10,2,0,0,0,0,0,0,2,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Zambezia,Mopeia,MZ09,MZ1117,n/a,Ventos fortes,0,TRUE,0,2/1/2018,10,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Zambezia,Morrumbala,MZ09,MZ1118,n/a,Ventos fortes,0,TRUE,0,2/1/2018,25,5,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Tete,Doa,MZ09,MZ1007,n/a,Chuvas e ventos fortes,1,TRUE,0,4/1/2018,10,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Tete,Cidade de Tete,MZ09,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,4/1/2018,115,23,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Namuno,MZ09,MZ0114,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Zambezia,Morrumbala,MZ09,MZ1118,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Manica,Macossa,MZ09,MZ0407,n/a,Chuvas e ventos fortes,1,TRUE,0,2/1/2018,125,25,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo,Boane,MZ09,MZ0501,006/INAM-DAPT/999/2018,Chuvas e ventos fortes,1,TRUE,0,8/1/2018,10,2,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo,Cidade da Matola,MZ09,MZ0502,006/INAM-DAPT/999/2018,Chuvas e ventos fortes,1,TRUE,0,8/1/2018,145,29,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Nacala,MZ09,MZ0719,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,25,5,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Muecate,MZ09,MZ0717,n/a,Chuvas fortes,1,FALSE,0,9/1/2018,0,0,0,0,0,0,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Mecufi,MZ09,MZ0107,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Tete,Magoe,MZ09,MZ1009,n/a,Chuvas e ventos fortes,1,TRUE,0,10/1/2018,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo Cidade,KaMaxakeni,MZ09,MZ1103,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,2495,499,0,0,0,0,0,0,0,0,499,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo Cidade,KaMavota,MZ09,MZ1104,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,3385,678,0,0,0,0,0,0,0,0,678,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo Cidade,KaMubukwane,MZ09,MZ1106,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,1582,942,0,0,0,0,0,0,0,0,942,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo Cidade,KaMavota,MZ09,MZ1104,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,555,91,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Muembe,MZ09,MZ0816,n/a,Chuvas e ventos fortes,1,TRUE,0,9/1/2018,30,6,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Memba,MZ09,MZ0711,n/a,Chuvas fortes,1,FALSE,0,8/1/2018,40,8,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Nacaroa,MZ09,MZ0721,n/a,Chuvas e ventos fortes,1,TRUE,0,9/1/2018,70,14,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Tete,Cidade de Tete,MZ09,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,9/1/2018,135,27,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas e ventos fortes,1,TRUE,0,1/14/2018,70,14,0,0,0,0,0,0,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Manica,Barue,MZ09,MZ0401,n/a,Ventos fortes,0,TRUE,0,3/1/2018,120,24,0,0,1,0,0,0,23,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Pemba,MZ09,MZ0117,n/a,Chuvas e ventos fortes,1,TRUE,0,1/19/2018,475,95,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Muidumbe,MZ09,MZ0113,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,550,110,0,0,0,0,0,0,67,77,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Metuge,MZ09,MZ0109,n/a,Chuvas e ventos fortes,1,TRUE,0,1/24/2018,1370,274,0,0,0,0,0,0,183,57,34,0,6,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Meconta,MZ09,MZ0709,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,11854,2369,0,0,0,0,0,0,1323,1043,0,0,6,75,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0716,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,7775,1555,0,0,0,0,0,0,1555,0,0,0,23,0,0,0,0,3,0,0,0,26,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Ilha De MoÃÂ§ambique,MZ09,MZ0704,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,3430,686,0,0,0,0,0,0,686,0,0,0,35,0,0,0,0,0,0,0,0,38,0,0,0,0,0,1,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Monapo,MZ09,MZ0715,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,35660,7132,0,0,0,0,0,0,3257,3875,0,0,47,24,0,0,6,0,0,0,0,22,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Nacala,MZ09,MZ0719,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,400,80,0,0,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Mogincual,MZ09,MZ0712,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,255,51,0,0,0,0,0,0,27,24,0,0,17,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Cidade de Nampula,MZ09,MZ0702,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,1440,288,0,0,0,0,0,0,228,60,0,0,8,12,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Nacala-A-Velha,MZ09,MZ0720,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,1225,245,0,0,0,0,0,0,170,75,0,0,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Nacaroa,MZ09,MZ0721,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,3010,602,0,0,0,0,0,0,39,6,0,0,3,7,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Ribaue,MZ09,MZ0723,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,0,0,0,0,0,0,0,0,317,0,0,0,0,5,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,LiÃÂºpo,MZ09,MZ0707,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,115,23,0,0,0,0,0,0,13,10,0,0,0,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas e ventos fortes,1,TRUE,0,1/14/2018,70,14,0,0,0,0,0,0,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,1429,289,0,0,0,0,0,0,50,260,0,0,0,12,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Maua,MZ09,MZ0811,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,48,10,0,0,0,0,0,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Chimbonila,MZ09,MZ0801,n/a,Chuvas e ventos fortes,1,TRUE,0,1/17/2018,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Majune,MZ09,MZ0808,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Cidade de Lichinga,MZ09,MZ0802,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,120,24,0,0,0,0,0,0,23,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Malema,MZ09,MZ0708,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,10,2,0,0,0,0,0,0,2,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Memba,MZ09,MZ0711,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,550,110,0,0,0,0,0,0,38,72,0,0,0,9,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Mecuburi,MZ09,MZ0710,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Mogovolas,MZ09,MZ0713,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,0,0,0,0,0,0,0,0,0,0,0,0,9,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Muecate,MZ09,MZ0717,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,2115,425,0,0,0,0,0,0,425,0,0,0,39,0,0,0,0,2,0,0,0,10,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Rapale,MZ09,MZ0722,n/a,Chuvas e ventos fortes,1,TRUE,0,1/15/2018,2165,433,0,0,0,0,0,0,319,114,0,0,13,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Moma,MZ09,MZ0714,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,0,0,0,0,0,0,0,0,0,0,0,0,22,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Lalaua,MZ09,MZ0705,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Angoche,MZ09,MZ0701,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,980,196,0,0,0,0,0,0,49,147,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Mecufi,MZ09,MZ0107,n/a,Chuvas e ventos fortes,1,TRUE,0,1/19/2018,4415,883,0,0,0,0,0,0,0,104,779,0,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Ancuabe,MZ09,MZ0101,n/a,Chuvas e ventos fortes,1,TRUE,0,1/19/2018,545,109,0,0,0,0,0,0,38,71,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Montepuez,MZ09,MZ0111,n/a,Chuvas e ventos fortes,1,TRUE,0,1/25/2018,243,89,0,0,0,0,0,0,42,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas fortes,1,FALSE,0,1/22/2018,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Murrupula,MZ09,MZ0718,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Mossuril,MZ09,MZ0716,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Ilha De MoÃÂ§ambique,MZ09,MZ0704,n/a,Chuvas fortes,1,FALSE,0,1/16/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Cidade de Lichinga,MZ09,MZ0802,n/a,Chuvas fortes,1,FALSE,0,1/23/2018,120,24,0,0,0,0,0,0,23,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Maputo,Cidade da Matola,MZ09,MZ0502,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,1/25/2018,510,102,0,0,1,0,0,0,0,2,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Mecanhelas,MZ09,MZ0813,n/a,Chuvas fortes,1,FALSE,0,1/24/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Cidade de Lichinga,MZ09,MZ0802,n/a,Chuvas fortes,1,FALSE,0,1/25/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Marrupa,MZ09,MZ0810,n/a,Chuvas fortes,1,FALSE,0,1/26/2018,165,33,0,0,0,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Nampula,Nacala,MZ09,MZ0719,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,2256,451,0,0,0,0,0,0,275,176,0,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Niassa,Mecula,MZ09,MZ0814,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,75,15,0,0,0,0,0,0,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Namuno,MZ09,MZ0114,n/a,Chuvas e ventos fortes,1,TRUE,0,1/18/2018,2245,449,0,0,0,0,0,0,8,449,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Chiure,MZ09,MZ0103,n/a,Chuvas e ventos fortes,1,TRUE,0,1/16/2018,1092,184,0,0,0,0,0,0,85,34,59,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Quissanga,MZ09,MZ0118,n/a,Chuvas e ventos fortes,1,TRUE,0,1/29/2018,20,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Meluco,MZ09,MZ0108,n/a,Chuvas e ventos fortes,1,TRUE,0,1/16/2018,45,9,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Balama,MZ09,MZ0102,n/a,Chuvas e ventos fortes,1,TRUE,0,1/25/2018,1248,252,0,0,0,0,0,0,245,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Janeiro,Cabo Delgado,Nangade,MZ09,MZ0115,n/a,Chuvas e ventos fortes,1,TRUE,0,1/19/2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Nampula,Mogovolas,MZ09,MZ0713,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,6/2/2018,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Nampula,Memba,MZ09,MZ0711,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,6/2/2018,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Nampula,Cidade de Nampula,MZ09,MZ0702,n/a,Chuvas e ventos fortes,1,TRUE,0,9/2/2018,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Nampula,Lalaua,MZ09,MZ0705,n/a,Chuvas e ventos fortes,1,TRUE,0,9/2/2018,1405,281,0,0,0,0,0,0,281,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Sofala,Dondo,MZ09,MZ0907,n/a,Chuvas fortes,1,FALSE,0,1/2/2018,225,45,0,0,0,0,0,0,0,19,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Sofala,Cidade da Beira,MZ09,MZ0906,n/a,Chuvas fortes,1,FALSE,0,12/2/2018,2050,410,0,0,0,0,0,0,0,0,410,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Niassa,Lago,MZ09,MZ0806,n/a,Chuvas e ventos fortes,1,TRUE,0,9/2/2018,420,95,0,0,0,0,0,0,1,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Tete,Zumbu,MZ09,MZ1015,n/a,Chuvas e ventos fortes,1,TRUE,0,2/13/2018,80,18,0,0,0,0,0,0,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Manica,Cidade de Chimoio,MZ09,MZ0402,n/a,Chuvas e ventos fortes,1,TRUE,0,12/2/2018,38,6,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Zambezia,Maganja da Costa,MZ09,MZ1111,n/a,Chuvas fortes,1,FALSE,0,2/13/2018,3230,646,0,0,0,0,0,0,0,0,646,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Manica,Guro,MZ09,MZ0404,n/a,Chuvas e ventos fortes,1,TRUE,0,2/15/2018,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Manica,Gondola,MZ09,MZ0403,n/a,Chuvas e ventos fortes,1,TRUE,0,2/15/2018,45,9,0,0,0,0,0,0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Manica,Cidade de Chimoio,MZ09,MZ0402,n/a,Chuvas acompanhadas de Trovoadas,1,FALSE,0,2/16/2018,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Maputo,Cidade da Matola,MZ09,MZ0502,n/a,Chuvas fortes,1,FALSE,0,2/20/2018,8800,1780,0,0,0,0,0,0,0,0,1780,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Tete,Macanga,MZ09,MZ1008,n/a,Descarga atmosferica,0,FALSE,1,2/22/2018,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Manica,Sussundenga,MZ09,MZ0410,n/a,Chuvas e ventos fortes,1,TRUE,0,2/21/2018,115,23,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Maputo Cidade,KaMavota,MZ09,MZ1104,n/a,Chuvas fortes,1,FALSE,0,2/19/2018,7500,1500,0,0,4,2,16,0,0,6,1500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Maputo Cidade,KaMubukwane,MZ09,MZ1106,n/a,Chuvas fortes,1,FALSE,0,2/19/2018,565,113,0,0,0,0,0,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Maputo Cidade,KaMaxakeni,MZ09,MZ1103,n/a,Chuvas fortes,1,FALSE,0,2/19/2018,4665,933,0,0,0,16,0,0,0,0,933,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Sofala,Nhamatanda,MZ09,MZ0913,n/a,Chuvas e ventos fortes,1,TRUE,0,2/19/2018,495,99,0,0,0,0,0,0,0,3,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Inhambane,Vilankulo,MZ09,MZ0313,n/a,Chuvas fortes,1,FALSE,0,2/25/2018,55,11,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Niassa,Ngauma,MZ09,MZ0817,n/a,Descarga atmosferica,0,FALSE,1,2/27/2018,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Tete,Cidade de Tete,MZ09,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,2/27/2018,295,59,0,0,0,0,3,0,37,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Fevereiro,Manica,Gondola,MZ09,MZ0403,n/a,Chuvas e ventos fortes,1,TRUE,0,2/27/2018,65,13,0,0,0,0,0,0,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Marco,Tete,Cidade de Tete,MZ09,MZ1006,n/a,Chuvas e ventos fortes,1,TRUE,0,1/3/2018,15,3,0,0,0,3,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Marco,Zambezia,Milange,MZ09,MZ1113,n/a,Sismo,1,TRUE,n/a,8/3/2018,0,0,0,0,1,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Marco,Niassa,Lago,MZ09,MZ0806,n/a,Chuvas fortes,1,TRUE,n/a,3/13/2018,23,5,0,0,0,0,0,0,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Â·Â Â Â Â Â Â Â Â  Do trabalho feito no terreno pela equipe, consta que as famÃ­lias as famÃ­lias afectadas estÃ£o abrigadas nas casas dos seus familiares.",n/a
+2017-2018,Abril,Sofala,Cidade da Beira,n/a,MZ0906,n/a,Chuvas fortes,1,n/a,n/a,10/4/2018,1235,247,0,0,0,0,0,0,0,4,247,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Abril,Cabo Delgado,Quissanga,n/a,MZ0118,n/a,n/a,n/a,n/a,n/a,4/15/2018,20,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2017-2018,Abril,Cabo Delgado,Palma,n/a,MZ0116,n/a,n/a,n/a,n/a,n/a,4/18/2018,2500,500,0,0,0,0,0,0,0,0,500,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Zambezia,Chinde,n/a,MZ1102,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,6035,1207,0,0,1,0,1,0,838,369,84,3,27,15,7431,52,4,1,0,0,0,0,0,0,0,1,0,0,64,0,n/a,n/a
+2018-2019,Marco,Inhambane,Govuro,n/a,MZ0303,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,235,73,0,0,0,0,0,0,35,39,0,1,10,0,0,0,1,1,0,0,0,4,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Inhambane,Vilankulo,n/a,MZ0313,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,32,6,0,0,0,0,0,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Manica,Sussundenga,n/a,MZ0410,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,124381,26737,0,0,0,0,164,0,9274,17660,0,39,22,96,34404,50,0,1,0,0,0,5,0,0,0,0,0,64,108565,13469,n/a,n/a
+2018-2019,Marco,Manica,Mossurize,n/a,MZ0409,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,4108,1003,0,0,1,0,2,0,1040,1286,0,26,10,45,4805,72,1,2,0,0,0,0,0,0,0,0,0,90,190557,35128,n/a,n/a
+2018-2019,Marco,Manica,Cidade de Chimoio,n/a,MZ0402,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,36488,8846,0,0,1,0,2,0,2502,6988,0,9,34,0,4080,68,1,1,0,0,0,3,0,0,0,0,0,0,13712,3500,n/a,n/a
+2018-2019,Marco,Manica,Barue,n/a,MZ0401,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,16,10,38,2320,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Manica,Macossa,n/a,MZ0407,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,1,0,0,0,0,3,4,7,1099,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Manica,Guro,n/a,MZ0404,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,2,0,0,0,0,2,3,3,388,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Manica,Gondola,n/a,MZ0403,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,60925,10691,0,0,0,0,2,0,6455,12967,0,46,72,73,13346,280,12,5,0,0,0,5,0,0,0,0,0,171,81131,11959,n/a,n/a
+2018-2019,Marco,Manica,Macate,n/a,MZ0405,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,32975,8282,0,0,6,0,10,0,0,355,0,25,30,43,5846,110,2,4,0,0,0,0,0,0,0,0,0,41,19409,13967,n/a,n/a
+2018-2019,Marco,Manica,Vanduzi,n/a,MZ0412,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,3993,621,0,0,8,0,2,0,0,1529,0,13,3,33,1394,36,0,0,0,0,0,0,0,0,0,0,0,0,39154,7830,n/a,n/a
+2018-2019,Marco,Sofala,Machanga,n/a,MZ0909,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,2335,467,0,0,0,0,0,0,387,80,0,19,77,0,9542,308,18,6,0,0,0,0,0,0,0,0,0,0,1899,10886,n/a,n/a
+2018-2019,Marco,Sofala,Cidade da Beira,n/a,MZ0906,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,436640,87328,0,0,1348,0,123,0,63506,23822,0,103,714,0,13664,2159,587,18,0,0,0,501,0,0,10,0,0,0,8000,25706,n/a,n/a
+2018-2019,Marco,Sofala,Dondo,n/a,MZ0907,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,166511,33302,0,0,127,0,38,0,4823,13557,0,58,404,0,61451,1481,0,15,0,0,0,7,0,0,0,0,0,0,8500,22092,n/a,n/a
+2018-2019,Marco,Manica,Manica,n/a,MZ0408,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,20,4,0,0,7,0,0,0,0,942,0,16,6,25,2318,50,0,0,0,0,0,0,0,0,0,0,0,1,0,0,n/a,n/a
+2018-2019,Marco,Sofala,Chemba,n/a,MZ0903,n/a,Ciclone,n/a,n/a,n/a,3/16/2019,330,66,0,0,0,0,0,0,0,0,0,0,20,0,2377,46,0,0,0,0,0,0,0,0,0,0,0,0,3142,954,n/a,n/a
+2018-2019,Marco,Tete,Cidade de Tete,MZ05,MZ1006,n/a,Depressao tropical,0,FALSE,0,8/3/2019,5051,997,0,0,0,6,6,0,187,844,933,4,0,0,999,0,20,0,0,0,0,0,0,0,0,0,0,0,313,986,n/a,n/a
+2018-2019,Marco,Tete,Mutarara,MZ05,MZ1013,n/a,Depressao tropical,0,FALSE,0,6/3/2019,155,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Tete,Mutarara,MZ05,MZ1013,n/a,Depressao tropical,0,FALSE,0,8/3/2019,3765,753,0,0,0,1,1,0,242,511,0,8,18,0,1562,0,3,0,0,0,0,0,0,0,0,0,0,0,4341,4483,n/a,n/a
+2018-2019,Marco,Tete,Doa,MZ05,MZ1007,n/a,Depressao tropical,0,FALSE,0,8/3/2019,7790,1558,0,0,0,0,0,0,0,51,1039,1,2,0,338,0,3,0,0,0,0,0,0,0,0,0,0,0,4217,1004,n/a,n/a
+2018-2019,Marco,Tete,Chifunde,MZ05,MZ1004,n/a,Depressao tropical,0,FALSE,0,6/3/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,361,96,n/a,n/a
+2018-2019,Marco,Tete,Moatize,MZ05,MZ1012,n/a,Depressao tropical,0,FALSE,0,8/3/2019,5090,1018,0,0,0,1,1,0,1856,1401,0,27,57,0,8220,0,4,0,0,0,0,0,0,0,0,0,0,0,5899,4719,n/a,n/a
+2018-2019,Marco,Tete,Marara,MZ05,MZ1010,n/a,Depressao tropical,0,FALSE,0,6/3/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,38,n/a,n/a
+2018-2019,Marco,Tete,Tsangano,MZ05,MZ1014,n/a,Depressao tropical,0,FALSE,0,6/3/2019,18475,3695,0,0,9,1,1,0,0,3695,0,10,21,0,1437,0,25,0,0,0,0,0,0,0,0,0,0,0,100,197,n/a,n/a
+2018-2019,Marco,Tete,Macanga,MZ05,MZ1008,n/a,Depressao tropical,0,FALSE,0,8/3/2019,6460,1292,0,0,11,3,3,0,1109,203,0,8,17,0,1585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Tete,Angonia,MZ05,MZ1001,n/a,Depressao tropical,0,FALSE,0,6/3/2019,7295,1459,0,0,0,2,2,0,0,1459,0,18,51,0,5383,0,11,0,0,0,0,0,0,0,0,0,0,0,70,127,n/a,n/a
+2018-2019,Marco,Tete,Changara,MZ05,MZ1003,n/a,Depressao tropical,0,FALSE,0,8/3/2019,640,128,0,0,0,0,0,0,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63,251,n/a,n/a
+2018-2019,Marco,Zambezia,Chinde,MZ04,MZ1102,n/a,Depressao tropical,0,FALSE,0,6/3/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Sofala,Buzi,n/a,MZ0901,n/a,Ciclone,n/a,n/a,n/a,3/16/2019,154332,30867,0,0,0,0,108,0,0,0,13600,13,609,0,42023,984,0,13,0,0,0,0,0,0,0,0,0,0,58337,29632,n/a,n/a
+2018-2019,Marco,Sofala,Muanza,n/a,MZ0912,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,36525,7305,0,0,4,0,1,0,0,0,0,0,195,0,11395,316,0,6,0,0,0,0,0,0,0,0,0,0,682,4408,n/a,n/a
+2018-2019,Marco,Sofala,Nhamatanda,n/a,MZ0913,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,273676,54409,0,0,118,0,133,0,19070,20271,0,105,535,0,71746,1479,122,17,0,0,0,5,0,0,0,0,0,60,113252,35294,n/a,n/a
+2018-2019,Marco,Sofala,Cheringoma,n/a,MZ0904,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,7060,1412,0,0,0,0,0,0,1221,191,39,5,6,0,352,8,0,2,0,0,0,0,0,0,0,0,0,0,2439,4315,n/a,n/a
+2018-2019,Marco,Sofala,Caia,n/a,MZ0902,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,12040,2408,0,0,0,0,0,0,0,169,89,0,23,0,2431,46,0,0,0,0,0,0,0,0,0,0,0,0,25251,22255,n/a,n/a
+2018-2019,Marco,Sofala,Chibabava,n/a,MZ0905,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,3975,791,0,0,0,0,0,0,59,632,0,20,45,0,6927,142,0,0,0,0,0,0,0,0,0,0,0,0,3604,20102,n/a,n/a
+2018-2019,Marco,Sofala,Gorongosa,n/a,MZ0908,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,28460,5692,0,0,0,0,0,0,0,2176,0,17,61,0,12895,234,0,0,0,0,0,0,0,0,0,0,0,0,14448,21161,n/a,n/a
+2018-2019,Marco,Inhambane,Inhassoro,n/a,MZ0306,n/a,Ciclone,n/a,n/a,n/a,3/14/2019,155,31,0,0,1,0,0,0,7,3,0,0,1,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Sofala,Maringue,n/a,MZ0910,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,26900,5380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2500,16575,n/a,n/a
+2018-2019,Marco,Sofala,Marromeu,n/a,MZ0911,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,41810,8362,0,0,0,0,0,0,0,0,0,0,24,0,2383,29,0,0,0,0,0,0,0,0,0,0,0,0,3421,23568,n/a,n/a
+2018-2019,Marco,Tete,Chiuta,n/a,MZ1005,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,884,700,n/a,n/a
+2018-2019,Marco,Tete,Maravia,n/a,MZ1011,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,346,309,n/a,n/a
+2018-2019,Marco,Tete,Magoe,n/a,MZ1009,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,438,292,n/a,n/a
+2018-2019,Marco,Tete,Zumbu,n/a,MZ1015,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,264,n/a,n/a
+2018-2019,Marco,Manica,Machaze,n/a,MZ0406,n/a,Ciclone,n/a,n/a,n/a,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,5,3,12,991,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Palma,n/a,MZ0116,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,60,12,0,0,1,0,0,0,8,4,0,3,2,3,500,0,0,0,0,0,0,0,0,0,0,0,0,0,1698,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Ibo,n/a,MZ0105,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,15000,4600,0,0,0,0,0,0,4600,0,0,11,30,3,3266,109,0,2,0,0,0,198,0,0,0,0,0,0,127,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,25,5,0,0,0,0,5,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,0,0,0,0,0,0,0,0,0,0,0,4,8,0,800,4,1,0,0,0,0,15,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Montepuez,n/a,MZ0111,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,1630,326,0,0,0,0,0,0,326,10,0,1,1,2,300,2,0,0,0,0,0,1,0,0,0,0,0,0,997,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Metuge,n/a,MZ0109,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,7260,1452,0,0,1,0,0,364,678,774,0,4,1,8,1050,18,1,0,0,0,0,16,0,0,0,0,0,0,12793,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Muidumbe,n/a,MZ0113,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,16994,3399,0,0,2,0,0,5825,2953,446,0,7,19,0,2850,123,3,2,0,0,0,23,0,0,0,0,0,2,1738,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Mecufi,n/a,MZ0107,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,1645,329,0,0,1,0,0,0,0,8,319,1,0,1,300,3,0,1,0,0,0,16,0,0,0,0,0,0,4500,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Quissanga,n/a,MZ0118,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,21154,4231,0,0,43,0,1,0,440,290,245,25,32,57,7171,210,80,5,0,0,0,301,0,0,0,0,0,0,4131,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Mueda,n/a,MZ0112,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,25680,5136,0,0,7,0,0,196,3952,69,0,2,16,7,2300,31,3,0,0,0,0,0,0,0,0,0,0,1,500,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Meluco,n/a,MZ0108,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,5451,1090,0,0,0,0,0,0,1655,449,0,14,50,3,200,4,0,2,0,0,0,3,0,0,0,0,0,0,3465,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Namuno,n/a,MZ0114,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,3,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1612,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,10,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Mocimboa da Praia,n/a,MZ0110,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,420,84,0,0,0,0,0,0,69,15,0,1,1,1,148,2,0,0,0,0,0,0,0,0,0,0,0,0,7907,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Balama,n/a,MZ0102,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,935,187,0,0,1,0,0,0,167,20,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,45,9,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,10,2,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Pemba,n/a,MZ0117,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,85,17,0,0,0,0,1,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Ancuabe,n/a,MZ0101,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,7515,1503,0,0,0,0,0,0,945,558,268,20,10,37,4700,52,4,0,0,0,0,0,0,0,0,0,0,0,6162,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Nangade,n/a,MZ0115,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,3545,356,0,0,0,0,0,2679,355,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Macomia,n/a,MZ0106,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,85225,18938,0,0,26,0,33,0,5578,10001,0,28,115,31,14908,274,10,5,0,0,0,327,0,0,0,0,0,0,8700,0,n/a,n/a
+2018-2019,Abril,Cabo Delgado,Chiure,n/a,MZ0103,n/a,Ciclone,n/a,n/a,n/a,4/25/2019,24435,4887,0,0,9,0,0,6,1425,3000,462,26,15,24,3201,59,21,0,0,0,0,1,0,0,0,0,0,0,1079,0,n/a,n/a
+2018-2019,Abril,Nampula,Erati,n/a,MZ0703,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/27/2019,18771,3974,0,0,1,0,2,0,2710,1240,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Nacaroa,n/a,MZ0721,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/27/2019,3109,824,0,0,2,0,0,0,16,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Meconta,n/a,MZ0709,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,370,74,0,0,0,0,0,0,21,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Muecate,n/a,MZ0717,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,1760,352,0,0,0,0,0,0,86,266,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Monapo,n/a,MZ0715,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Mogovolas,n/a,MZ0713,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/29/2019,460,92,0,0,0,0,0,0,62,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Cidade de Nampula,n/a,MZ0702,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/29/2019,155,31,0,0,0,0,0,0,18,13,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Memba,n/a,MZ0711,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,10090,2061,0,0,0,0,2,0,1107,954,0,0,0,0,0,0,14,0,0,0,0,0,0,46,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Nacala-A-Velha,n/a,MZ0720,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,1360,272,0,0,0,0,0,0,198,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,Mogincual,n/a,MZ0712,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,1265,253,0,0,0,0,0,0,163,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Abril,Nampula,LiÃÂºpo,n/a,MZ0707,n/a,Chuvas e ventos fortes,n/a,n/a,n/a,4/28/2019,283,53,0,0,0,0,0,0,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n/a,n/a
+2018-2019,Marco,Tete,Marara,MZ05,MZ1010,,Depressao tropical,0,FALSE,0,3/6/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,38,,n/a
+2018-2019,Marco,Tete,Tsangano,MZ05,MZ1014,,Depressao tropical,0,FALSE,0,3/6/2019,18475,3695,0,0,9,1,1,0,0,3695,0,10,21,0,1437,0,25,0,0,0,0,0,0,0,0,0,0,0,100,197,,n/a
+2018-2019,Marco,Tete,Macanga,MZ05,MZ1008,,Depressao tropical,0,FALSE,0,3/8/2019,6460,1292,0,0,11,3,3,0,1109,203,0,8,17,0,1585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,n/a
+2018-2019,Marco,Tete,Angonia,MZ05,MZ1001,,Depressao tropical,0,FALSE,0,3/6/2019,7295,1459,0,0,0,2,2,0,0,1459,0,18,51,0,5383,0,11,0,0,0,0,0,0,0,0,0,0,0,70,127,,n/a
+2018-2019,Marco,Tete,Changara,MZ05,MZ1003,,Depressao tropical,0,FALSE,0,3/8/2019,640,128,0,0,0,0,0,0,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63,251,,n/a
+2018-2019,Marco,Zambezia,Chinde,MZ04,MZ1102,,Depressao tropical,0,FALSE,0,3/6/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,n/a
+2018-2019,Marco,Sofala,Buzi,,MZ0901,#N/A,Ciclone,,,,3/16/2019,154332,30867,0,0,0,0,108,0,0,0,13600,13,609,0,42023,984,0,13,0,0,0,0,0,0,0,0,0,0,58337,29632,,n/a
+2018-2019,Marco,Sofala,Muanza,,MZ0912,MZ0712,Ciclone,,,,3/14/2019,36525,7305,0,0,4,0,1,0,0,0,0,0,195,0,11395,316,0,6,0,0,0,0,0,0,0,0,0,0,682,4408,,n/a
+2018-2019,Marco,Sofala,Nhamatanda,,MZ0913,MZ0713,Ciclone,,,,3/14/2019,273676,54409,0,0,118,0,133,0,19070,20271,0,105,535,0,71746,1479,122,17,0,0,0,5,0,0,0,0,0,60,113252,35294,,n/a
+2018-2019,Marco,Sofala,Cheringoma,,MZ0904,MZ0904,Ciclone,,,,3/14/2019,7060,1412,0,0,0,0,0,0,1221,191,39,5,6,0,352,8,0,2,0,0,0,0,0,0,0,0,0,0,2439,4315,,n/a
+2018-2019,Marco,Sofala,Caia,,MZ0902,MZ0703,Ciclone,,,,3/15/2019,12040,2408,0,0,0,0,0,0,0,169,89,0,23,0,2431,46,0,0,0,0,0,0,0,0,0,0,0,0,25251,22255,,n/a
+2018-2019,Marco,Sofala,Chibabava,,MZ0905,MZ0905,Ciclone,,,,3/15/2019,3975,791,0,0,0,0,0,0,59,632,0,20,45,0,6927,142,0,0,0,0,0,0,0,0,0,0,0,0,3604,20102,,n/a
+2018-2019,Marco,Sofala,Gorongosa,,MZ0908,MZ0708,Ciclone,,,,3/15/2019,28460,5692,0,0,0,0,0,0,0,2176,0,17,61,0,12895,234,0,0,0,0,0,0,0,0,0,0,0,0,14448,21161,,n/a
+2018-2019,Marco,Inhambane,Inhassoro,,MZ0306,MZ0306,Ciclone,,,,3/14/2019,155,31,0,0,1,0,0,0,7,3,0,0,1,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0,0,,n/a
+2018-2019,Marco,Sofala,Maringue,,MZ0910,MZ0910,Ciclone,,,,3/15/2019,26900,5380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2500,16575,,n/a
+2018-2019,Marco,Sofala,Marromeu,,MZ0911,MZ0711,Ciclone,,,,3/15/2019,41810,8362,0,0,0,0,0,0,0,0,0,0,24,0,2383,29,0,0,0,0,0,0,0,0,0,0,0,0,3421,23568,,n/a
+2018-2019,Marco,Tete,Chiuta,,MZ1005,MZ1005,Ciclone,,,,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,884,700,,n/a
+2018-2019,Marco,Tete,Maravia,,MZ1011,MZ1011,Ciclone,,,,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,346,309,,n/a
+2018-2019,Marco,Tete,Magoe,,MZ1009,MZ0509,Ciclone,,,,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,438,292,,n/a
+2018-2019,Marco,Tete,Zumbu,,MZ1015,MZ0515,Ciclone,,,,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,264,,n/a
+2018-2019,Marco,Manica,Machaze,,MZ0406,MZ0406,Ciclone,,,,3/15/2019,0,0,0,0,0,0,0,0,0,0,0,5,3,12,991,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,n/a
