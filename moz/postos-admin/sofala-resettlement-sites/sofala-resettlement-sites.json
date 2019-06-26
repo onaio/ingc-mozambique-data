@@ -1,0 +1,388 @@
+{
+    "label": "Sofala Mapping Basic Services in Resstlement Site",
+    "source": {
+        "type": "vector",
+        "layer": "sofala_sites_demo-1lgu7k",
+        "url": "mapbox://ona.1rnx8sf6",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/province-admin/sofala-resettlement-sites/sofala_mapping_resettlement_sites.csv",
+        "join": [
+            "Resettlement Site",
+            "Resettlement Site"
+        ]
+    },
+    "type": "circle",
+    "radius-range": [
+        "15",
+        "15"
+    ],
+    "property": "overall_percent",
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Less than 50% ",
+            ""
+        ],
+        "limit": [
+            "50",
+            "1000000"
+        ],
+        "color": [
+            "#FF4136",
+            "#FF4136"
+        ]
+    },
+    "detail-view": {
+        "UID": "Resettlement Site",
+        "title": {
+            "prop": "Resettlement Site",
+            "mustache": "{{{Resettlement Site}}}"
+        },
+        "sub-title": {
+            "prop": "District",
+            "mustache": "{{{District}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": [
+                        "longitude",
+                        "latitude"
+                    ],
+                    "join": ", "
+                },
+                "icon": "screenshot",
+                "alt": "GPS coordinates"
+            },
+            {
+                "value": "District",
+                "icon": "pushpin",
+                "alt": "District"
+            },
+            {
+                "value": {
+                    "prop": "Total pp/HHs numbers ",
+                    "mustache": "{{{Total pp/HHs numbers }}}"
+                },
+                "alt": "Total pp/HHs numbers ",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "pp/HHs already in place",
+                    "mustache": "{{{pp/HHs already in place}}}"
+                },
+                "alt": "pp/HHs already in place",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Families have access to safe water",
+                    "mustache": "{{{Families have access to safe water}}}"
+                },
+                "alt": "Indicator 1",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_safe_water_temp",
+                    "mustache": "{{{rating_safe_water_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency  Temporary Solution 15 litres/person/day with temporary solutions (e.g. water trucking)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_safe_water_temp",
+                    "mustache": "{{{comment_safe_water_temp}}}"
+                },
+                "alt": "Comments: Emergency  Temporary Solution 15 litres/person/day with temporary solutions (e.g. water trucking)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_safe_water_long_term",
+                    "mustache": "{{{rating_safe_water_long_term}}}"
+                },
+                "alt": "Rating of Completion: Long term - Sustainable and Resilient Solution: 30litres/person/day with sustainable/resilient solution (e.g. hand pump; water system)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_safe_water_long_term",
+                    "mustache": "{{{comment_safe_water_long_term}}}"
+                },
+                "alt": "Comments: Long term - Sustainable and Resilient Solution: 30litres/person/day with sustainable/resilient solution (e.g. hand pump; water system)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Families have access to hygiene promotion and sanitation",
+                    "mustache": "{{{Families have access to hygiene promotion and sanitation}}}"
+                },
+                "alt": "Indicator 2",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_latrine_temp",
+                    "mustache": "{{{rating_latrine_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution: 1 latrine for 50 people",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_latrine_temp",
+                    "mustache": "{{{comment_latrine_temp}}}"
+                },
+                "alt": "Comments:Emergency - Temporary Solution: 1 latrine for 50 people",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_latrine_long_term",
+                    "mustache": "{{{rating_latrine_long_term}}}"
+                },
+                "alt": "Rating of Completion: Long term - Sustainable and Resilient Solution: ODF / 1 latrine per family",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_latrine_long_term",
+                    "mustache": "{{{comment_latrine_long_term}}}"
+                },
+                "alt": "Comments: Long term - Sustainable and Resilient Solution: ODF / 1 latrine per family",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Children and women have access basic heath services",
+                    "mustache": "{{{Children and women have access basic heath services}}}"
+                },
+                "alt": "Indicator 3",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_h_n_temp",
+                    "mustache": "{{{rating_h_n_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution:Mobile Brigades are providing basic health and nutrition services (at least the core elements of the minimum intervention  package)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_h_n_temp",
+                    "mustache": "{{{comment_h_n_temp}}}"
+                },
+                "alt": "Comments: Emergency - Temporary Solution: Mobile Brigades are providing basic health and nutrition services (at least the core elements of the minimum intervention  package)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_h_n_long_term",
+                    "mustache": "{{{rating_h_n_long_term}}}"
+                },
+                "alt": "Rating of Completion: Long term - Sustainable and Resilient Solution: Health facility with enough capacity to attend the additonal population at a distance not higher than 7Km is providing basic health and nutrition services (at least the core elements of the minimum intervention  package)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_h_n_long_term",
+                    "mustache": "{{{comment_h_n_long_term}}}"
+                },
+                "alt": "Comments: Long term - Sustainable and Resilient Solution: Health facility with enough capacity to attend the additonal population at a distance not higher than 7Km is providing basic health and nutrition services (at least the core elements of the minimum intervention  package)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Children aged 6-15 years old have access to education",
+                    "mustache": "{{{Children aged 6-15 years old have access to education}}}"
+                },
+                "alt": "Indicator 4",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_learning_spaces_temp",
+                    "mustache": "{{{rating_learning_spaces_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution: Children attend classes through safe access to temporary learning spaces with a teacher, blackboard, and student kits for all affected children",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_learning_spaces_temp",
+                    "mustache": "{{{comment_learning_spaces_temp}}}"
+                },
+                "alt": "Comments: Emergency - Temporary Solution: Children attend classes through safe access to temporary learning spaces with a teacher, blackboard, and student kits for all affected children",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_learning_spaces_long_term",
+                    "mustache": "{{{rating_learning_spaces_long_term}}}"
+                },
+                "alt": "Rating of Completion: Long term - Sustainable and Resilient Solution: Children have safe access to education through a rehabilitated/new/not-damaged school located at a maximum distance of XX Km",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_learning_spaces_long_term",
+                    "mustache": "{{{comment_learning_spaces_long_term}}}"
+                },
+                "alt": "Comments: Long term - Sustainable and Resilient Solution: Children have safe access to education through a rehabilitated/new/not-damaged school located at a maximum distance of XX Km",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Children (5-9 year olds) are receiving psychosocial support through Safe Spaces",
+                    "mustache": "{{{Children (5-9 year olds) are receiving psychosocial support through Safe Spaces}}}"
+                },
+                "alt": "Indicator 5",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_safe_spaces_temp",
+                    "mustache": "{{{rating_safe_spaces_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution & Long term - Sustainable and Resilient Solution: CFS facilities with max. 20 children (5-9 years olds) with 2 adult facilitators; max. 25 children (10-12 years old) with 2 adult facilitators; max. 30 children (13-18 years old) with 2 adult facilitators.",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_safe_spaces_temp",
+                    "mustache": "{{{comment_safe_spaces_temp}}}"
+                },
+                "alt": "Comments: Emergency - Temporary Solution & Long term - Sustainable and Resilient Solution: CFS facilities with max. 20 children (5-9 years olds) with 2 adult facilitators; max. 25 children (10-12 years old) with 2 adult facilitators; max. 30 children (13-18 years old) with 2 adult facilitators.",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Children have access to preventive and response services to violence and exploitation",
+                    "mustache": "{{{Children have access to preventive and response services to violence and exploitation}}}"
+                },
+                "alt": "Indicator 6",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_safe_spaces_long_term",
+                    "mustache": "{{{rating_safe_spaces_long_term}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution & Long term - Sustainable and Resilient Solution: Case workers trained to prevent, report and respond to cases of violence and exploitation attend the site with a maximum 25 cases with all cases ending in either case closure or active care plan.",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_safe_spaces_long_term",
+                    "mustache": "{{{comment_safe_spaces_long_term}}}"
+                },
+                "alt": "Comments: Emergency - Temporary Solution & Long term - Sustainable and Resilient Solution: Case workers trained to prevent, report and respond to cases of violence and exploitation attend the site with a maximum 25 cases with all cases ending in either case closure or active care plan.",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Children that lost their birth registration documents have been re-issued their documents",
+                    "mustache": "{{{Children that lost their birth registration documents have been re-issued their documents}}}"
+                },
+                "alt": "Indicator 7",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_doc_loss_temp",
+                    "mustache": "{{{rating_doc_loss_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution & Long term - Sustainable and Resilient Solution: All children affected by the cyclone that lost registration documents have received new documents",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_doc_loss_temp",
+                    "mustache": "{{{comment_doc_loss_temp}}}"
+                },
+                "alt": "Comments: Emergency - Temporary Solution & Long term - Sustainable and Resilient Solution: All children affected by the cyclone that lost registration documents have received new documents",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Families have access to behaviour change messages on health, nutrition, and safe and protection",
+                    "mustache": "{{{Families have access to behaviour change messages on health, nutrition, and safe and protection}}}"
+                },
+                "alt": "Indicator 8",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_behav_change_temp",
+                    "mustache": "{{{rating_behav_change_temp}}}"
+                },
+                "alt": "Rating of Completion: Emergency - Temporary Solution: All families reached with behavior change communication on life saving skills, hygiene practices or information on uptake of services.",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_behav_change_temp",
+                    "mustache": "{{{comment_behav_change_temp}}}"
+                },
+                "alt": "Comments: Emergency - Temporary Solution: All families reached with behavior change communication on life saving skills, hygiene practices or information on uptake of services.",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "rating_behav_change_long_term",
+                    "mustache": "{{{rating_behav_change_long_term}}}"
+                },
+                "alt": "Rating of Completion: Long term - Sustainable and Resilient Solution: All families reached with behavior change communication on protective practices",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "comment_behav_change_long_term",
+                    "mustache": "{{{comment_behav_change_long_term}}}"
+                },
+                "alt": "Comments: Long term - Long term - Sustainable and Resilient Solution: All families reached with behavior change communication on protective practices",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "overall_percent",
+                    "mustache": "{{{overall_percent}}}"
+                },
+                "alt": "Overall Performance Percentage (%)",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "District",
+            "Resettlement Site"
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all"
+        ],
+        "filter-label": [
+            "District",
+            "Resettlement Site"
+        ],
+        "sub-filter": [
+            "",
+            ""
+        ],
+        "accepted-sub-filter-values": [
+            "",
+            ""
+        ]
+    },
+    "popup": {
+        "header": "{{Resettlement Site}}",
+        "body": "<p style=text-align:left;><b>Overall Performance Percentage: </b>{{overall_percent}}%<p>"
+    },
+    "visible": false,
+    "menu-credit": " ",
+    "credit": " "
+}
