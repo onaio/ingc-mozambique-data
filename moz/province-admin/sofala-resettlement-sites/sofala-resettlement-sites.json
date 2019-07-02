@@ -82,30 +82,39 @@
                 "alt": "Indicator 1",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_safe_water_temp",
                     "mustache": "{{{rating_safe_water_temp}}}"
                 },
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_safe_water_temp",
                     "mustache": "{{{comment_safe_water_temp}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "rating_safe_water_long_term",
                     "mustache": "{{{rating_safe_water_long_term}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_safe_water_long_term",
                     "mustache": "{{{comment_safe_water_long_term}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "Families have access to hygiene promotion and sanitation",
                     "mustache": "{{{Families have access to hygiene promotion and sanitation}}}"
@@ -113,30 +122,38 @@
                 "alt": "Indicator 2",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_latrine_temp",
                     "mustache": "{{{rating_latrine_temp}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_latrine_temp",
                     "mustache": "{{{comment_latrine_temp}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "rating_latrine_long_term",
                     "mustache": "{{{rating_latrine_long_term}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_latrine_long_term",
                     "mustache": "{{{comment_latrine_long_term}}}"
                 },
-               
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "Children and women have access basic heath services",
@@ -145,30 +162,38 @@
                 "alt": "Indicator 3",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_h_n_temp",
                     "mustache": "{{{rating_h_n_temp}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_h_n_temp",
                     "mustache": "{{{comment_h_n_temp}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "rating_h_n_long_term",
                     "mustache": "{{{rating_h_n_long_term}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_h_n_long_term",
                     "mustache": "{{{comment_h_n_long_term}}}"
                 },
-                
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "Children aged 6-15 years old have access to education",
@@ -177,30 +202,38 @@
                 "alt": "Indicator 4",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_learning_spaces_temp",
                     "mustache": "{{{rating_learning_spaces_temp}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_learning_spaces_temp",
                     "mustache": "{{{comment_learning_spaces_temp}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "rating_learning_spaces_long_term",
                     "mustache": "{{{rating_learning_spaces_long_term}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_learning_spaces_long_term",
                     "mustache": "{{{comment_learning_spaces_long_term}}}"
                 },
-               
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "Children (5-9 year olds) are receiving psychosocial support through Safe Spaces",
@@ -209,18 +242,22 @@
                 "alt": "Indicator 5",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_safe_spaces_temp",
                     "mustache": "{{{rating_safe_spaces_temp}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_safe_spaces_temp",
                     "mustache": "{{{comment_safe_spaces_temp}}}"
                 },
-                
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "Children have access to preventive and response services to violence and exploitation",
@@ -229,18 +266,22 @@
                 "alt": "Indicator 6",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_safe_spaces_long_term",
                     "mustache": "{{{rating_safe_spaces_long_term}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_safe_spaces_long_term",
                     "mustache": "{{{comment_safe_spaces_long_term}}}"
                 },
-                
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "Children that lost their birth registration documents have been re-issued their documents",
@@ -249,18 +290,22 @@
                 "alt": "Indicator 7",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_doc_loss_temp",
                     "mustache": "{{{rating_doc_loss_temp}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_doc_loss_temp",
                     "mustache": "{{{comment_doc_loss_temp}}}"
                 },
-                
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "Families have access to behaviour change messages on health, nutrition, and safe and protection",
@@ -269,30 +314,38 @@
                 "alt": "Indicator 8",
                 "useAltAsPrefix": true
             },
-            
+            {
                 "value": {
                     "prop": "rating_behav_change_temp",
                     "mustache": "{{{rating_behav_change_temp}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_behav_change_temp",
                     "mustache": "{{{comment_behav_change_temp}}}"
                 },
-                
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "rating_behav_change_long_term",
                     "mustache": "{{{rating_behav_change_long_term}}}"
                 },
-               
-            
+                "alt": "",
+                "useAltAsPrefix": true
+            },
+            {
                 "value": {
                     "prop": "comment_behav_change_long_term",
                     "mustache": "{{{comment_behav_change_long_term}}}"
                 },
-                
+                "alt": "",
+                "useAltAsPrefix": true
+            },
             {
                 "value": {
                     "prop": "overall_percent",
