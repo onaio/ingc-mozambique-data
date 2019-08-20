@@ -1,0 +1,48 @@
+{
+    "label": "Número de Unidades Sanitarias Afetadas",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 1342
+        },
+        "layer": "moz_hdx_distritos",
+        "url": "mapbox://ona.c8dl08eb",
+        "join": [
+            "ADM2_PCODE",
+            "distrito_pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "unidades_sanitarias",
+    "categories": {
+        "breaks": "yes",
+        "color": "Purples",
+        "clusters": 5
+    },
+    "aggregate": {
+        "timeseries": {
+            "type": "cumulative",
+            "field": "epoca"
+        },
+        "filter": [
+            "distrito"
+        ],
+        "accepted-filter-values": [
+            "all"
+        ],
+        "filter-label": [
+            "Distrito"
+        ],
+        "filter-type": [
+            "vBool"
+        ]
+    },
+    "popup": {
+        "header": "distrito",
+        "body": " <p style=text-align:left;> <b>Unidades Sanitarias Afetadas:</b> {{unidades_sanitarias}}</p>"
+    },
+    "visible": false,
+    "menu-credit": "INGC",
+    "credit": "INGC"
+}

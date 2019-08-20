@@ -1,0 +1,48 @@
+{
+    "label": "Famílias e Pessoas Afetadas",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 1342
+        },
+        "layer": "moz_hdx_distritos",
+        "url": "mapbox://ona.c8dl08eb",
+        "join": [
+            "ADM2_PCODE",
+            "distrito_pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "familias_afectadas",
+    "categories": {
+        "breaks": "yes",
+        "color": "Blues",
+        "clusters": 7
+    },
+    "aggregate": {
+        "timeseries": {
+            "type": "cumulative",
+            "field": "epoca"
+        },
+        "filter": [
+            "distrito"
+        ],
+        "accepted-filter-values": [
+            "all"
+        ],
+        "filter-label": [
+            "Distrito"
+        ],
+        "filter-type": [
+            "vBool"
+        ]
+    },
+    "popup": {
+        "header": "distrito",
+        "body": "<p style=text-align:left;> <b>Famílias Afetadas:</b> {{familias_afectadas}} <br> <b>Pessoas Afetadas:</b> {{pessoas_afectadas}} <span style=float:right;>"
+    },
+    "visible": false,
+    "menu-credit": "INGC",
+    "credit": "INGC"
+}

@@ -1,0 +1,48 @@
+{
+    "label": "Número de Salas de Aula Parcialmente e Totalmente Destruídas",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 1342
+        },
+        "layer": "moz_hdx_distritos",
+        "url": "mapbox://ona.c8dl08eb",
+        "join": [
+            "ADM2_PCODE",
+            "distrito_pcode"
+        ]
+    },
+    "type": "fill",
+    "property": "salas_destruidas",
+    "categories": {
+        "breaks": "yes",
+        "color": "Reds",
+        "clusters": 5
+    },
+    "aggregate": {
+        "timeseries": {
+            "type": "cumulative",
+            "field": "epoca"
+        },
+        "filter": [
+            "distrito"
+        ],
+        "accepted-filter-values": [
+            "all"
+        ],
+        "filter-label": [
+            "Distrito"
+        ],
+        "filter-type": [
+            "vBool"
+        ]
+    },
+    "popup": {
+        "header": "distrito",
+        "body": " <p style=text-align:left;> <b>Salas Destruídas:</b> {{salas_destruidas}}</p>"
+    },
+    "visible": false,
+    "menu-credit": "INGC",
+    "credit": "INGC"
+}
