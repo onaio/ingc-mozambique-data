@@ -1,0 +1,189 @@
+province,district,posto,localidade_bairro,resettlement_coverage_area,organization,thematic_area,number_activists
+Sofala,Dondo,Dondo,Dondo,Mandruzi Resetlement Area ,OXFAM,Protection,6
+Sofala,Dondo,Dondo,Dondo,Mandruzi Resetlement Area ,OXFAM,WASH,8
+Sofala,Dondo,Dondo,Dondo,Mutua Resetlement Area,OXFAM,Protection,3
+Sofala,Dondo,Dondo,Dondo,Mutua Resetlement Area,OXFAM,WASH,13
+Sofala,Dondo,Dondo,Dondo,Mutua Resetlement Area,CUAMM,"Health, HIV, Nutrition",45
+Sofala,Dondo,Mafambisse,Mafambisse,Marafarrinha Neighborhood,Care ,WASH ,12
+Sofala,Dondo,Mafambisse,Mafambisse,Mafambisse,PSI,Health,4
+Sofala,Dondo,Mafambisse,Mafambisse,Marafarrinha Neighborhood,PSI,Health,2
+Sofala,Dondo,Mafambisse,Mafambisse,Nhamaiabue Neighborhood,PSI,Health,2
+Sofala,Dondo,Dondo,Dondo,Samora Machel Neighborhood,PSI,Health,1
+Sofala,Dondo,Mafambisse,Mutua,Mutua Neighborhood,CVM/IFRC,"WASH, Health",10
+Sofala,Dondo,Dondo,Dondo,"Sengo Praia, Praia Nova And Praia Farol",CVM/IFRC,"WASH, Health, Livelihoods, Shelter",20
+Sofala,Dondo,Savane,Savane,Chinimacondo Neighborhood,CVM/IFRC,"WASH, Health, Livelihoods, Shelter",20
+Sofala,Dondo,Dondo,Dondo,Mandruzi Resetlement Area ,IOM ,"Protection, AAP",4
+Sofala,Dondo,Savane,Savane,Savane Resetlement Area,IOM ,"Protection, AAP",2
+Sofala,Dondo,Dondo,Mafambisse,Mutua Resetlement Area,IOM ,"Protection, AAP",4
+Sofala,Dondo,Dondo,Dondo,Mandruzi Resetlement Area ,UNFPA,Women's health,37
+Sofala,Dondo,Savane,Savane,Savane Resetlement Area,UNFPA,Women's health,1
+Sofala,Dondo,Mafambisse,Mafambisse,Mutua Resetlement Area,UNFPA,Women's health,1
+Sofala,Dondo,Savane,Savane,Chinimacondo Neighborhood,UNFPA,Women's health,2
+Sofala,Dondo,Mafambisse,Mafambisse,Mafambisse,UNFPA,Women's health,1
+Sofala,Dondo,Dondo,Dondo,Nhamainga,Help Age ,"Elderly Health, WASH, Protection",2
+Sofala,Dondo,Savane,Savane,Chinimacondo Neighborhood,Help Age ,"Elderly Health, WASH, Protection",2
+Sofala,Dondo,Dondo,Dondo,Nhamainga,Light for the World,People with Disabilities,1
+Sofala,Dondo,Dondo,Dondo,Central ,Light for the World,People with Disabilities,2
+Sofala,Dondo,Mafambisse,Mafambisse,Marafarrinha Neighborhood,Light for the World,People with Disabilities,2
+Sofala,Dondo,Dondo,Dondo,Mandruzi Neighborhood,Light for the World,People with Disabilities,1
+Sofala,Dondo,Dondo,Dondo,Canhandula,Light for the World,People with Disabilities,2
+Sofala,Dondo,Dondo,Dondo,Macharote,Light for the World,People with Disabilities,1
+Sofala,Dondo,Dondo,Dondo,Nhamaiabue Neighborhood,Light for the World,People with Disabilities,1
+Sofala,Dondo,Dondo,Dondo,Consito Neighborhood,Light for the World,People with Disabilities,1
+Sofala,Dondo,Dondo,Dondo,Samora Machel Neighborhood,Light for the World,People with Disabilities,1
+Sofala,Dondo,Savane,Savane,Savane Resetlement Area,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,Dondo,Mafambisse,Mutua,Mutua Neighborhood,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",1
+Sofala,Dondo,Mafambisse,Mafambisse,Mafambisse,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,Dondo,Mafambisse,Mafambisse,Marafarrinha Neighborhood,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",4
+Sofala,Dondo,Dondo,Dondo,Macharote,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",4
+Sofala,Dondo,Dondo,Dondo,Nhamaiabue Neighborhood,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",6
+Sofala,Dondo,Dondo,Dondo,Consito Neighborhood,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",4
+Sofala,Dondo,Dondo,Dondo,Mandruzi Resetlement Area ,UNHCR,"Protection Focal Points, ",12
+Sofala,Dondo,Savane,Savane,Savane Resetlement Area,UNHCR,"Protection Focal Points, ",10
+Sofala,Dondo,Mafambisse,Mafambisse,Mutua Resetlement Area,UNHCR,"Protection Focal Points, ",12
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Bairro 7 Abril - Ncura Resetlement Area,CUAMM,"Health, HIV, Nutrition",20
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Bairro 7 Abril - Ncura Resetlement Area,OXFAM,Protection,5
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Bairro 7 Abril - Ncura Resetlement Area,OXFAM, WASH ,6
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,10 Bairro,AVSI ,Protection,4
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Bairro 7 Abril - Ncura Resetlement Area,World Vision ,"WASH, Protection",6
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Iv Bairro,World Vision ,"WASH, Protection",12
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Metuchira Resetlement Area,World Vision ,"WASH, Protection",6
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Lamego ,World Vision ,"WASH, Protection",12
+Sofala,NHAMATANDA,Nhamatanda,Siluvo ,Siluvo ,World Vision ,"WASH, Protection",6
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,10 Bairro,World Vision ,"WASH, Protection",6
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Health ,CVM/IFRC,"WASH, Health",5
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Bairro 7 Abril - Ncura Resetlement Area,IOM ,"Protection, AAP",4
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Metuchira Resetlement Area,IOM ,"Protection, AAP",2
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Ndedja Resetlement Area,IOM ,"Protection, AAP",4
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Metuchira Resetlement Area,Help Age ,"Elderly Health, WASH, Protection",2
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Lamego ,Help Age ,"Elderly Health, WASH, Protection",1
+Sofala,NHAMATANDA,Tica,Tica,Tica,Help Age ,"Elderly Health, WASH, Protection",1
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Lamego ,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,NHAMATANDA,Tica,Tica,Mitondo,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",1
+Sofala,NHAMATANDA,Nhamatanda,Nhamatanda,Micomeze,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",1
+Sofala,NHAMATANDA,Nhamatanda,Siluvo ,Rua Domingos,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",1
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Muda,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,NHAMATANDA,Nhamatanda,Siluvo ,Mecuzi Puazi ,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",1
+Sofala,NHAMATANDA,Nhamatanda,Metuchira ,Metuchira Resetlement Area,UNHCR,"Protection Focal Points, ",10
+Sofala,Buzi,Estaquinha,Estaquinha ,Inhanjou Km37 Resetlement Area,OXFAM,WASH ,4
+Sofala,Buzi,Buzi,Guara Guara,Guara Guara Resetlement Area,OXFAM,Protection,6
+Sofala,Buzi,Buzi,Guara Guara,Guara Guara,OXFAM,WASH ,18
+Sofala,Buzi,Estaquinha,Estaquinha ,Estaquinha Resetlement Area,OXFAM,Protection,6
+Sofala,Buzi,Estaquinha,Estaquinha ,Estaquinha Resetlement Area,OXFAM, WASH ,3
+Sofala,Buzi,Buzi,Buzi,Buzi Sede,OXFAM, WASH ,4
+Sofala,Buzi,Buzi,Buzi,Chicumbua,OXFAM,WASH ,2
+Sofala,Buzi,Estaquinha,Estaquinha ,Begaja,OXFAM,WASH ,2
+Sofala,Buzi,Buzi,Buzi,Bandua Resetlement Area,World Vision ,"WASH, Protection",66
+Sofala,Buzi,Buzi,Buzi,Bandua Sede,World Vision ,"WASH, Protection",66
+Sofala,Buzi,Estaquinha,Estaquinha ,Estaquinha Resetlement Area,World Vision ,"WASH, Protection",174
+Sofala,Buzi,Buzi,Buzi,Chiquezana,World Vision ,"WASH, Protection",17
+Sofala,Buzi,Buzi,Buzi,Nhabirire,World Vision ,"WASH, Protection",17
+Sofala,Buzi,Buzi,Buzi,Chicumbua,World Vision ,"WASH, Protection",17
+Sofala,Buzi,Estaquinha,Estaquinha ,Inhanjou Km37 Resetlement Area,PLAN International ,"WASH, Child Protection, Education ",25
+Sofala,Buzi,Grudja ,Grudja ,Grudja Resetlement Area,PLAN International ,"WASH, Child Protection, Education ",10
+Sofala,Buzi,Buzi,Buzi,Bandua Resetlement Area,PLAN International ,"WASH, Child Protection, Education ",10
+Sofala,Buzi,Buzi,Bandua ,Bandua Sede,PLAN International ,"WASH, Child Protection, Education ",10
+Sofala,Buzi,Estaquinha,Estaquinha ,Estaquinha Resetlement Area,PLAN International ,"WASH, Child Protection, Education ",10
+Sofala,Buzi,Buzi,Buzi,Nharongue Resetlement Area,PLAN International ,"WASH, Child Protection, Education ",10
+Sofala,Buzi,Buzi,Buzi,Macurungo ,PLAN International ,"WASH, Child Protection, Education ",15
+Sofala,Buzi,Buzi,Buzi,Massane,PLAN International ,"WASH, Child Protection, Education ",10
+Sofala,Buzi,Buzi,Bandua ,Guara Guara Resetlement Area,IOM ,"Protection, AAP",12
+Sofala,Buzi,Buzi,Bandua ,Bandua Resetlement Area,IOM ,"Protection, AAP",14
+Sofala,Buzi,Estaquinha,Estaquinha ,Inhanjou Km37 Resetlement Area,UNFPA,Women's health,27
+Sofala,Buzi,Buzi,Buzi,Guara Guara Resetlement Area,Light for the World,People with Disabilities,2
+Sofala,Buzi,Buzi,Buzi,Buzi Sede,Light for the World,People with Disabilities,6
+Sofala,Buzi,Buzi,Buzi,Macurungo ,Light for the World,People with Disabilities,2
+Sofala,Buzi,Buzi,Buzi,Massane,Light for the World,People with Disabilities,1
+Sofala,Buzi,Buzi,Buzi,Chiquezana,Light for the World,People with Disabilities,2
+Sofala,Buzi,Buzi,Buzi,Nhabirire,Light for the World,People with Disabilities,1
+Sofala,Buzi,Buzi,Buzi,Guara Guara Resetlement Area,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,Buzi,Buzi,Buzi,Macurungo ,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",7
+Sofala,Buzi,Buzi,Buzi,Massane,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",5
+Sofala,Buzi,Buzi,Buzi,Chiquezana,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,Buzi,Buzi,Buzi,Matinote,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",2
+Sofala,Buzi,Buzi,Buzi,Mandiri,PIRCOM/UNICEF,"WASH, Health, Nutrition, Child Protection, ",3
+Sofala,Buzi,Buzi,Buzi,Guara Guara Resetlement Area,UNHCR,"Protection Focal Points, ",10
+Sofala,Beira,Cidade da Beira,Beira,Inhamizua,CUAMM,"Health, HIV, Nutrition",162
+Sofala,Beira,Cidade da Beira,Beira,Tchonja,Malteser,WASH ,45
+Sofala,Beira,Cidade da Beira,Beira,Munhava A,OXFAM,WASH ,9
+Sofala,Beira,Cidade da Beira,Beira,Chingussura,OXFAM,WASH ,10
+Sofala,Beira,Cidade da Beira,Beira,Villa Massane,OXFAM,WASH ,8
+Sofala,Beira,Cidade da Beira,Beira,Villa Massane,Care ,WASH,8
+Sofala,Beira,Cidade da Beira,Beira,Ponta Gea ,MSF,WASH ,3
+Sofala,Beira,Cidade da Beira,Beira,Vaz,MSF,WASH ,20
+Sofala,Beira,Cidade da Beira,Beira,Praia Nova/Xamite,MSF,WASH ,41
+Sofala,Beira,Cidade da Beira,Beira,Pioneiro,MSF,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Munhava A,MSF,WASH ,27
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,MSF,WASH ,3
+Sofala,Beira,Cidade da Beira,Beira,Mananga ,MSF,WASH ,38
+Sofala,Beira,Cidade da Beira,Beira,Chingussura,MSF,WASH ,26
+Sofala,Beira,Cidade da Beira,Beira,Marraza ,MSF,WASH ,21
+Sofala,Beira,Cidade da Beira,Beira,Chota,MSF,WASH ,36
+Sofala,Beira,Cidade da Beira,Beira,Mascarenhas,MSF,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Esturro ,MSF,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Villa Massane,MSF,WASH ,29
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,OJOLISC ,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Mananga ,OJOLISC ,WASH ,6
+Sofala,Beira,Cidade da Beira,Beira,Marraza ,OJOLISC ,WASH ,4
+Sofala,Beira,Cidade da Beira,Beira,Ndunda 1,OJOLISC ,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Chota,OJOLISC ,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Nhandau ,OJOLISC ,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Mascarenhas,OJOLISC ,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Vaz,PSI,Health,1
+Sofala,Beira,Cidade da Beira,Beira,Mungassa,PSI,Health,2
+Sofala,Beira,Cidade da Beira,Beira,Mananga ,PSI,Health,5
+Sofala,Beira,Cidade da Beira,Beira,Chingussura,PSI,Health,1
+Sofala,Beira,Cidade da Beira,Beira,Marraza ,PSI,Health,3
+Sofala,Beira,Cidade da Beira,Beira,Nhaconjo,PSI,Health,1
+Sofala,Beira,Cidade da Beira,Beira,Ndunda 1,PSI,Health,3
+Sofala,Beira,Cidade da Beira,Beira,Chota,PSI,Health,1
+Sofala,Beira,Cidade da Beira,Beira,Matacuane,PSI,Health,1
+Sofala,Beira,Cidade da Beira,Beira,Mascarenhas,PSI,Health,3
+Sofala,Beira,Cidade da Beira,Beira,Macurungo ,PSI,Health,2
+Sofala,Beira,Cidade da Beira,Beira,Villa Massane,PSI,Health,2
+Sofala,Beira,Cidade da Beira,Beira,Ponta Gea ,FHI360,WASH ,11
+Sofala,Beira,Cidade da Beira,Beira,Munhava A,FHI360,WASH ,12
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,FHI360,WASH ,13
+Sofala,Beira,Cidade da Beira,Beira,Mananga ,FHI360,WASH ,10
+Sofala,Beira,Cidade da Beira,Beira,Nhaconjo,FHI360,WASH ,16
+Sofala,Beira,Cidade da Beira,Beira,Mascarenhas,FHI360,WASH ,12
+Sofala,Beira,Cidade da Beira,Beira,Macurungo ,FHI360,WASH ,10
+Sofala,Beira,Cidade da Beira,Beira,Munhava A,AMACO,WASH ,3
+Sofala,Beira,Cidade da Beira,Beira,Mananga ,AMACO,WASH ,10
+Sofala,Beira,Cidade da Beira,Beira,Marraza ,AMACO,WASH ,6
+Sofala,Beira,Cidade da Beira,Beira,Ponta Gea ,SAVE THE CHILDREN,WASH ,13
+Sofala,Beira,Cidade da Beira,Beira,Praia Nova/Xamite,SAVE THE CHILDREN,WASH ,1
+Sofala,Beira,Cidade da Beira,Beira,Pioneiro,SAVE THE CHILDREN,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Munhava A,SAVE THE CHILDREN,WASH ,1
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,SAVE THE CHILDREN,WASH ,2
+Sofala,Beira,Cidade da Beira,Beira,Chingussura,SAVE THE CHILDREN,WASH ,1
+Sofala,Beira,Cidade da Beira,Beira,Matacuane,SAVE THE CHILDREN,WASH ,12
+Sofala,Beira,Cidade da Beira,Beira,Esturro ,SAVE THE CHILDREN,WASH ,4
+Sofala,Beira,Cidade da Beira,Beira,Macurungo ,SAVE THE CHILDREN,WASH ,7
+Sofala,Beira,Cidade da Beira,Beira,Vaz,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Praia Nova/Xamite,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Munhava G,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Chingussura,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Nhaconjo,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Ndunda 1,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Ndunda 2,CVM/IFRC,"WASH, Health",10
+Sofala,Beira,Cidade da Beira,Beira,Villa Massane,CVM/IFRC,"WASH, Health",20
+Sofala,Beira,Cidade da Beira,Beira,Palmeiras,UNFPA,Women's health,1
+Sofala,Beira,Cidade da Beira,Beira,Munhava Centro 9 Bairro,UNFPA,Women's health,13
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,UNFPA,Women's health,2
+Sofala,Beira,Cidade da Beira,Beira,Matacuane,UNFPA,Women's health,7
+Sofala,Beira,Cidade da Beira,Beira,Mascarenhas,UNFPA,Women's health,22
+Sofala,Beira,Cidade da Beira,Beira,Esturro ,UNFPA,Women's health,4
+Sofala,Beira,Cidade da Beira,Beira,Macurungo ,UNFPA,Women's health,2
+Sofala,Beira,Cidade da Beira,Beira,Vaz,Help Age ,"Elderly Health, WASH, Protection",2
+Sofala,Beira,Cidade da Beira,Beira,Chipangara,Light for the World,People with Disabilities,4
+Sofala,Beira,Cidade da Beira,Beira,Macuti,Light for the World,People with Disabilities,4
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,Light for the World,People with Disabilities,3
+Sofala,Beira,Cidade da Beira,Beira,Chingussura,Light for the World,People with Disabilities,3
+Sofala,Beira,Cidade da Beira,Beira,Matacuane,Light for the World,People with Disabilities,14
+Sofala,Beira,Cidade da Beira,Beira,Mascarenhas,Light for the World,People with Disabilities,24
+Sofala,Beira,Cidade da Beira,Beira,Esturro ,Light for the World,People with Disabilities,2
+Sofala,Beira,Cidade da Beira,Beira,Macurungo ,Light for the World,People with Disabilities,16
+Sofala,Beira,Cidade da Beira,Beira,Alto Da Manga ,PIRCOM/UNICEF,"Health, HIV, Nutrition",16
+Sofala,Beira,Cidade da Beira,Beira,Esturro ,PIRCOM/UNICEF,"Health, HIV, Nutrition",9
+Sofala,Beira,Cidade da Beira,Beira,Macurungo ,PIRCOM/UNICEF,"Health, HIV, Nutrition",10

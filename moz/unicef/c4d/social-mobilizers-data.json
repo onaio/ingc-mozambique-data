@@ -1,0 +1,159 @@
+{
+    "label": "Social Mobilizer Intervention Areas",
+    "source": {
+        "type": "vector",
+        "data": {
+            "type": "superset",
+            "slice-id": 3210
+        },
+        "layer": "mozambique_postos-4kuvrh",
+        "url": "mapbox://ona.ajgigfjt",
+        "join": [
+            "Posto",
+            "posto"
+        ]
+    },
+    "type": "fill",
+    "property": "number_activists",
+    "categories": {
+        "breaks": "yes",
+        "color": "Greens",
+        "clusters": 5
+    },
+    "detail-view": {
+        "UID": "posto",
+        "title": {
+            "prop": "posto",
+            "mustache": "{{{posto}}}"
+        },
+        "sub-title": {
+            "prop": "bairro",
+            "mustache": "{{{bairo}}}"
+        },
+        "basic-info": [
+            {
+                "value": "province",
+                "icon": "",
+                "alt": "Province"
+            },
+            {
+                "value": "distrito",
+                "icon":"" ,
+                "alt": "District"
+            },
+            {
+                "value": "posto",
+                "icon": "",
+                "alt": "Posto"
+            },
+            {
+                "value": "bairro",
+                "icon": "",
+                "alt": "Bairro"
+            },
+            {
+                "value": {
+                    "prop": "resettlement_coverage_area",
+                    "mustache": "{{{resettlement_coverage_area}}}"
+                },
+                "alt": "Resettlement/ Coverage Area",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "organization",
+                    "mustache": "{{{organization}}}"
+                },
+                "alt": "Organization",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "thematic_area",
+                    "mustache": "{{{thematic_area}}}"
+                },
+                "alt": "Thematic Area",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "number_activists",
+                    "mustache": "{{{number_activists}}}"
+                },
+                "alt": "Number of Activists",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "province",
+            "district",
+            "posto",
+            "bairro",
+            "resettlement_coverage_area",
+            "organization",
+            "thematic_area"
+        ],
+        "accepted-filter-values": [
+            "multi",
+            "multi",
+            "all",
+            "multi",
+            "multi",
+            "multi",
+            "multi"
+        ],
+        "filter-label": [
+            "Province",
+            "District",
+            "Posto",
+            "Bairro",
+            "Resettlement Coverage Area",
+            "Organization",
+            "Thematic Area"
+        ],
+        "filter-type": [
+            "vBool",
+            "vBool",
+            "vBool",
+            "vBool",
+            "vBool",
+            "vBool",
+            "vBool"
+        ]
+    },
+    "data-parse": {
+        "province": {
+            "type": "multiple",
+            "split": ","
+        },
+        "district": {
+            "type": "multiple",
+            "split": ","
+        },
+        "bairro": {
+            "type": "multiple",
+            "split": ","
+        },
+        "resettlement_coverage_area": {
+            "type": "multiple",
+            "split": ","
+        },
+        "organization": {
+            "type": "multiple",
+            "split": ","
+        },
+        "thematic_area": {
+            "type": "multiple",
+            "split": ","
+        }
+    },
+    "popup": {
+        "header": "{{posto}}",
+        "body": "<p style=text-align:left;><b>Posto: </b>{{posto}}<br><b>Number of Activists: </b>{{number_activists}}<p>"
+    },
+    "visible": false,
+    "menu-credit": " ",
+    "credit": " "
+}
