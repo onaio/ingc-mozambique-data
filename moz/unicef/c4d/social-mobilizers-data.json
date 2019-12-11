@@ -6,10 +6,10 @@
             "type": "superset",
             "slice-id": 3210
         },
-        "layer": "mozambique_postos-4kuvrh",
-        "url": "mapbox://ona.ajgigfjt",
+        "layer": "moz_hdx_postos",
+        "url": "mapbox://ona.b77aft2d",
         "join": [
-            "Posto",
+            "ADM3_PT",
             "posto"
         ]
     },
