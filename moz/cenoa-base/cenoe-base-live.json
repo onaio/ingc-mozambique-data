@@ -25,17 +25,17 @@
             "type": "cumulative",
             "field": "epoca"
         },
-        "filter": [
-            "distrito"
+         "filter": [
+            "distrito","periodo"
         ],
         "accepted-filter-values": [
-            "all"
+            "all","all"
         ],
         "filter-label": [
-            "Distrito"
+            "Distrito","Periodo"
         ],
         "filter-type": [
-            "vBool"
+            "vBool","vBool"
         ]
     },
     "popup": {
