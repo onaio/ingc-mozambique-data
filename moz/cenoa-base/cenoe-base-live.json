@@ -26,16 +26,16 @@
             "field": "epoca"
         },
          "filter": [
-            "distrito","periodo"
+            "distrito"
         ],
         "accepted-filter-values": [
-            "all","all"
+            "all"
         ],
         "filter-label": [
-            "Distrito","Periodo"
+            "Distrito"
         ],
         "filter-type": [
-            "vBool","vBool"
+            "vBool"
         ]
     },
     "popup": {
