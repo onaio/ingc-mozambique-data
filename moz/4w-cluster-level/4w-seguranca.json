@@ -7,7 +7,7 @@
         "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/4w-cluster-level/4w_seguranca_final.csv",
         "join": [
             "Distrito",
-            "ADM2_PT"
+            "district"
         ]
     },
     "type": "fill",
