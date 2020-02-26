@@ -14,6 +14,7 @@
     "property": "org_no",
     "categories": {
         "breaks": "yes",
+        "vector-prop": "Distrito",
         "color": "Set2",
         "clusters": 5
     },
