@@ -2,7 +2,7 @@
     "label": "Pontes",
     "source": {
       "type": "geojson",
-      "data": "data/pontes.geojson",
+      "data": "pontes.geojson",
       "join": ["STR_ID", "STR_ID"]
     },
     "type": "symbol",
