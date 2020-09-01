@@ -2,7 +2,7 @@
     "label": "Informação Escolar",
     "source": {
         "type": "geojson",
-        "data": "dados_escolas.geojson",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/schools/dados_escolas.geojson",
         "join": [
             "school_id",
             "school_id"
