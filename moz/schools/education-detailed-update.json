@@ -2,7 +2,7 @@
     "label": "Informação Escolar",
     "source": {
         "type": "geojson",
-        "data": "data/dados_escolas.geojson",
+        "data": "dados_escolas.geojson",
         "join": [
             "school_id",
             "school_id"
