@@ -1,0 +1,150 @@
+{
+    "label": "Pontes",
+    "source": {
+      "type": "geojson",
+      "data": "data/pontes.geojson",
+      "join": ["STR_ID", "STR_ID"]
+    },
+    "type": "symbol",
+    "minZoom": 0,
+    "paint": {
+        "text-color": "#000",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 1
+    },
+    "layout": {
+        "text-size": {
+            "stops": [
+                [
+                    5,
+                    0
+                ],
+                [
+                    7,
+                    5
+                ],
+                [
+                    8,
+                    10
+                ]
+            ]
+        },
+        "icon-image": "bridge",
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Ponte"
+        ],
+        "type": [
+            "Ponte"
+        ],
+        "color": [
+            "#000000"
+        ]
+    },
+    "popup": {
+        "header": "STR_NAME",
+        "body": "<p style=text-align:left;> <small><b>Descrição:</b> {{STR_DESC}} <br> <i>Clique para ver os detalhes das pontes</i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "STR_ID",
+        "title": {
+            "prop": "PROV_CODE",
+            "mustache": "{{{PROV_CODE}}}"
+        },
+        "sub-title": {
+            "prop": "STR_NAME",
+            "mustache": "{{{STR_NAME}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": "STR_DESC",
+                    "mustache": "{{{STR_DESC}}}"
+                },
+                "alt": "Ponte Descrição",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "ROAD_CLASS",
+                    "mustache": "{{{ROAD_CLASS}}}"
+                },
+                "alt": "Aula de estrada",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "OVER_COND",
+                    "mustache": "{{{OVER_COND}}}"
+                },
+                "alt": "Condição geral",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "OVER_LENGT",
+                    "mustache": "{{{OVER_LENGT}}}"
+                },
+                "alt": "Comprimento total (metros)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "LENGTH_RAN",
+                    "mustache": "{{{LENGTH_RAN}}}"
+                },
+                "alt": "Faixa de comprimento",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "CLEAR_WIDT",
+                    "mustache": "{{{CLEAR_WIDT}}}"
+                },
+                "alt": "Largura livre (metros)",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "STR_DESC",
+            "PROV_CODE",
+            "LENGTH_RAN",
+            "ROAD_CLASS"
+        ],
+        "sub-filter": [
+            "", 
+            "", 
+            "", 
+            "", 
+            ""
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all",
+            "all",
+            "all"
+        ],
+        "accepted-sub-filter-values": [
+            "", 
+            "", 
+            "", 
+            "", 
+            ""
+        ],
+        "filter-label": [
+            "Ponte Descrição",
+            "Província",
+            "Faixa de comprimento",
+            "Aula de estrada"
+        ]
+    },
+    "visible": false,
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes das pontes</i></p>"
+}
