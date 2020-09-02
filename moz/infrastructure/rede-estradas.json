@@ -1,0 +1,19 @@
+{
+	"label": "Rede Estradas",
+	"source": {
+		"type": "vector",
+		"layer": "redeEstradas",
+		"url": "mapbox://ona.3bmzjrom"
+	},
+    "type": "line",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+	"paint": {
+		"line-width": 1,
+		"line-color": "#FF851B",
+		"line-opacity": 0.6
+	} ,
+	"credit": "<b> Amplie para ver mais redes rodoviárias </b>"
+}

@@ -2,7 +2,7 @@
     "label": "Pontes",
     "source": {
       "type": "geojson",
-      "data": "pontes.geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/pontes.geojson",
       "join": ["STR_ID", "STR_ID"]
     },
     "type": "symbol",
