@@ -2,7 +2,7 @@
     "label": "Aeroportos",
     "source": {
       "type": "geojson",
-      "data": "data/ingc_airports.geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/ingc_airports.geojson",
       "join": ["Airport ID", "Airport ID"]
     },
     "type": "symbol",
