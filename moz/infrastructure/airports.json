@@ -1,0 +1,127 @@
+{
+    "label": "Aeroportos",
+    "source": {
+      "type": "geojson",
+      "data": "data/ingc_airports.geojson",
+      "join": ["Airport ID", "Airport ID"]
+    },
+    "type": "symbol",
+    "minZoom": 0,
+    "paint": {
+        "text-color": "#000",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 1
+    },
+    "layout": {
+        "text-size": {
+            "stops": [
+                [
+                    5,
+                    0
+                ],
+                [
+                    7,
+                    5
+                ],
+                [
+                    8,
+                    10
+                ]
+            ]
+        },
+        "icon-image": "airport-15",
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Aeroporto"
+        ],
+        "type": [
+            "Aeroporto"
+        ],
+        "color": [
+            "#000000"
+        ]
+    },
+    "popup": {
+        "header": "Localidade\/Aerodromo_1",
+        "body": "<p style=text-align:left;> <small><b>Descrição:</b> {{STR_DESC}} <br> <i>Clique para ver os detalhes dos aeroportos</i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "Airport ID",
+        "title": {
+            "prop": "Localidade\/Aerodromo_1",
+            "mustache": "{{{Localidade\/Aerodromo_1}}}"
+        },
+        "sub-title": {
+            "prop": "Autoridade Responsável e Observações",
+            "mustache": "{{{Autoridade Responsável e Observações}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": "Dimensoes M",
+                    "mustache": "{{{Dimensoes M}}}"
+                },
+                "alt": "Dimensoes do aeroporto (Metros)",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Altitude Tempo",
+                    "mustache": "{{{Altitude Tempo}}}"
+                },
+                "alt": "Altitude tempo",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Natureza",
+                    "mustache": "{{{Natureza}}}"
+                },
+                "alt": "Natureza",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Pista",
+                    "mustache": "{{{Pista}}}"
+                },
+                "alt": "Pista",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "Dimensoes M",
+            "Altitude Tempo",
+            "Natureza"
+        ],
+        "sub-filter": [
+            "", 
+            "", 
+            ""
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all",
+            "all"
+        ],
+        "accepted-sub-filter-values": [
+            "", 
+            "", 
+            ""
+        ],
+        "filter-label": [
+            "Dimensoes do aeroporto (Metros)",
+            "Altitude tempo",
+            "Natureza"
+        ]
+    },
+    "visible": false,
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes dos aeroportos</i></p>"
+}
