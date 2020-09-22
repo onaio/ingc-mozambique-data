@@ -1,0 +1,87 @@
+{
+    "label": "Rios",
+    "source": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/rios_mozambique.geojson",
+      "join": ["ID_OPER", "ID_OPER"]
+    },
+    "type": "line",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+	"paint": {
+		"line-width": 2,
+		"line-color": "#954535",
+		"line-opacity": 0.6
+	},
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Rio"
+        ],
+        "type": [
+            "Rio"
+        ],
+        "color": [
+            "#000000"
+        ]
+    },
+    "popup": {
+        "header": "TOPONIMO",
+        "body": "<p style=text-align:left;> <small><i>Clique para ver os detalhes dos rios</i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "ID_OPER",
+        "title": {
+            "prop": "TOPONIMO",
+            "mustache": "{{{TOPONIMO}}}"
+        },
+        "sub-title": {
+            "prop": "DeCidade",
+            "mustache": "{{{DeCidade}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": "TIPO_RIO",
+                    "mustache": "{{{TIPO_RIO}}}"
+                },
+                "alt": "Tipo Rio",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "LENGTH",
+                    "mustache": "{{{LENGTH}}}"
+                },
+                "alt": "Comprimento",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "TIPO_RIO",
+            "LENGTH"
+        ],
+        "sub-filter": [
+            "", 
+            ""
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all"
+        ],
+        "accepted-sub-filter-values": [
+            "", 
+            ""
+        ],
+        "filter-label": [
+            "Tipo Rio",
+            "Comprimento"
+        ]
+    },
+    "visible": false,
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes dos rios</i></p>"
+}
