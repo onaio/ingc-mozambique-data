@@ -1,0 +1,19 @@
+{
+    "label": "Albufeiras lagos ou lagoas",
+    "source": {
+      "type": "vector",
+      "layer": "albufeiras_lagos_ou_lagoas-2mnoiq",
+      "url": "mapbox://ona.czb718aa"
+    },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "fill-color": "#0087BD",
+      "fill-opacity": 0.6,
+      "fill-outline-color": "#FF851B"
+    },
+    "credit": "Source: <a href='https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019' target='_blank'>HDX - UNOSAT</a>"
+  }

@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "portos",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "mainport": "Maputo", "size": "M", "type": "RN", "unique_id": "1" }, "geometry": { "type": "Point", "coordinates": [ 32.582999999950069, -25.966999999950012 ] } },
+{ "type": "Feature", "properties": { "mainport": "Inhambane", "size": "V", "type": "RN", "unique_id": "2" }, "geometry": { "type": "Point", "coordinates": [ 35.382999999750261, -23.866999999650194 ] } },
+{ "type": "Feature", "properties": { "mainport": "Beira", "size": "M", "type": "RN", "unique_id": "3" }, "geometry": { "type": "Point", "coordinates": [ 34.832999999950054, -19.833000000049903 ] } },
+{ "type": "Feature", "properties": { "mainport": "Quelimane", "size": "V", "type": "RN", "unique_id": "4" }, "geometry": { "type": "Point", "coordinates": [ 36.883000000349782, -17.883000000349647 ] } },
+{ "type": "Feature", "properties": { "mainport": "Porto Belo", "size": "S", "type": "OR", "unique_id": "5" }, "geometry": { "type": "Point", "coordinates": [ 37.182999999750223, -17.699999999600273 ] } },
+{ "type": "Feature", "properties": { "mainport": "Pebane", "size": "S", "type": "RN", "unique_id": "6" }, "geometry": { "type": "Point", "coordinates": [ 38.150000000299862, -17.267000000249766 ] } },
+{ "type": "Feature", "properties": { "mainport": "Mocambique", "size": "S", "type": "CN", "unique_id": "7" }, "geometry": { "type": "Point", "coordinates": [ 40.732999999850158, -15.032999999750125 ] } },
+{ "type": "Feature", "properties": { "mainport": "Nacala", "size": "V", "type": "CN", "unique_id": "8" }, "geometry": { "type": "Point", "coordinates": [ 40.667000000449761, -14.532999999850022 ] } },
+{ "type": "Feature", "properties": { "mainport": "Pemba", "size": "V", "type": "CN", "unique_id": "9" }, "geometry": { "type": "Point", "coordinates": [ 40.500000000099995, -12.966999999850049 ] } },
+{ "type": "Feature", "properties": { "mainport": "Ibo", "size": "V", "type": "CN", "unique_id": "10" }, "geometry": { "type": "Point", "coordinates": [ 40.616999999650325, -12.332999999750147 ] } },
+{ "type": "Feature", "properties": { "mainport": "Xai-Xai", "size": "n\/a", "type": "n\/a", "unique_id": "11" }, "geometry": { "type": "Point", "coordinates": [ 33.742267607564095, -25.113645553799241 ] } },
+{ "type": "Feature", "properties": { "mainport": "Mocimboa Da Prais", "size": "n\/a", "type": "n\/a", "unique_id": "12" }, "geometry": { "type": "Point", "coordinates": [ 40.417244861161493, -11.338867050174168 ] } },
+{ "type": "Feature", "properties": { "mainport": "Palma", "size": "n\/a", "type": "n\/a", "unique_id": "13" }, "geometry": { "type": "Point", "coordinates": [ 40.537824524881998, -10.762595784068131 ] } },
+{ "type": "Feature", "properties": { "mainport": "Techobanine", "size": "n\/a", "type": "n\/a", "unique_id": "14" }, "geometry": { "type": "Point", "coordinates": [ 32.92524850691315, -26.685732668128068 ] } }
+]
+}

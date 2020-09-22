@@ -1,0 +1,108 @@
+{
+    "label": "Linha Ferrea",
+    "source": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/linha_ferrea.geojson",
+      "join": ["unique_id", "unique_id"]
+    },
+    "type": "line",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+	"paint": {
+		"line-width": 2,
+		"line-color": "#FF851B",
+		"line-opacity": 0.6
+	},
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Linha Ferrea"
+        ],
+        "type": [
+            "Linha Ferrea"
+        ],
+        "color": [
+            "#000000"
+        ]
+    },
+    "popup": {
+        "header": "NomeCorrid",
+        "body": "<p style=text-align:left;> <small><b>Descrição:</b> {{Observagao}} <br> <i>Clique para ver os detalhes dos linha férrea</i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "unique_id",
+        "title": {
+            "prop": "NomeCorrid",
+            "mustache": "{{{NomeCorrid}}}"
+        },
+        "sub-title": {
+            "prop": "DeCidade",
+            "mustache": "{{{DeCidade}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": "ParaCidade",
+                    "mustache": "{{{ParaCidade}}}"
+                },
+                "alt": "Para Cidade",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Corridor",
+                    "mustache": "{{{Corridor}}}"
+                },
+                "alt": "Corridor",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "Estado",
+                    "mustache": "{{{Estado}}}"
+                },
+                "alt": "Estado",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "DistanciaK",
+                    "mustache": "{{{DistanciaK}}}"
+                },
+                "alt": "Distancia Km)",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "Corridor",
+            "ParaCidade",
+            "Estado"
+        ],
+        "sub-filter": [
+            "", 
+            "", 
+            ""
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all",
+            "all"
+        ],
+        "accepted-sub-filter-values": [
+            "", 
+            "", 
+            ""
+        ],
+        "filter-label": [
+            "Corridor",
+            "Para Cidade",
+            "Estado"
+        ]
+    },
+    "visible": false,
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes dos linha férrea</i></p>"
+}

@@ -1,0 +1,114 @@
+{
+    "label": "Fontes de abastecimento de água",
+    "source": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/sinas_fontes_de_abastecimento_de_agua.geojson",
+      "join": ["gml_id", "gml_id"]
+    },
+    "type": "symbol",
+    "minZoom": 0,
+    "paint": {
+        "text-color": "#000",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 1
+    },
+    "layout": {
+        "text-size": {
+            "stops": [
+                [
+                    5,
+                    0
+                ],
+                [
+                    7,
+                    5
+                ],
+                [
+                    8,
+                    10
+                ]
+            ]
+        },
+        "icon-image": "circle-15-blue",
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Fontes de abastecimento de água"
+        ],
+        "type": [
+            "Fontes de abastecimento de água"
+        ],
+        "color": [
+            "#000000"
+        ]
+    },
+    "popup": {
+        "header": "nome_lugar",
+        "body": "<p style=text-align:left;> <small><b>Descrição:</b> {{tipo_fonte}} <br> <i>Clique para ver os detalhes</i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "gml_id",
+        "title": {
+            "prop": "nome_lugar",
+            "mustache": "{{{nome_lugar}}}"
+        },
+        "sub-title": {
+            "prop": "",
+            "mustache": "{{{nome_empre}}}"
+        },
+        "basic-info": [
+            {
+                "value": {
+                    "prop": "tipo_bomba",
+                    "mustache": "{{{tipo_bomba}}}"
+                },
+                "alt": "Tipo Bomba",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "ano_const",
+                    "mustache": "{{{ano_const}}}"
+                },
+                "alt": "Ano const",
+                "useAltAsPrefix": true
+            },
+            {
+                "value": {
+                    "prop": "nome_finan",
+                    "mustache": "{{{nome_finan}}}"
+                },
+                "alt": "Nome finan",
+                "useAltAsPrefix": true
+            }
+        ]
+    },
+    "aggregate": {
+        "filter": [
+            "tipo_bomba",
+            "ano_const"
+        ],
+        "sub-filter": [
+            "", 
+            ""
+        ],
+        "accepted-filter-values": [
+            "all",
+            "all"
+        ],
+        "accepted-sub-filter-values": [
+            "", 
+            ""
+        ],
+        "filter-label": [
+            "Tipo Bomba",
+            "Ano const"
+        ]
+    },
+    "visible": false,
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes</i></p>"
+}
