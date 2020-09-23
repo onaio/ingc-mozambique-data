@@ -1,9 +1,10 @@
 {
     "label": "Sistemas de abastecimento de água",
     "source": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/sinas_sistemas_de_abastecimento_de_agua.geojson",
-      "join": ["gml_id", "gml_id"]
+        "type": "vector",
+        "layer": "sinas_sistemas_de_abastecimen-da9qmd",
+        "url": "mapbox://ona.bnxu72xr",
+        "join": ["gml_id", "gml_id"]
     },
     "type": "symbol",
     "minZoom": 0,
