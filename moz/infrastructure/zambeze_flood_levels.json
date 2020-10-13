@@ -11,9 +11,21 @@
       "line-join": "round"
     },
     "paint": {
-      "fill-color": "#0087BD",
+      "fill-color": "#7851a9",
       "fill-opacity": 0.75,
       "fill-outline-color": "#FF851B"
     },
-    "credit": "Source: <a href='' target='_blank'>TBD</a>"
+    "categories": {
+      "breaks": "no",
+      "label": [
+          "Níveis de inundação do Zambeze"
+      ],
+      "type": [
+          "Níveis de inundação do Zambeze"
+      ],
+      "color": [
+          "#000000"
+      ]
+  },
+    "credit": "<p><i>Outubro, Novembro e Dezembro de 2020</i></p>"
   }
