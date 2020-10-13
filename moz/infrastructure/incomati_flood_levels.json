@@ -1,0 +1,19 @@
+{
+    "label": "Níveis de inundação do Limpopo",
+    "source": {
+      "type": "geojson",
+      "data": "data/incomati_flood_levels.geojson",
+      "join": ["ID", "ID"]
+    },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "fill-color": "#0087BD",
+      "fill-opacity": 0.75,
+      "fill-outline-color": "#FF851B"
+    },
+    "credit": "Source: <a href='' target='_blank'>TBD</a>"
+  }
