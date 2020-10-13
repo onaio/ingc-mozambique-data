@@ -2,7 +2,7 @@
     "label": "Níveis de inundação do Limpopo",
     "source": {
       "type": "geojson",
-      "data": "data/limpopo_flood_levels.geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/limpopo_flood_levels.geojson",
       "join": ["ID", "ID"]
     },
     "type": "fill",
