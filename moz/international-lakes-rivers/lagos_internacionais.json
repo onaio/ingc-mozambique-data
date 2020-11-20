@@ -1,0 +1,31 @@
+{
+    "label": "Lagos Internacionais",
+    "source": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/international-lakes-rivers/lagos_internacionais_pol.geojson",
+      "join": ["ID", "ID"]
+    },
+    "type": "fill",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+	"paint": {
+        "fill-color": "#1245a8",
+        "fill-opacity": 0.5,
+        "fill-outline-color": "#1245a8"
+	},
+    "popup": {
+        "header": "DESIGNAçãO",
+        "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "ID",
+        "title": {
+            "prop": "DESIGNAçãO",
+            "mustache": "{{{DESIGNAçãO}}}"
+        }
+    },
+    "visible": false,
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
+}
