@@ -1,0 +1,19 @@
+{
+    "label": "Previsão Hidrológica Sazonal para Oct-Dec 2020 (Amarelo)",
+    "source": {
+      "type": "vector",
+      "layer": "amarelo_OND_2020-3ox5q0",
+      "url": "mapbox://ona.bzfy2c64"
+    },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "fill-color": "#ffcc00",
+      "fill-opacity": 0.4,
+      "fill-outline-color": "#ffcc00"
+    },
+    "credit": "Oct-Dec 2020 (Amarelo) - Direcção Nacional de Gestão de Recursos Hídricos (DNGRH)"
+  }

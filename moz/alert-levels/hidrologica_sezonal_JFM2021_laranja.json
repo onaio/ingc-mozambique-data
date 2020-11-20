@@ -1,0 +1,19 @@
+{
+    "label": "Previsão Hidrológica Sazonal para Jan-Mar 2021 (Laranja)",
+    "source": {
+      "type": "vector",
+      "layer": "laranja_JFM_2021-37s4tf",
+      "url": "mapbox://ona.2mr52eja"
+    },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "fill-color": "#ff9966",
+      "fill-opacity": 0.4,
+      "fill-outline-color": "#ff9966"
+    },
+    "credit": "Jan-Mar 2021 (Laranja) - Direcção Nacional de Gestão de Recursos Hídricos (DNGRH)"
+  }
