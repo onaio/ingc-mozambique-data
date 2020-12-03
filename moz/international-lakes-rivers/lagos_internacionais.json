@@ -27,5 +27,17 @@
         }
     },
     "visible": false,
+    "categories": {
+      "breaks": "no",
+      "label": [
+          "Lagos Internacionais"
+      ],
+      "type": [
+          "Lagos Internacionais"
+      ],
+      "color": [
+          "#000000"
+      ]
+  },
     "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
 }

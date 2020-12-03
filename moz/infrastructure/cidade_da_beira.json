@@ -1,0 +1,31 @@
+{
+    "label": "Cenários de Inundação Costeira para a Cidade da Beira",
+    "source": {
+        "type": "vector",
+        "layer": "coastbeira",
+        "url": "mapbox://ona.2i8o18p4"
+    },
+    "type": "fill",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+    "paint": {
+        "fill-color": "#8B0000",
+        "fill-opacity": 0.8,
+        "fill-outline-color": "#8B0000"
+    },
+    "categories": {
+      "breaks": "no",
+      "label": [
+          "Cenários de Inundação Costeira para a Cidade da Beira"
+      ],
+      "type": [
+          "Cenários de Inundação Costeira para a Cidade da Beira"
+      ],
+      "color": [
+          "#000000"
+      ]
+  },
+    "credit": "Source: Instituto Nacional de Gestão de Calamidades (INGC) e Gabinete de Reconstrução Pós-Ciclone (GREPOC)"
+}

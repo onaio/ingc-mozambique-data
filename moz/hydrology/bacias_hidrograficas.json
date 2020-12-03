@@ -1,0 +1,31 @@
+{
+    "label": "Bacias Hidrográficas",
+    "source": {
+        "type": "vector",
+        "layer": "bacias-40l944",
+        "url": "mapbox://ona.4d6rnq9r"
+    },
+    "type": "line",
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    },
+	"paint": {
+        "line-width": 3,
+		"line-color": "#654321",
+		"line-opacity": 0.65
+	},
+    "categories": {
+      "breaks": "no",
+      "label": [
+          "Bacias Hidrográficas"
+      ],
+      "type": [
+          "Bacias Hidrográficas"
+      ],
+      "color": [
+          "#000000"
+      ]
+  },
+    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
+}   
