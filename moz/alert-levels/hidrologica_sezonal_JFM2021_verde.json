@@ -15,5 +15,17 @@
       "fill-opacity": 0.4,
       "fill-outline-color": "#99cc33"
     },
+    "categories": {
+      "breaks": "no",
+      "label": [
+          "Previsão Hidrológica Sazonal para Jan-Mar 2021"
+      ],
+      "type": [
+          "Verde"
+      ],
+      "color": [
+          "#000000"
+      ]
+  },
     "credit": "Jan-Mar 2021 (Verde) - Direcção Nacional de Gestão de Recursos Hídricos (DNGRH)"
   }
