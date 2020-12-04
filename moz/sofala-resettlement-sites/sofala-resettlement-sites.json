@@ -1,5 +1,5 @@
 {
-    "label": "Sofala Mapping Basic Services in Resettlement Site",
+    "label": "Sofala Mapeando Serviços Básicos no Local de Reassentamento",
     "source": {
         "type": "vector",
         "layer": "sofala_sites_demo-1lgu7k",
@@ -351,7 +351,7 @@
                     "prop": "overall_percent",
                     "mustache": "{{{overall_percent}}}"
                 },
-                "alt": "Overall Performance Percentage (%)",
+                "alt": "Porcentagem de desempenho geral (%)",
                 "useAltAsPrefix": true
             }
         ]
@@ -366,8 +366,8 @@
             "all"
         ],
         "filter-label": [
-            "District",
-            "Resettlement Site"
+            "Distrito",
+            "Local de reassentamento"
         ],
         "sub-filter": [
             "",
@@ -380,7 +380,7 @@
     },
     "popup": {
         "header": "{{Resettlement Site}}",
-        "body": "<p style=text-align:left;><b>Overall Performance Percentage: </b>{{overall_percent}}%<p>"
+        "body": "<p style=text-align:left;><b>Porcentagem de desempenho geral: </b>{{overall_percent}}%<p>"
     },
     "visible": false,
     "menu-credit": " ",
