@@ -1,0 +1,19 @@
+{
+    "label": "Ciclone Path Dec 2020",
+    "source": {
+        "type": "vector",
+        "layer": "sh0721_previous_best_track_po-d054u5",
+        "url": "mapbox://ona.1watbdco"
+    },
+    "type": "line",
+    "paint": {
+        "line-width": 2,
+        "line-color": "#67001f",
+        "line-opacity": 0.8
+    },
+    "visible": false,
+    "menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+    "category": "Cyclone Path - 2020",
+    "default": true
+}
