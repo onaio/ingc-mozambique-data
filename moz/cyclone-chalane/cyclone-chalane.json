@@ -1,11 +1,9 @@
 {
 	"label": "Tempestade tropical Chalane",
 	"layers": [
-        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-points-2020.json",
 		"https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-points-2020.json",
-		"https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-2020.json",
-        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-2020.json",
-        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-polygon-2020.json"
+        	"https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-2020.json",
+        	"https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-polygon-2020.json"
 
     ],
     "categories": {
