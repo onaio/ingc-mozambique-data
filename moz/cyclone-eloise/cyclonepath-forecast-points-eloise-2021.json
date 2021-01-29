@@ -1,9 +1,9 @@
 {
-    "label": "Ciclone Path Points Dec 2020 (Forecast)",
+    "label": "Ciclone Path Points Jan 2021 (Forecast)",
     "source": {
         "type": "vector",
-        "layer": "sh0721_forecast-points-dvffl3",
-        "url": "mapbox://ona.414auiso",
+        "layer": "cyclone_eloise_points-1ilc7e",
+        "url": "mapbox://ona.20wly5f9",
         "join": ["Name", "Name"]
     },
     "type": "symbol",
@@ -19,18 +19,20 @@
             "stops": [
                 [
                     5,
-                    0
+                    10
                 ],
                 [
                     7,
-                    5
+                    15
                 ],
                 [
                     8,
-                    10
+                    20
                 ]
             ]
         },
+        "text-field": "{<B>TIME<\/B>}",
+        "text-offset": [-5, -2],
         "icon-image": "circle-11",
         "icon-allow-overlap": false,
         "icon-ignore-placement": false
@@ -38,10 +40,10 @@
     "categories": {
         "breaks": "no",
         "label": [
-            "Aeroporto"
+            "Ciclone"
         ],
         "type": [
-            "Aeroporto"
+            "Ciclone"
         ],
         "color": [
             "#000000"
@@ -49,7 +51,7 @@
     },
     "popup": {
         "header": "mainport",
-        "body": "<p style=text-align:left;> <small> {{Speed}} <br> </small><span style=float:right;>"
+        "body": "<p style=text-align:left;> <small> {{<B>TIME<\/B>}} <br> </small><span style=float:right;>"
       },
     "visible": false,
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>"
