@@ -1,0 +1,19 @@
+{
+    "label": "Ciclone Path Jan 2021",
+    "source": {
+        "type": "vector",
+        "layer": "cyclone_eloise_lines-a9jy6g",
+        "url": "mapbox://ona.70rf5789"
+    },
+    "type": "line",
+    "paint": {
+        "line-width": 2,
+        "line-color": "#67001f",
+        "line-opacity": 0.8
+    },
+    "visible": false,
+    "menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+    "category": "Cyclone Path - 2021",
+    "default": true
+}

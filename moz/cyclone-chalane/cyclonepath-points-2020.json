@@ -49,8 +49,8 @@
     },
     "popup": {
         "header": "mainport",
-        "body": "<p style=text-align:left;> <small><b>Descrição:</b> {{type}} <br> <i>Clique para ver os detalhes dos aeroportos</i> </small><span style=float:right;>"
+        "body": "<p style=text-align:left;> <small> {{description}} <br> </small><span style=float:right;>"
       },
     "visible": false,
-    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes dos aeroportos</i></p>"
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>"
 }

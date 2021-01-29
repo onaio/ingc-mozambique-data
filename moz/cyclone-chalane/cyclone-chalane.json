@@ -1,27 +1,35 @@
 {
-	"label": "Tempestade tropical Chalane",
+	"label": "Ciclone CHALANE - Rota e Velocidade do Vento",
 	"layers": [
-        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-points-2020.json",
-		"https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-points-2020.json",
-		"https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-2020.json",
-        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-2020.json",
-        "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/cyclone-chalane/cyclonepath-forecast-polygon-2020.json"
+		"https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-chalane/cyclonepath-forecast-points-2020.json",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-chalane/cyclonepath-forecast-2020.json",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-chalane/cyclonepath-forecast-polygon-2020.json"
 
     ],
     "categories": {
         "breaks": "no",
         "label": [
-            "Tempestade tropical Chalane"
+            "Swath-62.97",
+            "62.97 km/h",
+            "92.60 km/h",
+            "118.53 km/h"
+            
         ],
         "type": [
-            "Tempestade tropical Chalane"
+            "Ciclone Chalane - 34 KT Danger Swath",
+            "Ciclone Chalane - 34 KT",
+            "Ciclone Chalane - 50 KT",
+            "Ciclone Chalane - 64 KT"
         ],
         "color": [
-            "#B22222"
+            "#fed976",
+            "#feb24c",
+            "#fd8d3c",
+            "#fc4e2a"
         ]
     },
     "visible": false,
 	"menu-credit": "JTWC Tropical Warnings",
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
-	"category": "Cyclone Path - 2020"
+	"category": "Ciclone Chalane - 2020"
 }
