@@ -1,0 +1,53 @@
+{
+    "label": "Ciclone [Month] [Year] (Forecast)",
+    "source": {
+        "type": "geojson",
+        "data": "url_to_geojson",
+        "join": ["unique_id", "unique_id"]
+    },
+    "type": "fill",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "fill-color": {
+          "property": "Name",
+          "stops": [
+              [
+                  "34 knot Danger Swath",
+                  "#fed976"
+              
+              ],
+              [
+                  "RADIUS OF 34 KT WINDS",
+                  "#feb24c"
+              ],
+              [
+                  "RADIUS OF 50 KT WINDS",
+                  "#fd8d3c"
+              ],
+              [
+                  "RADIUS OF 64 KT WINDS",
+                  "#fc4e2a"
+              ]
+          ],
+          "type": "categorical",
+          "default": "transparent"
+      },
+      "fill-outline-color": {
+          "property": "Name",
+          "stops": [
+              [
+                  "previous position",
+                  "black"
+              ]
+          ],
+          "type": "categorical",
+          "default": "#fff"
+      }
+  },
+    "menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+    "category": "Cyclone Path - [Year]"
+  }

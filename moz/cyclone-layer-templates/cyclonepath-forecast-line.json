@@ -1,0 +1,19 @@
+{
+    "label": "Ciclone Path [Month] [Year]",
+    "source": {
+        "type": "geojson",
+        "data": "url_to_geojson",
+        "join": ["unique_id", "unique_id"]
+    },
+    "type": "line",
+    "paint": {
+        "line-width": 2,
+        "line-color": "#67001f",
+        "line-opacity": 0.8
+    },
+    "visible": false,
+    "menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+    "category": "Cyclone Path - [Year]",
+    "default": true
+}
