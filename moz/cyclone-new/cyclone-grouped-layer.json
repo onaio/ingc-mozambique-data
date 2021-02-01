@@ -1,0 +1,35 @@
+{
+	"label": "Ciclone [Cyclone name] - Rota e Velocidade do Vento",
+	"layers": [
+        "url_to_line_layer",
+        "url_to_point_layer",
+        "url_to_polygon_layer"
+
+    ],
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Swath-62.97",
+            "62.97 km/h",
+            "92.60 km/h",
+            "118.53 km/h"
+            
+        ],
+        "type": [
+            "Ciclone [Cyclone name] - 34 KT Danger Swath",
+            "Ciclone [Cyclone name] - 34 KT",
+            "Ciclone [Cyclone name] - 50 KT",
+            "Ciclone [Cyclone name] - 64 KT"
+        ],
+        "color": [
+            "#fed976",
+            "#feb24c",
+            "#fd8d3c",
+            "#fc4e2a"
+        ]
+    },
+    "visible": false,
+	"menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+	"category": "Ciclone [Cyclone name] - 2021"
+}
