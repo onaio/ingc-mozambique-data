@@ -3,7 +3,7 @@
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-gwambe/gwambe-points.geojson",
-        "join": ["Name", "Name"]
+        "join": ["unique_id", "unique_id"]
     },
     "type": "symbol",
     "minZoom": 0,
