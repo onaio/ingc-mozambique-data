@@ -1,0 +1,35 @@
+{
+	"label": "Ciclone GUAMBE - Rota e Velocidade do Vento",
+	"layers": [
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-Guambe/cyclonepath-forecast-line.json",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-Guambe/cyclonepath-forecast-points.json",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-Guambe/cyclonepath-forecast-polygon.json"
+
+    ],
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Swath-62.97",
+            "62.97 km/h",
+            "92.60 km/h",
+            "118.53 km/h"
+            
+        ],
+        "type": [
+            "Ciclone Guambe - 34 KT Danger Swath",
+            "Ciclone Guambe - 34 KT",
+            "Ciclone Guambe - 50 KT",
+            "Ciclone Guambe - 64 KT"
+        ],
+        "color": [
+            "#fed976",
+            "#feb24c",
+            "#fd8d3c",
+            "#fc4e2a"
+        ]
+    },
+    "visible": false,
+	"menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+	"category": "Ciclone Guambe - 2021"
+}
