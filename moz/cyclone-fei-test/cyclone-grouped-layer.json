@@ -1,9 +1,9 @@
 {
 	"label": "Ciclone Fei Test - Rota e Velocidade do Vento",
 	"layers": [
-        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-fei-test/cyclone_points-sh9321.geojson",
-        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-fei-test/cyclone_line-sh9321.geojson",
-        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-fei-test/cyclone_polygon-sh9321.geojson"
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-fei-test/cyclone-forecast-line.json",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-fei-test/cyclone-forecast-points.json",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-fei-test/cyclone-forecast-polygon.json"
 
     ],
     "categories": {
@@ -16,10 +16,10 @@
             
         ],
         "type": [
-            "Ciclone [Cyclone name] - 34 KT Danger Swath",
-            "Ciclone [Cyclone name] - 34 KT",
-            "Ciclone [Cyclone name] - 50 KT",
-            "Ciclone [Cyclone name] - 64 KT"
+            "Ciclone Fei Test - 34 KT Danger Swath",
+            "Ciclone Fei Test - 34 KT",
+            "Ciclone Fei Test - 50 KT",
+            "Ciclone Fei Test - 64 KT"
         ],
         "color": [
             "#fed976",
@@ -31,5 +31,5 @@
     "visible": false,
 	"menu-credit": "JTWC Tropical Warnings",
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
-	"category": "Ciclone [Cyclone name] - 2021"
+	"category": "Ciclone Fei Test - 2021"
 }
