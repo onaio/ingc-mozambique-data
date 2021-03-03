@@ -1,0 +1,10 @@
+Key,Value,Descricao
+eventDirName,cyclone-guambe,
+event_label,Ciclone Guambe- Rota e Velocidade do Vento,
+menu_credit,JTWC Tropical Warnings Site,
+credit_src_url,https://www.metoc.navy.mil/jtwc/jtwc.html,Endereço da fonte da informação
+monthyear,Fevereiro 2021,Mês Ano
+geojson_file_line,cyclone_line.geojson,
+geojson_file_points,cyclone_pontos.geojson,
+geojson_file_polygon,cyclone_polygon.geojson,
+timeField, <B>TIME<\/B>,
