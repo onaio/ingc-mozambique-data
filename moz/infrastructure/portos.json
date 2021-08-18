@@ -31,6 +31,8 @@
             ]
         },
         "icon-image": "ferry-15",
+        "icon-color":"#00008B",
+        "icon-opacity": 1,
         "icon-allow-overlap": false,
         "icon-ignore-placement": false
     },
