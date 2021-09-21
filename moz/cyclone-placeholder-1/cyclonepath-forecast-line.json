@@ -2,7 +2,7 @@
     "label": "Ciclone Path [Month] [Year]",
     "source": {
         "type": "geojson",
-        "data": "url_to_geojson",
+        "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclone_line-2021.geojson",
         "join": ["unique_id", "unique_id"]
     },
     "type": "line",
