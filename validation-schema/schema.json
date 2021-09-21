@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "label": "Edifícios",
+      "source": {
+        "type": "vector",
+        "layer": "building",
+        "url": "mapbox://mapbox.mapbox-streets-v7"
+      },
+      "type": "fill",
+      "paint": {
+        "fill-color": "#FF851B",
+        "fill-opacity": 0.4,
+        "fill-outline-color": "#d9d9d9"
+      },
+      "menu-credit": "HDX",
+      "credit": "<a href=https://data.humdata.org/dataset/hotosm_moz_buildings target=_blank data-credit=credit>HDX</a>"
+    }
+  ],
+  "required": ["label", "type", "menu-credit", "credit"],
+  "properties": {
+    "label": {
+      "$id": "#/properties/label",
+      "type": "string",
+      "title": "The label schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["Edifícios"]
+    },
+    "source": {
+      "$id": "#/properties/source",
+      "type": "object",
+      "title": "The source schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "type": "vector",
+          "layer": "building",
+          "url": "mapbox://mapbox.mapbox-streets-v7"
+        }
+      ],
+      "required": ["type", "layer", "url"],
+      "properties": {
+        "type": {
+          "$id": "#/properties/source/properties/type",
+          "type": "string",
+          "title": "The type schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["vector"]
+        },
+        "layer": {
+          "$id": "#/properties/source/properties/layer",
+          "type": "string",
+          "title": "The layer schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["building"]
+        },
+        "url": {
+          "$id": "#/properties/source/properties/url",
+          "type": "string",
+          "title": "The url schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["mapbox://mapbox.mapbox-streets-v7"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["fill"]
+    },
+    "paint": {
+      "$id": "#/properties/paint",
+      "type": "object",
+      "title": "The paint schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "fill-color": "#FF851B",
+          "fill-opacity": 0.4,
+          "fill-outline-color": "#d9d9d9"
+        }
+      ],
+      "required": ["fill-color", "fill-opacity", "fill-outline-color"],
+      "properties": {
+        "fill-color": {
+          "$id": "#/properties/paint/properties/fill-color",
+          "type": "string",
+          "title": "The fill-color schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["#FF851B"]
+        },
+        "fill-opacity": {
+          "$id": "#/properties/paint/properties/fill-opacity",
+          "type": "number",
+          "title": "The fill-opacity schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0,
+          "examples": [0.4]
+        },
+        "fill-outline-color": {
+          "$id": "#/properties/paint/properties/fill-outline-color",
+          "type": "string",
+          "title": "The fill-outline-color schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["#d9d9d9"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "menu-credit": {
+      "$id": "#/properties/menu-credit",
+      "type": "string",
+      "title": "The menu-credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["HDX"]
+    },
+    "credit": {
+      "$id": "#/properties/credit",
+      "type": "string",
+      "title": "The credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "<a href=https://data.humdata.org/dataset/hotosm_moz_buildings target=_blank data-credit=credit>HDX</a>"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
