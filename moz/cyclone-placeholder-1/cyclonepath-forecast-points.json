@@ -2,7 +2,7 @@
     "label": "Ciclone Path Points [Month] [Year] (Forecast)",
     "source": {
         "type": "geojson",
-        "data": "url_to_geojson",
+        "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclone_points-2021.geojson",
         "join": ["unique_id", "unique_id"]
     },
     "type": "symbol",
