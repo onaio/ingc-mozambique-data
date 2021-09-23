@@ -1,31 +1,32 @@
 {
-    "label": "Níveis de inundação do Incomati",
-    "source": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/incomati_flood_levels.geojson",
-      "join": ["ID", "ID"]
-    },
-    "type": "fill",
-    "layout": {
-      "line-cap": "round",
-      "line-join": "round"
-    },
-    "paint": {
-      "fill-color": "#7851a9",
-      "fill-opacity": 0.75,
-      "fill-outline-color": "#FF851B"
-    },
-    "categories": {
-      "breaks": "no",
-      "label": [
-          "Níveis de inundação do Incomati"
-      ],
-      "type": [
-          "Níveis de inundação do Incomati"
-      ],
-      "color": [
-          "#000000"
-      ]
+  "label": "Níveis de inundação do Incomati",
+  "source": {
+    "type": "geojson",
+    "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/incomati_flood_levels.geojson",
+    "join": ["ID", "ID"]
   },
-    "credit": "<p><i>Outubro, Novembro e Dezembro de 2020</i></p>"
-  }
+  "type": "fill",
+  "layout": {
+    "line-cap": "round",
+    "line-join": "round"
+  },
+  "paint": {
+    "fill-color": "#7851a9",
+    "fill-opacity": 0.75,
+    "fill-outline-color": "#FF851B"
+  },
+  "location": {
+    "zoom": "7.551332666366461",
+    "center": {
+      "lng": 32.384006166945596,
+      "lat": -25.539914524188646
+    }
+  },
+  "categories": {
+    "breaks": "no",
+    "label": ["Níveis de inundação do Incomati"],
+    "type": ["Níveis de inundação do Incomati"],
+    "color": ["#000000"]
+  },
+  "credit": "<p><i>Outubro, Novembro e Dezembro de 2020</i></p>"
+}
