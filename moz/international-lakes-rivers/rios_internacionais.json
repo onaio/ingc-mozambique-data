@@ -1,43 +1,37 @@
 {
-    "label": "Rios Internacionais",
-    "source": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/international-lakes-rivers/rios_internacionais_lin.geojson",
-      "join": ["ID", "ID"]
-    },
-    "type": "line",
-    "layout": {
-        "line-cap": "round",
-        "line-join": "round"
-    },
-	"paint": {
-		"line-width": 2,
-		"line-color": "#1245a8",
-		"line-opacity": 0.6
-	},
-    "categories": {
-        "breaks": "no",
-        "label": [
-            "Rio"
-        ],
-        "type": [
-            "Rio"
-        ],
-        "color": [
-            "#000000"
-        ]
-    },
-    "popup": {
-        "header": "NOME",
-        "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
-      },
-      "detail-view": {
-        "UID": "ID",
-        "title": {
-            "prop": "NOME",
-            "mustache": "{{{NOME}}}"
-        }
-    },
-    "visible": false,
-    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
+  "label": "Rios Internacionais",
+  "source": {
+    "type": "geojson",
+    "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/international-lakes-rivers/rios_internacionais_lin.geojson",
+    "join": ["ID", "ID"]
+  },
+  "type": "line",
+  "layout": {
+    "line-cap": "round",
+    "line-join": "round"
+  },
+  "paint": {
+    "line-width": 2,
+    "line-color": "#1245a8",
+    "line-opacity": 0.6
+  },
+  "categories": {
+    "breaks": "no",
+    "label": ["Rio"],
+    "type": ["Rio"],
+    "color": ["#000000"]
+  },
+  "popup": {
+    "header": "NOME",
+    "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
+  },
+  "detail-view": {
+    "UID": "ID",
+    "title": {
+      "prop": "NOME",
+      "mustache": "{{{NOME}}}"
+    }
+  },
+  "visible": false,
+  "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
 }
