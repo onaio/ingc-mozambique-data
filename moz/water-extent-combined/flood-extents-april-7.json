@@ -15,17 +15,18 @@
     "fill-opacity": 0.6,
     "fill-outline-color": "#FF851B"
   },
+  "location": {
+    "zoom": "9.653776328575448",
+    "center": {
+      "lng": 35.16139172933504,
+      "lat": -17.166219993652646
+    }
+  },
   "categories": {
     "breaks": "no",
-    "label": [
-      " "
-    ],
-    "type": [
-      " "
-    ],
-    "color": [
-      "#A5617A"
-    ]
+    "label": [" "],
+    "type": [" "],
+    "color": ["#A5617A"]
   },
   "menu-credit": "HDX - UNOSAT",
   "credit": "Please Zoom into Tete Zambezia Border Area <br><a href=https://data.humdata.org/dataset/unosat-analysis-on-floods-in-mozambique-march-2019 target=_blank data-credit=credit>HDX - UNOSAT</a>"

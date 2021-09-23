@@ -1,31 +1,32 @@
 {
-    "label": "Níveis de inundação do Limpopo",
-    "source": {
-      "type": "geojson",
-      "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/limpopo_flood_levels.geojson",
-      "join": ["ID", "ID"]
-    },
-    "type": "fill",
-    "layout": {
-      "line-cap": "round",
-      "line-join": "round"
-    },
-    "paint": {
-      "fill-color": "#7851a9",
-      "fill-opacity": 0.75,
-      "fill-outline-color": "#FF851B"
-    },
-    "categories": {
-      "breaks": "no",
-      "label": [
-          "Níveis de inundação do Limpopo"
-      ],
-      "type": [
-          "Níveis de inundação do Limpopo"
-      ],
-      "color": [
-          "#000000"
-      ]
-    },
-    "credit": "<p><i>Outubro, Novembro e Dezembro de 2020</i></p>"
-  }
+  "label": "Níveis de inundação do Limpopo",
+  "source": {
+    "type": "geojson",
+    "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/infrastructure/limpopo_flood_levels.geojson",
+    "join": ["ID", "ID"]
+  },
+  "type": "fill",
+  "layout": {
+    "line-cap": "round",
+    "line-join": "round"
+  },
+  "paint": {
+    "fill-color": "#7851a9",
+    "fill-opacity": 0.75,
+    "fill-outline-color": "#FF851B"
+  },
+  "location": {
+    "zoom": "7.149516761715569",
+    "center": {
+      "lng": 33.05253066166881,
+      "lat": -24.179642195190794
+    }
+  },
+  "categories": {
+    "breaks": "no",
+    "label": ["Níveis de inundação do Limpopo"],
+    "type": ["Níveis de inundação do Limpopo"],
+    "color": ["#000000"]
+  },
+  "credit": "<p><i>Outubro, Novembro e Dezembro de 2020</i></p>"
+}
