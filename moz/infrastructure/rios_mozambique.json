@@ -12,7 +12,7 @@
     },
 	"paint": {
 		"line-width": 2,
-		"line-color": "#00FF00",
+		"line-color": "#0000FF", 
 		"line-opacity": 0.6
 	},
     "categories": {
@@ -24,7 +24,7 @@
             "Rio"
         ],
         "color": [
-            "#000000"
+            "#0000FF"
         ]
     },
     "popup": {
