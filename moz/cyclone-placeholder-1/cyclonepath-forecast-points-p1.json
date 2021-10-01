@@ -1,9 +1,9 @@
 {
-    "label": "Ciclone Path Points [Month] [Year] (Forecast)",
+    "label": "Pontos de Trajectoria de Ciclone Set 2021 (Previsao)",
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclone_points-2021.geojson",
-        "join": ["unique_id", "unique_id"]
+        "join": ["Name", "Name"]
     },
     "type": "symbol",
     "minZoom": 0,
@@ -30,7 +30,7 @@
                 ]
             ]
         },
-        "text-field": "{[Time_field]}",
+        "text-field": "{Name}",
         "text-offset": [-5, -2],
         "icon-image": "circle-11",
         "icon-allow-overlap": false,
@@ -50,7 +50,7 @@
     },
     "popup": {
         "header": "mainport",
-        "body": "<p style=text-align:left;> <small> {{[Time_field]}} <br> </small><span style=float:right;>"
+        "body": "<p style=text-align:left;> <small> {{Name}} <br> </small><span style=float:right;>"
       },
     "visible": false,
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>"
