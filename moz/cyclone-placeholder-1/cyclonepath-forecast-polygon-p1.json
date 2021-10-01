@@ -1,9 +1,9 @@
 {
-    "label": "Ciclone [Month] [Year] (Forecast)",
+    "label": "Ciclone Set 2021 (Previsao)",
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclone_polygon-2021.geojson",
-        "join": ["unique_id", "unique_id"]
+        "join": ["Name", "Name"]
     },
     "type": "fill",
     "layout": {
@@ -49,5 +49,5 @@
   },
     "menu-credit": "JTWC Tropical Warnings",
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
-    "category": "Cyclone Path - [Year]"
+    "category": "Trajectoria de Ciclone - 2021"
   }
