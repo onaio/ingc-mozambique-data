@@ -9,12 +9,16 @@ git_dir=$(git rev-parse --show-toplevel)
 
 for file in $(git diff-index --name-only --diff-filter=ACM --cached HEAD -- \
     | grep -P '\.((js)|(json))$'); do
-    echo "hello $file"
     if [ $? -ne 0 ] ; then
         echo "Lint check of JSON object failed. Your changes were not commited."
         echo "in $git_dir/$file:"
         python -mjson.tool $file
         exit 1
     fi
-    npx ajv -s validation-schema/schema.json -d $file;
+    case $file in (*validation-schema/*)
+    # Do stuff
+       exit 0
+    esac
+    echo $file;
+    npx ajv -s validation-schema/$file -d $file;
 done
