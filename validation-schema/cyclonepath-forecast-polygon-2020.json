@@ -1,0 +1,166 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["type", "layer", "url"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "line-cap": {
+          "type": "string",
+          "minLength": 1
+        },
+        "line-join": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["line-cap", "line-join"]
+    },
+    "paint": {
+      "type": "object",
+      "properties": {
+        "fill-color": {
+          "type": "object",
+          "properties": {
+            "property": {
+              "type": "string",
+              "minLength": 1
+            },
+            "stops": {
+              "type": "array",
+              "items": {
+                "required": [],
+                "properties": {
+                  "0": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "1": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "2": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "3": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            },
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "default": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["property", "stops", "type", "default"]
+        },
+        "fill-outline-color": {
+          "type": "object",
+          "properties": {
+            "property": {
+              "type": "string",
+              "minLength": 1
+            },
+            "stops": {
+              "type": "array",
+              "items": {
+                "required": [],
+                "properties": {
+                  "0": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            },
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "default": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["property", "stops", "type", "default"]
+        }
+      },
+      "required": ["fill-color", "fill-outline-color"]
+    },
+    "menu-credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "layout",
+    "paint",
+    "menu-credit",
+    "credit",
+    "category"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["type", "layer", "url"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "minzoom": {
+      "type": "number"
+    },
+    "paint": {
+      "type": "object",
+      "properties": {
+        "text-color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text-halo-color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text-halo-width": {
+          "type": "number"
+        },
+        "text-halo-blur": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "text-color",
+        "text-halo-color",
+        "text-halo-width",
+        "text-halo-blur"
+      ]
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "text-size": {
+          "type": "number"
+        },
+        "text-field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text-offset": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "icon-image": {
+          "type": "string",
+          "minLength": 1
+        },
+        "icon-size": {
+          "type": "number"
+        },
+        "icon-allow-overlap": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "text-size",
+        "text-field",
+        "text-offset",
+        "icon-image",
+        "icon-size",
+        "icon-allow-overlap"
+      ]
+    },
+    "menu-credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "minzoom",
+    "paint",
+    "layout",
+    "menu-credit",
+    "credit"
+  ]
+}

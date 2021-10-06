@@ -1,0 +1,67 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["type", "layer", "url"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "line-cap": {
+          "type": "string",
+          "minLength": 1
+        },
+        "line-join": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["line-cap", "line-join"]
+    },
+    "paint": {
+      "type": "object",
+      "properties": {
+        "line-width": {
+          "type": "number"
+        },
+        "line-color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "line-opacity": {
+          "type": "number"
+        }
+      },
+      "required": ["line-width", "line-color", "line-opacity"]
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": ["label", "source", "type", "layout", "paint", "credit"]
+}

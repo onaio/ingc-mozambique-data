@@ -1,0 +1,154 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "data": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minzoom": {
+          "type": "number"
+        },
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["type", "layer", "url", "data", "minzoom", "join"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "property": {
+      "type": "string",
+      "minLength": 1
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "breaks": {
+          "type": "string",
+          "minLength": 1
+        },
+        "color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "vector-prop": {
+          "type": "string",
+          "minLength": 1
+        },
+        "clusters": {
+          "type": "number"
+        }
+      },
+      "required": ["breaks", "color", "vector-prop", "clusters"]
+    },
+    "aggregate": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "group-by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date-by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "timeseries": {
+          "type": "object",
+          "properties": {
+            "field": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["field"]
+        },
+        "extraProps": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["type", "group-by", "date-by", "timeseries", "extraProps"]
+    },
+    "popup": {
+      "type": "object",
+      "properties": {
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "header": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["join", "header", "body"]
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "menu-credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "credit": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "property",
+    "categories",
+    "aggregate",
+    "popup",
+    "visible",
+    "menu-credit",
+    "credit",
+    "category"
+  ]
+}

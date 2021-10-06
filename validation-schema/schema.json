@@ -23,7 +23,7 @@
       "credit": "<a href=https://data.humdata.org/dataset/hotosm_moz_buildings target=_blank data-credit=credit>HDX</a>"
     }
   ],
-  "required": ["label", "type", "menu-credit", "credit"],
+  "required": ["label", "source", "type", "paint", "menu-credit", "credit"],
   "properties": {
     "label": {
       "$id": "#/properties/label",
