@@ -1,5 +1,5 @@
 {
-    "label": "Ciclone Path Feb 2021",
+    "label": "Ciclone Path Feb 2021 david",
     "source": {
         "type": "geojson",
         "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-gwambe/gwambe-line.geojson",
@@ -7,7 +7,7 @@
     },
     "type": "line",
     "paint": {
-        "line-width": 2,
+        "line-width": 4,
         "line-color": "#67001f",
         "line-opacity": 0.8
     },
