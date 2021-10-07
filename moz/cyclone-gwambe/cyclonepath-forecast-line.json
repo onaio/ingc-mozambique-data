@@ -7,7 +7,7 @@
     },
     "type": "line",
     "paint": {
-        "line-width": 3,
+        "line-width": 4,
         "line-color": "#67001f",
         "line-opacity": 0.8
     },
