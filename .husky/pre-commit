@@ -17,11 +17,17 @@ for file in $(git diff-index --name-only --diff-filter=ACM --cached HEAD -- \
     fi
     filename="$(basename $file)";
     case $file in (*moz*)
+        echo $filename;
         if test -f validation-schema/$filename; then
-        npx ajv -s validation-schema/$filename -d $file --strict=false;
+            echo $filename;
+            npx ajv -s validation-schema/$filename -d $file --strict=false;
+            exit 0
         fi
         echo "Generate Schema for the $filename before commiting the layer";
         echo "To Generate schema for layer";
-        echo "Run: $(tput setaf 3)  json-schema-generator $file -o validation-schema/$file $(tput setaf 7)"
+        echo "Run: $(tput setaf 3)  json-schema-generator $file -o validation-schema/$filename";
+        echo "sed -i '02d' validation-schema/$filename";
+        echo "add and commit the layer and schema files"
+        exit 1
     esac
 done
