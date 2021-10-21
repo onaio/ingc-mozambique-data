@@ -1,0 +1,417 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [],
+  "properties": {
+    "label": {
+      "$id": "#/properties/label",
+      "type": "string",
+      "title": "The label schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["Edifícios"]
+    },
+    "source": {
+      "$id": "#/properties/source",
+      "type": "object",
+      "title": "The source schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "type": "vector",
+          "layer": "building",
+          "url": "mapbox://mapbox.mapbox-streets-v7"
+        }
+      ],
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "$id": "#/properties/source/properties/type",
+          "type": "string",
+          "enum": ["geojson", "vector"],
+          "title": "The source type schema",
+          "description": "can either be sourced from mapbox i.e vector or geojson i.e local geojson file",
+          "default": "",
+          "examples": ["vector"]
+        },
+        "featureType": {
+          "$id": "#/properties/source/properties/featureType",
+          "type": "string",
+          "enum": ["Point"],
+          "title": "The source featureType schema",
+          "description": "",
+          "default": "",
+          "examples": ["vector"]
+        },
+        "data": {
+          "$id": "#/properties/source/properties/data",
+          "type": ["object", "string", "array"],
+          "title": "The source data schema",
+          "description": "",
+          "default": "",
+          "examples": [
+            "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/4w-orgs-per-admin/province-org-counts.csv"
+          ],
+          "properties": {
+            "type": {
+              "$id": "#/properties/source/properties/data/type",
+              "type": "string",
+              "enum": [
+                "superset",
+                "csv",
+                "json",
+                "geojson",
+                "stringified-geojson",
+                "FeatureCollection"
+              ],
+              "title": "The source data type schema",
+              "description": "data source type, refer to enums on schema",
+              "default": "",
+              "examples": ["superset"]
+            },
+            "slice-id": {
+              "$id": "#/properties/source/properties/data/slice-id",
+              "type": "integer",
+              "title": "The source data slice-id schema",
+              "description": "data slice-id",
+              "default": "",
+              "examples": [123]
+            }
+          }
+        },
+        "join": {
+          "$id": "#/properties/source/properties/join",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "The source join schema",
+          "description": "Data Source join fields",
+          "default": "",
+          "examples": ["Posto", "posto"]
+        },
+        "minzoom": {
+          "$id": "#/properties/source/properties/minzoom",
+          "type": "integer",
+          "title": "Source minzoom setting",
+          "description": "Minimum zoom level for which tiles are available, as in the TileJSON spec.",
+          "default": "",
+          "examples": ["building"]
+        },
+        "maxzoom": {
+          "$id": "#/properties/source/properties/maxzoom",
+          "type": "integer",
+          "title": "Source maxzoom setting",
+          "description": "Minimum zoom level for which tiles are available, as in the TileJSON spec.",
+          "default": "",
+          "examples": ["building"]
+        },
+        "relation": {
+          "$id": "#/properties/source/properties/relation",
+          "type": ["object"],
+          "title": "The source geometry relationship",
+          "description": "",
+          "default": "",
+          "examples": [
+            "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/4w-orgs-per-admin/province-org-counts.csv"
+          ],
+          "required": ["type", "key"],
+          "properties": {
+            "type": {
+              "$id": "#/properties/source/properties/relation/type",
+              "type": "string",
+              "enum": ["many-to-one", "one-to-many", "one-to-one"],
+              "title": "The source data relationship type schema",
+              "description": "Relationship type definition",
+              "default": "",
+              "examples": ["many-to-one"]
+            },
+            "key": {
+              "$id": "#/properties/source/properties/relation/slice-id",
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["many", "one"]
+              },
+              "title": "Individual form relationship key",
+              "description": "Individual form relationship key",
+              "default": "",
+              "examples": ["one"]
+            }
+          }
+        },
+        "layer": {
+          "$id": "#/properties/source/properties/layer",
+          "type": "string",
+          "title": "The layer schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["building"]
+        },
+        "url": {
+          "$id": "#/properties/source/properties/url",
+          "type": "string",
+          "title": "The url schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["mapbox://mapbox.mapbox-streets-v7"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "enum": [
+        "fill",
+        "line",
+        "symbol",
+        "circle",
+        "heatmap",
+        "fill-extrusion",
+        "raster",
+        "hillshade",
+        "background",
+        "sky",
+        "FeatureCollection"
+      ],
+      "title": "The type schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["fill"]
+    },
+    "paint": {
+      "$id": "#/properties/paint",
+      "type": "object",
+      "title": "The paint schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "fill-color": "#FF851B",
+          "fill-opacity": 0.4,
+          "fill-outline-color": "#d9d9d9"
+        }
+      ],
+      "required": [],
+      "properties": {
+        "fill-color": {
+          "$id": "#/properties/paint/properties/fill-color",
+          "type": ["string", "object"],
+          "title": "The fill-color schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["#FF851B"]
+        },
+        "fill-opacity": {
+          "$id": "#/properties/paint/properties/fill-opacity",
+          "type": ["number", "object"],
+          "title": "The fill-opacity schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0.0,
+          "examples": [0.4]
+        },
+        "fill-outline-color": {
+          "$id": "#/properties/paint/properties/fill-outline-color",
+          "type": ["string", "object"],
+          "title": "The fill-outline-color schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["#d9d9d9"]
+        },
+        "text-color": {
+          "$id": "#/properties/paint/properties/text-color",
+          "type": "string",
+          "title": "Layer text color",
+          "description": "Symbol layer text color",
+          "default": "",
+          "examples": ["#0000ff"]
+        },
+        "text-halo-color": {
+          "$id": "#/properties/paint/properties/text-halo-color",
+          "type": "string",
+          "title": "The color of the text's halo",
+          "description": "The color of the text's halo, which helps it stand out from backgrounds.",
+          "default": "",
+          "examples": ["#fff"]
+        },
+        "text-halo-width": {
+          "$id": "#/properties/paint/properties/text-halo-width",
+          "type": "number",
+          "title": "Distance of halo to the font outline.",
+          "description": "Distance of halo to the font outline. Max text halo width is 1/4 of the font-size.",
+          "default": "",
+          "examples": [1.3]
+        },
+        "text-halo-blur": {
+          "$id": "#/properties/paint/properties/text-halo-blur",
+          "type": "number",
+          "title": "The halo's fadeout distance towards the outside.",
+          "description": "The halo's fadeout distance towards the outside.",
+          "default": "",
+          "examples": [1]
+        }
+      },
+      "additionalProperties": true
+    },
+    "popup": {
+      "$id": "#/properties/popup",
+      "type": "object",
+      "title": "The menu-credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "properties": {
+        "header": {
+          "$id": "#/properties/popup/header",
+          "type": "string",
+          "title": "Header section of popup",
+          "description": "Header section of popup (uses mustache for string interpolation)"
+        },
+        "body": {
+          "$id": "#/properties/popup/body",
+          "type": "string",
+          "title": "Body section of popup",
+          "description": "Body section of a popup (uses mustache for string interpolation)"
+        }
+      }
+    },
+    "menu-credit": {
+      "$id": "#/properties/menu-credit",
+      "type": "string",
+      "title": "The menu-credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["HDX"]
+    },
+    "credit": {
+      "$id": "#/properties/credit",
+      "type": "string",
+      "title": "The credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "<a href=https://data.humdata.org/dataset/hotosm_moz_buildings target=_blank data-credit=credit>HDX</a>"
+      ]
+    },
+    "detail-view": {
+      "type": "object",
+      "properties": {
+        "UID": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "object",
+          "properties": {
+            "prop": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mustache": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["prop", "mustache"]
+        },
+        "sub-title": {
+          "type": "object",
+          "properties": {
+            "prop": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mustache": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["prop", "mustache"]
+        },
+        "basic-info": {
+          "type": "array",
+          "uniqueItems": true,
+          "minItems": 1,
+          "items": {
+            "required": ["alt", "useAltAsPrefix"],
+            "properties": {
+              "value": {
+                "type": "object",
+                "properties": {
+                  "prop": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "mustache": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": ["prop", "mustache"]
+              },
+              "alt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "useAltAsPrefix": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "required": ["UID", "title", "sub-title", "basic-info"]
+    },
+    "aggregate": {
+      "type": "object",
+      "properties": {
+        "filter": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "sub-filter": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "accepted-filter-values": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "accepted-sub-filter-values": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "filter-label": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": [
+        "filter",
+        "sub-filter",
+        "accepted-filter-values",
+        "accepted-sub-filter-values",
+        "filter-label"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
