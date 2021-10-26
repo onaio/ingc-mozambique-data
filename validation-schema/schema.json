@@ -4,7 +4,8 @@
   "type": "object",
   "title": "The root schema",
   "description": "The root schema comprises the entire JSON document.",
-  "required": [],
+  "required": ["label"],
+  "anyOf": [{ "required": ["source"] }, { "required": ["layers"] }],
   "properties": {
     "label": {
       "$id": "#/properties/label",
@@ -368,6 +369,47 @@
     "aggregate": {
       "type": "object",
       "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["sum", "count", "cumulative"],
+          "title": "Aggregation type field",
+          "description": "Field that determines aggregation type",
+          "default": "",
+          "examples": ["cumulative"]
+        },
+        "group-by": {
+          "type": "string",
+          "title": "Field to group data by",
+          "description": "Field to group data by",
+          "default": ""
+        },
+        "date-by": {
+          "type": "string",
+          "title": "Date data by this field",
+          "description": "Date data by this field",
+          "default": ""
+        },
+        "timeseries": {
+          "type": "object",
+          "properties": {
+            "field": {
+              "type": "string",
+              "title": "Field that drives timeseries",
+              "description": "Field that drives timeseries",
+              "default": ""
+            }
+          },
+          "required": ["field"]
+        },
+        "extraProps": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          },
+          "title": "Extra Fields to be included in aggregations",
+          "description": "Extra Fields to be included in aggregations"
+        },
         "filter": {
           "type": "array",
           "items": {
@@ -404,13 +446,7 @@
           }
         }
       },
-      "required": [
-        "filter",
-        "sub-filter",
-        "accepted-filter-values",
-        "accepted-sub-filter-values",
-        "filter-label"
-      ]
+      "required": []
     }
   },
   "additionalProperties": true
