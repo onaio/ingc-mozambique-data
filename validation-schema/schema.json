@@ -322,8 +322,7 @@
           "type": "object",
           "properties": {
             "prop": {
-              "type": "string",
-              "minLength": 1
+              "type": "string"
             },
             "mustache": {
               "type": "string",
@@ -337,25 +336,26 @@
           "uniqueItems": true,
           "minItems": 1,
           "items": {
-            "required": ["alt", "useAltAsPrefix"],
+            "required": ["alt"],
             "properties": {
               "value": {
-                "type": "object",
+                "type": ["object", "string"],
                 "properties": {
                   "prop": {
-                    "type": "string",
-                    "minLength": 1
+                    "type": ["array", "string"],
+                    "uniqueItems": true,
+                    "items": {
+                      "type": "string"
+                    }
                   },
                   "mustache": {
-                    "type": "string",
-                    "minLength": 1
+                    "type": "string"
                   }
                 },
-                "required": ["prop", "mustache"]
+                "required": ["prop"]
               },
               "alt": {
-                "type": "string",
-                "minLength": 1
+                "type": "string"
               },
               "useAltAsPrefix": {
                 "type": "boolean"
@@ -364,7 +364,7 @@
           }
         }
       },
-      "required": ["UID", "title", "sub-title", "basic-info"]
+      "required": ["UID", "title"]
     },
     "aggregate": {
       "type": "object",
