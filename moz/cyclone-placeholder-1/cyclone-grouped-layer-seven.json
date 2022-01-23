@@ -1,0 +1,35 @@
+{
+	"label": "Ciclone Seven - Rota e Velocidade do Vento",
+	"layers": [
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-seven/cyclonepath-forecast-line-seven.geojson", 
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-seven/cyclonepath-forecast-points-seven.geojson",
+        "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-seven/cyclonepath-forecast-polygon-seven.geojson"
+
+    ],
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Swath-62.97",
+            "62.97 km/h",
+            "92.60 km/h",
+            "118.53 km/h"
+            
+        ],
+        "type": [
+            "Ciclone seven - 34 KT Danger Swath",
+            "Ciclone seven - 34 KT",
+            "Ciclone seven - 50 KT",
+            "Ciclone seven - 64 KT"
+        ],
+        "color": [
+            "#fed976",
+            "#feb24c",
+            "#fd8d3c",
+            "#fc4e2a"
+        ]
+    },
+    "visible": false,
+	"menu-credit": "JTWC Tropical Warnings",
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
+	"category": "Ciclone Seven - 2022"
+}
