@@ -1,5 +1,5 @@
 {
-	"label": "Ciclone GigoSumbana - Rota e Velocidade do Vento",
+	"label": "Ciclone/Depressao Ana - Rota e Velocidade do Vento",
 	"layers": [
         "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclonepath-forecast-line-p1.json", 
         "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclonepath-forecast-points-p1.json",
@@ -16,10 +16,10 @@
             
         ],
         "type": [
-            "Ciclone GigoSumbana - 34 KT Danger Swath",
-            "Ciclone GigoSumbana - 34 KT",
-            "Ciclone GigoSumbana - 50 KT",
-            "Ciclone GigoSumbana - 64 KT"
+            "Ciclone Ana - 34 KT Danger Swath",
+            "Ciclone Ana - 34 KT",
+            "Ciclone Ana - 50 KT",
+            "Ciclone Ana - 64 KT"
         ],
         "color": [
             "#fed976",
@@ -31,5 +31,5 @@
     "visible": false,
 	"menu-credit": "JTWC Tropical Warnings",
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
-	"category": "Ciclone GigoSumbana - 2021"
+	"category": "Ciclone Ana - 2022"
 }
