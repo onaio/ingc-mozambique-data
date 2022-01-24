@@ -1,8 +1,8 @@
 {
-    "label": "Pontos de Trajectoria de Ciclone Set 2021 (Previsao)",
+    "label": "Pontos de Trajectoria de Ciclone Set 2022 (Previsao)",
     "source": {
         "type": "geojson",
-        "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclone_points-2021.geojson",
+        "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-1/cyclonepath-forecast-points-p1.geojson",
         "join": ["Name", "Name"]
     },
     "type": "symbol",
