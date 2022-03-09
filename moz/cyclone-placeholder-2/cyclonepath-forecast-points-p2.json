@@ -50,7 +50,7 @@
     },
     "popup": {
         "header": "mainport",
-        "body": "<p style=text-align:left;> <small> {{<B>TIME<\/B>}} <br> </small><span style=float:right;>"
+        "body": "<p style=text-align:left;> <small> {{<B>TIME</B>}} <br> </small><span style=float:right;>"
       },
     "visible": false,
     "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>"
