@@ -3,6 +3,6 @@
 "name": "Gombe-line-2022",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "Name": "sh19 Storm Track", "description": null, "tessellate": 1, "snippet": null, "<B>WRNG NMBR<\/B>": null, "<B>WIND SPD<\/B>": null, "<B>POSIT<\/B>": null, "<B>TIME<\/B>": null, "<B>NAME<\/B>": null, "<B>MOVEMENT<\/B>": null }, "geometry": { "type": "LineString", "coordinates": [ [ 46.0, -14.8 ], [ 44.4, -15.0 ], [ 42.8, -15.2 ], [ 41.7, -15.4 ], [ 40.6, -15.4 ], [ 38.6, -15.3 ], [ 37.5, -15.4 ] ] } }
+{ "type": "Feature", "properties": { "Name": "sh19 Storm Track", "unique_id": 1, "description": null, "tessellate": 1, "snippet": null, "<B>WRNG NMBR<\/B>": null, "<B>WIND SPD<\/B>": null, "<B>POSIT<\/B>": null, "<B>TIME<\/B>": null, "<B>NAME<\/B>": null, "<B>MOVEMENT<\/B>": null }, "geometry": { "type": "LineString", "coordinates": [ [ 46.0, -14.8 ], [ 44.4, -15.0 ], [ 42.8, -15.2 ], [ 41.7, -15.4 ], [ 40.6, -15.4 ], [ 38.6, -15.3 ], [ 37.5, -15.4 ] ] } }
 ]
 }
