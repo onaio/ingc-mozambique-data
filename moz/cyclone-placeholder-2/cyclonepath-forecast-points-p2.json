@@ -1,8 +1,8 @@
 {
-    "label": "Ciclone Path Points [Month] [Year] (Forecast)",
+    "label": "Ciclone Path Points March 2022 (Forecast)",
     "source": {
         "type": "geojson",
-        "data": "url_to_geojson",
+        "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-placeholder-2/Gombe-points-2022.geojson",
         "join": ["unique_id", "unique_id"]
     },
     "type": "symbol",
