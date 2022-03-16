@@ -2,7 +2,7 @@
     "label": "Extensão de inundação - Ciclone Gombe",
     "source": {
         "type": "vector",
-        "layer": "flood_extension_gombe-8htjxt",
+        "layer": "flood_extension_1",
         "url": "mapbox://ona.6qhibuae"
       },
     "type": "line",
