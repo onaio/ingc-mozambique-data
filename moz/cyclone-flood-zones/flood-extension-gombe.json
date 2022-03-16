@@ -1,0 +1,30 @@
+{
+    "label": "Extensão de inundação - Ciclone Gombe",
+    "source": {
+        "type": "vector",
+        "layer": "flood_extension_gombe-8htjxt",
+        "url": "mapbox://ona.6qhibuae"
+      },
+    "type": "line",
+    "layout": {
+      "line-cap": "round",
+      "line-join": "round"
+    },
+    "paint": {
+      "line-color": {
+        "property": "Confidence",
+        "type": "categorical",
+        "stops": [
+          ["High", "#6760DE"],
+          ["To be evaluated", "#2990F1"],
+          ["Low", "#2ED3F5"]]
+      },
+      "line-width": 3,
+      "line-opacity": 0.8
+    },
+    "popup": {
+      "body": "<p style=text-align:left;>Rio/River: {{rio}} <br/>{{Level}}</p>"
+    },
+    "menu-credit": "GEONODE",
+    "credit": "<a href=https://geonode.ingc.gov.mz/layers/geonode:national_flood_multi target=_blank data-credit=credit>GEONODE</a>"
+  }
