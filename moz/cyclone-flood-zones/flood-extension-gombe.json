@@ -17,7 +17,7 @@
       },
       "popup": {
         "header": "DESIGNAçãO",
-        "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
+        "body": "<p style=text-align:left;> <small><i>{{Sensor_Dat}} - {{Water_Clas}}, {{Water_Stat}}</i> </small><span style=float:right;>"
       },
       "detail-view": {
         "UID": "Sensor_ID",
