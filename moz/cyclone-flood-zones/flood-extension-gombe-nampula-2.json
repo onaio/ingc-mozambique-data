@@ -1,5 +1,5 @@
 {
-    "label": "Extensão de inundação (Rio Mogincual) - 12-03-2022",
+    "label": "Extensão de inundação (Nampula) - 12-03-2022",
     "source": {
         "type": "vector",
         "layer": "flood_extension_gombe_nampula_2",
@@ -12,7 +12,7 @@
       },
       "paint": {
         "fill-color": "#B22222",
-        "fill-opacity": 0.6,
+        "fill-opacity": 0.7,
         "fill-outline-color": "#B22222"
       },
       "popup": {
@@ -30,8 +30,8 @@
       "categories": {
         "breaks": "no",
         "breaks": "no",
-        "label": ["Extensão de inundação (Rio Mogincual) - Ciclone Gombe"],
-        "type": ["Extensão de inundação (Rio Mogincual) - Ciclone Gombe"],
+        "label": ["Extensão de inundação (Nampula) - Ciclone Gombe"],
+        "type": ["Extensão de inundação (Nampula) - Ciclone Gombe"],
         "color": ["#000000"]
       },
       "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
