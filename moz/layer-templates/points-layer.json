@@ -1,0 +1,57 @@
+{
+    "label": "Ciclone Path Points [Month] [Year] (Forecast)",
+    "source": {
+        "type": "geojson",
+        "data": "url_to_geojson",
+        "join": ["unique_id", "unique_id"]
+    },
+    "type": "symbol",
+    "minZoom": 0,
+    "paint": {
+        "text-color": "#000",
+        "text-halo-color": "#fff",
+        "text-halo-width": 1.3,
+        "text-halo-blur": 1
+    },
+    "layout": {
+        "text-size": {
+            "stops": [
+                [
+                    5,
+                    10
+                ],
+                [
+                    7,
+                    15
+                ],
+                [
+                    8,
+                    20
+                ]
+            ]
+        },
+        "text-field": "{[Time_field]}",
+        "text-offset": [-5, -2],
+        "icon-image": "circle-11",
+        "icon-allow-overlap": false,
+        "icon-ignore-placement": false
+    },
+    "categories": {
+        "breaks": "no",
+        "label": [
+            "Ciclone"
+        ],
+        "type": [
+            "Ciclone"
+        ],
+        "color": [
+            "#000000"
+        ]
+    },
+    "popup": {
+        "header": "mainport",
+        "body": "<p style=text-align:left;> <small> {{[Time_field]}} <br> </small><span style=float:right;>"
+      },
+    "visible": false,
+    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>"
+}
