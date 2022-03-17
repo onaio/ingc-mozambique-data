@@ -1,9 +1,9 @@
 {
-    "label": "Extensão de inundação (Rio Licungo) - 15-03-2022",
+    "label": "Extensão de inundação (Rio Mogincual) - 12-03-2022",
     "source": {
         "type": "vector",
-        "layer": "flood_extension_1",
-        "url": "mapbox://ona.6qhibuae"
+        "layer": "flood_extension_gombe_nampula_2",
+        "url": "mapbox://ona.bkv2jfna"
       },
       "type": "fill",
       "layout": {
@@ -29,8 +29,9 @@
       "visible": false,
       "categories": {
         "breaks": "no",
-        "label": ["Extensão de inundação - Ciclone Gombe"],
-        "type": ["Extensão de inundação - Ciclone Gombe"],
+        "breaks": "no",
+        "label": ["Extensão de inundação (Rio Mogincual) - Ciclone Gombe"],
+        "type": ["Extensão de inundação (Rio Mogincual) - Ciclone Gombe"],
         "color": ["#000000"]
       },
       "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
