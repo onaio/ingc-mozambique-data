@@ -1,5 +1,5 @@
 {
-    "label": "Ciclone [Month] [Year] (Forecast)",
+    "label": "Polygon Layer [Month] [Year]",
     "source": {
         "type": "geojson",
         "data": "url_to_geojson",
@@ -48,6 +48,6 @@
       }
   },
     "menu-credit": "JTWC Tropical Warnings",
-    "credit": "<a href=https://www.metoc.navy.mil/jtwc/jtwc.html target=_blank data-credit=credit>JTWC Tropical Warnings</a>",
-    "category": "Cyclone Path - [Year]"
+    "credit": "<a href=[link] target=_blank data-credit=credit>[Organization name]</a>",
+    "category": "[Notes] - [Year]"
   }
