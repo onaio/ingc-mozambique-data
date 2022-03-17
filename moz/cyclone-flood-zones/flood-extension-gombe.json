@@ -16,14 +16,14 @@
         "fill-outline-color": "#B22222"
       },
       "popup": {
-        "header": "DESIGNAçãO",
-        "body": "<p style=text-align:left;> <small><i>{{Sensor_Dat}} - {{Water_Clas}}, {{Water_Stat}}</i> </small><span style=float:right;>"
+        "header": "Sensor_Dat",
+        "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
       },
       "detail-view": {
         "UID": "Sensor_ID",
         "title": {
-          "prop": "Confidence",
-          "mustache": "{{Confidence}}"
+          "prop": "Sensor_Dat",
+          "mustache": "{{Sensor_Dat}}"
         }
       },
       "visible": false,
