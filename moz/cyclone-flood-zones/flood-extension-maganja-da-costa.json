@@ -1,0 +1,37 @@
+{
+    "label": "Extensão de inundação (Maganja da Costa) - 16-02-2022",
+    "source": {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/onaio/ingc-mozambique-data/master/moz/cyclone-flood-zones/[Maganja da Costa].geojson",
+        "join": ["unique_id", "unique_id"]
+      },
+      "type": "fill",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "fill-color": "#B22222",
+        "fill-opacity": 0.7,
+        "fill-outline-color": "#B22222"
+      },
+      "popup": {
+        "header": "Sensor_Dat",
+        "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "Sensor_ID",
+        "title": {
+          "prop": "Sensor_Dat",
+          "mustache": "{{Sensor_Dat}}"
+        }
+      },
+      "visible": false,
+      "categories": {
+        "breaks": "no",
+        "label": ["Extensão de inundação (Maganja da Costa)"],
+        "type": ["Extensão de inundação (Maganja da Costa)"],
+        "color": ["#000000"]
+      },
+      "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
+    }
