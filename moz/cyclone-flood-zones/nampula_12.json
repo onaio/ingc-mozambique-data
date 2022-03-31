@@ -1,0 +1,39 @@
+{
+    "label": "Extensão de inundação Nampula - 12-03-2022",
+    "source": {
+        "type": "vector",
+        "layer": "Nampula",
+        "url": "mapbox://ona.bx7zvipo"
+      },
+      "type": "fill",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "fill-color": "#B22222",
+        "fill-opacity": 0.7,
+        "fill-outline-color": "#B22222"
+      },
+      "popup": {
+        "header": "Sensor_Dat",
+        "body": "<p style=text-align:left;> <small><i></i> </small><span style=float:right;>"
+      },
+      "detail-view": {
+        "UID": "Sensor_ID",
+        "title": {
+          "prop": "Sensor_Dat",
+          "mustache": "{{Sensor_Dat}}"
+        }
+      },
+      "visible": false,
+      "categories": {
+        "breaks": "no",
+        "label": ["Extensão de inundação Nampula"],
+        "type": ["Extensão de inundação Nampula"],
+        "color": ["#000000"]
+      },
+      "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br></i></p>"
+    }
+
+    
