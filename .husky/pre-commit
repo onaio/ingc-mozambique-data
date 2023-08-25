@@ -1,0 +1,33 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Runs all .json or .js files through pythons json lint tool before commiting,
+# to make sure that you don't commit broken json objects.
+# npx ajv runs validations for commited json file based on validation schema
+
+git_dir=$(git rev-parse --show-toplevel)
+
+for file in $(git diff-index --name-only --diff-filter=ACM --cached HEAD -- \
+    | grep -P '\.((js)|(json))$'); do
+    if [ $? -ne 0 ] ; then
+        echo "Lint check of JSON object failed. Your changes were not commited."
+        echo "in $git_dir/$file:"
+        python -mjson.tool $file
+        exit 1
+    fi
+    filename="$(basename $file)";
+    case $file in (*moz*)
+        echo $filename;
+        if test -f validation-schema/$filename; then
+            echo $filename;
+            npx ajv -s validation-schema/$filename -d $file --strict=false;
+            exit 0
+        fi
+        echo "Generate Schema for the $filename before commiting the layer";
+        echo "To Generate schema for layer";
+        echo "Run: $(tput setaf 3)  json-schema-generator $file -o validation-schema/$filename";
+        echo "sed -i '02d' validation-schema/$filename";
+        echo "add and commit the layer and schema files"
+        exit 1
+    esac
+done

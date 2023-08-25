@@ -1,0 +1,236 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "featureType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "data": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minzoom": {
+          "type": "number"
+        },
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["type", "featureType", "data", "minzoom", "join"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paint": {
+      "type": "object",
+      "properties": {
+        "circle-radius": {
+          "type": "object",
+          "properties": {
+            "property": {
+              "type": "string",
+              "minLength": 1
+            },
+            "stops": {
+              "type": "array",
+              "items": {
+                "required": [],
+                "properties": {
+                  "0": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "1": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "2": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "3": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "4": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            },
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "default": {
+              "type": "number"
+            }
+          },
+          "required": ["property", "stops", "type", "default"]
+        },
+        "circle-color": {
+          "type": "object",
+          "properties": {
+            "property": {
+              "type": "string",
+              "minLength": 1
+            },
+            "stops": {
+              "type": "array",
+              "items": {
+                "required": [],
+                "properties": {
+                  "0": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "1": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "2": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "3": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "4": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            },
+            "type": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["property", "stops", "type"]
+        }
+      },
+      "required": ["circle-radius", "circle-color"]
+    },
+    "categories": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "geo-columns": {
+      "type": "array",
+      "items": {
+        "required": [],
+        "properties": {}
+      }
+    },
+    "popup": {
+      "type": "object",
+      "properties": {
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["join", "body"]
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "menu-credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nondefault": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "timestamp",
+    "paint",
+    "categories",
+    "geo-columns",
+    "popup",
+    "visible",
+    "menu-credit",
+    "credit",
+    "nondefault"
+  ]
+}

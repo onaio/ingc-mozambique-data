@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "function_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "result": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": ["function_status", "result"]
+}

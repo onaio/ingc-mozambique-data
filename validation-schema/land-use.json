@@ -1,0 +1,110 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "data": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["type", "data", "layer", "url", "join"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "property": {
+      "type": "string",
+      "minLength": 1
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "breaks": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limit": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "label": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "color": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["breaks", "limit", "label", "color"]
+    },
+    "popup": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["header", "body"]
+    },
+    "menu-credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "property",
+    "categories",
+    "popup",
+    "menu-credit",
+    "credit"
+  ]
+}

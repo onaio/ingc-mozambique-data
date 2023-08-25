@@ -1,237 +1,184 @@
 {
-    "label": "Informação Escolar",
-    "source": {
-        "type": "geojson",
-        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/schools/dados_escolas.geojson",
-        "join": [
-            "school_id",
-            "school_id"
-        ],
-        "minzoom": 2
+  "label": "Informação Escolar",
+  "source": {
+    "type": "geojson",
+    "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/schools/dados_escolas.geojson",
+    "join": ["school_id", "school_id"],
+    "minzoom": 2
+  },
+  "type": "symbol",
+  "paint": {
+    "text-color": "#000",
+    "text-halo-color": "#fff",
+    "text-halo-width": 1,
+    "text-halo-blur": 1
+  },
+  "layout": {
+    "text-size": 2,
+    "text-field": "",
+    "text-offset": [0, 2],
+    "icon-image": "education-grey-shaded",
+    "icon-size": 0.8,
+    "icon-allow-overlap": true,
+    "icon-ignore-placement": true
+  },
+  "detail-view": {
+    "UID": "school_id",
+    "title": {
+      "prop": "Nome_Escola",
+      "mustache": "{{{Nome_Escola}}}"
     },
-    "type": "symbol",
-    "paint": {
-        "text-color": "#000",
-        "text-halo-color": "#fff",
-        "text-halo-width": 1,
-        "text-halo-blur": 1
+    "sub-title": {
+      "prop": "Localidade",
+      "mustache": "{{{Localidade}}}"
     },
-    "layout": {
-        "text-size": 2,
-        "text-field": "",
-        "text-offset": [
-            0,
-            2
-        ],
-        "icon-image": "education-grey-shaded",
-        "icon-size": 0.8,
-        "icon-allow-overlap": true,
-        "icon-ignore-placement": true
-    },
-    "detail-view": {
-        "UID": "school_id",
-        "title": {
-            "prop": "Nome_Escola",
-            "mustache": "{{{Nome_Escola}}}"
+    "basic-info": [
+      {
+        "value": {
+          "prop": ["Longitude", "Latitude"],
+          "join": ", "
         },
-        "sub-title": {
-            "prop": "Localidade",
-            "mustache": "{{{Localidade}}}"
+        "icon": "screenshot",
+        "alt": "GPS coordinates"
+      },
+      {
+        "value": "Provincia",
+        "icon": "pushpin",
+        "alt": "Provincia"
+      },
+      {
+        "value": "Distrito",
+        "icon": {
+          "FA": "bookmark"
         },
-        "basic-info": [
-            {
-                "value": {
-                    "prop": [
-                        "Longitude",
-                        "Latitude"
-                    ],
-                    "join": ", "
-                },
-                "icon": "screenshot",
-                "alt": "GPS coordinates"
-            },
-            {
-                "value": "Provincia",
-                "icon": "pushpin",
-                "alt": "Provincia"
-            },
-            {
-                "value": "Distrito",
-                "icon": {
-                    "FA": "bookmark"
-                },
-                "alt": "Distrito"
-            },
-            {
-                "value": "Posto",
-                "icon": "home",
-                "alt": "Posto"
-            },
-            {
-                "value": "Localidade",
-                "icon": {
-                    "FA": "building"
-                },
-                "alt": "localidade"
-            },
-            {
-                "value": {
-                    "prop": "Povoado",
-                    "mustache": "{{{Povoado}}}"
-                },
-                "alt": "Povoado",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "Telefone",
-                    "mustache": "{{{Telefone}}}"
-                },
-                "alt": "Telefone",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "Telefone",
-                    "mustache": "{{{Telefone}}}"
-                },
-                "alt": "Telefone",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "TipoFonte",
-                    "mustache": "{{{TipoFonte}}}"
-                },
-                "alt": "Tipo de Fonte",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "TipoEnergi",
-                    "mustache": "{{{TipoEnergi}}}"
-                },
-                "alt": "Tipo de Energia",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "CasaBanho",
-                    "mustache": "{{{CasaBanho}}}"
-                },
-                "alt": "Total de Casas de Banho",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "TotalLatrinas",
-                    "mustache": "{{{TotalLatrinas}}}"
-                },
-                "alt": "Total de Latrinas",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "Urinol",
-                    "mustache": "{{{Urinol}}}"
-                },
-                "alt": "Urinóis?",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "TotalUrinol",
-                    "mustache": "{{{TotalUrinol}}}"
-                },
-                "alt": "Total Urinóis",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "CampoPoliv",
-                    "mustache": "{{{CampoPoliv}}}"
-                },
-                "alt": "Campo Polivalente",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "Ginasio",
-                    "mustache": "{{{Ginasio}}}"
-                },
-                "alt": "Ginasio?",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "TotalSala",
-                    "mustache": "{{{TotalSala}}}"
-                },
-                "alt": "Total de Salas",
-                "useAltAsPrefix": true
-            },
-            {
-                "value": {
-                    "prop": "SalaSituac",
-                    "mustache": "{{{SalaSituac}}}"
-                },
-                "alt": "Situacao das Salas",
-                "useAltAsPrefix": true
-            }
-        ]
-    },
-    "categories": {
-        "breaks": "no",
-        "label": [
-            " "
-        ],
-        "type": [
-            " "
-        ],
-        "color": [
-            "#484848"
-        ]
-    },
-    "aggregate": {
-        "filter": [
-            "provincia",
-            "distrito",
-            "posto",
-            "localidade",
-            "povoado"
-        ],
-        "accepted-filter-values": [
-            "all",
-            "all",
-            "all",
-            "all",
-            "all"
-        ],
-        "filter-label": [
-            "Provincia",
-            "Distrito",
-            "Posto",
-            "Localidade",
-            "Povoado"
-        ],
-        "sub-filter": [
-            "",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "accepted-sub-filter-values": [
-            "",
-            "",
-            "",
-            "",
-            ""
-        ]
-    },
-    "popup": {
-        "header": "{{povoada}}",
-        "body": "<p style=text-align:left;><b>Escola: </b>{{Nome_Escola }} <br>  <i>Clique para ver os detalhes das escolas</i> </small><span style=float:right;><p>"
-    },
-    "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes das escolas</i></p>"
+        "alt": "Distrito"
+      },
+      {
+        "value": "Posto",
+        "icon": "home",
+        "alt": "Posto"
+      },
+      {
+        "value": "Localidade",
+        "icon": {
+          "FA": "building"
+        },
+        "alt": "localidade"
+      },
+      {
+        "value": {
+          "prop": "Povoado",
+          "mustache": "{{{Povoado}}}"
+        },
+        "alt": "Povoado",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "Telefone",
+          "mustache": "{{{Telefone}}}"
+        },
+        "alt": "Telefone",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "TipoFonte",
+          "mustache": "{{{TipoFonte}}}"
+        },
+        "alt": "Tipo de Fonte",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "TipoEnergi",
+          "mustache": "{{{TipoEnergi}}}"
+        },
+        "alt": "Tipo de Energia",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "CasaBanho",
+          "mustache": "{{{CasaBanho}}}"
+        },
+        "alt": "Total de Casas de Banho",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "TotalLatrinas",
+          "mustache": "{{{TotalLatrinas}}}"
+        },
+        "alt": "Total de Latrinas",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "Urinol",
+          "mustache": "{{{Urinol}}}"
+        },
+        "alt": "Urinóis?",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "TotalUrinol",
+          "mustache": "{{{TotalUrinol}}}"
+        },
+        "alt": "Total Urinóis",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "CampoPoliv",
+          "mustache": "{{{CampoPoliv}}}"
+        },
+        "alt": "Campo Polivalente",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "Ginasio",
+          "mustache": "{{{Ginasio}}}"
+        },
+        "alt": "Ginasio?",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "TotalSala",
+          "mustache": "{{{TotalSala}}}"
+        },
+        "alt": "Total de Salas",
+        "useAltAsPrefix": true
+      },
+      {
+        "value": {
+          "prop": "SalaSituac",
+          "mustache": "{{{SalaSituac}}}"
+        },
+        "alt": "Situacao das Salas",
+        "useAltAsPrefix": true
+      }
+    ]
+  },
+  "categories": {
+    "breaks": "no",
+    "label": [" "],
+    "type": [" "],
+    "color": ["#484848"]
+  },
+  "aggregate": {
+    "filter": ["provincia", "distrito", "posto", "localidade", "povoado"],
+    "accepted-filter-values": ["all", "all", "all", "all", "all"],
+    "filter-label": ["Provincia", "Distrito", "Posto", "Localidade", "Povoado"],
+    "sub-filter": ["", "", "", "", ""],
+    "accepted-sub-filter-values": ["", "", "", "", ""]
+  },
+  "popup": {
+    "header": "{{povoada}}",
+    "body": "<p style=text-align:left;><b>Escola: </b>{{Nome_Escola }} <br>  <i>Clique para ver os detalhes das escolas</i> </small><span style=float:right;><p>"
+  },
+  "credit": "<p><i>Aumente e diminua o zoom para ver mais áreas <br>  Clique para ver os detalhes das escolas</i></p>"
 }

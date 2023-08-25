@@ -1,0 +1,190 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["type", "layer", "url", "join"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "minZoom": {
+      "type": "number"
+    },
+    "paint": {
+      "type": "object",
+      "properties": {
+        "text-color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text-halo-color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text-halo-width": {
+          "type": "number"
+        },
+        "text-halo-blur": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "text-color",
+        "text-halo-color",
+        "text-halo-width",
+        "text-halo-blur"
+      ]
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "text-size": {
+          "type": "object",
+          "properties": {
+            "stops": {
+              "type": "array",
+              "items": {
+                "required": [],
+                "properties": {
+                  "0": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "1": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  },
+                  "2": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "required": [],
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": ["stops"]
+        },
+        "icon-image": {
+          "type": "string",
+          "minLength": 1
+        },
+        "icon-allow-overlap": {
+          "type": "boolean"
+        },
+        "icon-ignore-placement": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "text-size",
+        "icon-image",
+        "icon-allow-overlap",
+        "icon-ignore-placement"
+      ]
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "breaks": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "color": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["breaks", "label", "type", "color"]
+    },
+    "popup": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["header", "body"]
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "minZoom",
+    "paint",
+    "layout",
+    "categories",
+    "popup",
+    "visible",
+    "credit"
+  ]
+}

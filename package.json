@@ -1,0 +1,35 @@
+{
+  "name": "ingc-mozambique-data",
+  "version": "1.0.0",
+  "description": "Shared data and layers for Cyclone Idai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "sh ajv.sh",
+    "generate": "sh gen.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onaio/ingc-mozambique-data.git"
+  },
+  "author": "Ona Systems Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/onaio/ingc-mozambique-data/issues"
+  },
+  "homepage": "https://github.com/onaio/ingc-mozambique-data#readme",
+  "devDependencies": {
+    "ajv-cli": "^5.0.0",
+    "husky": "^7.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "sh gist.sh"
+    }
+  },
+  "dependencies": {
+    "ajv": "^8.6.3",
+    "json-schema-generator": "^2.0.6",
+    "json-schema-migrate": "^2.0.0"
+  }
+}

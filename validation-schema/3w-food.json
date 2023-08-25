@@ -1,0 +1,277 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "label": "3W - Segurança Alimentar - número de beneficiários assistidos (5 de Abril)",
+      "source": {
+        "type": "vector",
+        "layer": "mozambique_districts_centroid-1qmvkp",
+        "url": "mapbox://ona.515xpd4h",
+        "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/3w/2019-04-05-3w-all.csv",
+        "join": ["Distrito", "Distrito"]
+      },
+      "type": "circle",
+      "circle-opacity": 0.2,
+      "circle-translate": [0, 2],
+      "property": "people-food",
+      "categories": {
+        "breaks": "yes",
+        "color": "#FF4136",
+        "clusters": 7
+      },
+      "popup": {
+        "header": "{{SITE_NAME}}",
+        "body": "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{people-food}})<br><p>"
+      },
+      "menu-credit": "HDX",
+      "credit": "<a href=https://data.humdata.org/dataset/mozambique-cyclone-idai-4w target=_blank data-credit=credit>HDX</a>"
+    }
+  ],
+  "required": [
+    "label",
+    "source",
+    "type",
+    "circle-opacity",
+    "circle-translate",
+    "property",
+    "categories",
+    "popup",
+    "menu-credit",
+    "credit"
+  ],
+  "properties": {
+    "label": {
+      "$id": "#/properties/label",
+      "type": "string",
+      "title": "The label schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "3W - Segurança Alimentar - número de beneficiários assistidos (5 de Abril)"
+      ]
+    },
+    "source": {
+      "$id": "#/properties/source",
+      "type": "object",
+      "title": "The source schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "type": "vector",
+          "layer": "mozambique_districts_centroid-1qmvkp",
+          "url": "mapbox://ona.515xpd4h",
+          "data": "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/3w/2019-04-05-3w-all.csv",
+          "join": ["Distrito", "Distrito"]
+        }
+      ],
+      "required": ["type", "layer", "url", "data", "join"],
+      "properties": {
+        "type": {
+          "$id": "#/properties/source/properties/type",
+          "type": "string",
+          "title": "The type schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["vector"]
+        },
+        "layer": {
+          "$id": "#/properties/source/properties/layer",
+          "type": "string",
+          "title": "The layer schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["mozambique_districts_centroid-1qmvkp"]
+        },
+        "url": {
+          "$id": "#/properties/source/properties/url",
+          "type": "string",
+          "title": "The url schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["mapbox://ona.515xpd4h"]
+        },
+        "data": {
+          "$id": "#/properties/source/properties/data",
+          "type": "string",
+          "title": "The data schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://raw.githubusercontent.com/onaio/cycloneidai-2019-data/master/moz/3w/2019-04-05-3w-all.csv"
+          ]
+        },
+        "join": {
+          "$id": "#/properties/source/properties/join",
+          "type": "array",
+          "title": "The join schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": [],
+          "examples": [["Distrito", "Distrito"]],
+          "additionalItems": true,
+          "items": {
+            "$id": "#/properties/source/properties/join/items",
+            "anyOf": [
+              {
+                "$id": "#/properties/source/properties/join/items/anyOf/0",
+                "type": "string",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["Distrito"]
+              }
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["circle"]
+    },
+    "circle-opacity": {
+      "$id": "#/properties/circle-opacity",
+      "type": "number",
+      "title": "The circle-opacity schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0.0,
+      "examples": [0.2]
+    },
+    "circle-translate": {
+      "$id": "#/properties/circle-translate",
+      "type": "array",
+      "title": "The circle-translate schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [[0, 2]],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/circle-translate/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/circle-translate/items/anyOf/0",
+            "type": "integer",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [0, 2]
+          }
+        ]
+      }
+    },
+    "property": {
+      "$id": "#/properties/property",
+      "type": "string",
+      "title": "The property schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["people-food"]
+    },
+    "categories": {
+      "$id": "#/properties/categories",
+      "type": "object",
+      "title": "The categories schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "breaks": "yes",
+          "color": "#FF4136",
+          "clusters": 7
+        }
+      ],
+      "required": ["breaks", "color", "clusters"],
+      "properties": {
+        "breaks": {
+          "$id": "#/properties/categories/properties/breaks",
+          "type": "string",
+          "title": "The breaks schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["yes"]
+        },
+        "color": {
+          "$id": "#/properties/categories/properties/color",
+          "type": "string",
+          "title": "The color schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["#FF4136"]
+        },
+        "clusters": {
+          "$id": "#/properties/categories/properties/clusters",
+          "type": "integer",
+          "title": "The clusters schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [7]
+        }
+      },
+      "additionalProperties": true
+    },
+    "popup": {
+      "$id": "#/properties/popup",
+      "type": "object",
+      "title": "The popup schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "header": "{{SITE_NAME}}",
+          "body": "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{people-food}})<br><p>"
+        }
+      ],
+      "required": ["header", "body"],
+      "properties": {
+        "header": {
+          "$id": "#/properties/popup/properties/header",
+          "type": "string",
+          "title": "The header schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["{{SITE_NAME}}"]
+        },
+        "body": {
+          "$id": "#/properties/popup/properties/body",
+          "type": "string",
+          "title": "The body schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "<p style=text-align:left;><b>Distrito: </b>{{Distrito}} ({{people-food}})<br><p>"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "menu-credit": {
+      "$id": "#/properties/menu-credit",
+      "type": "string",
+      "title": "The menu-credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": ["HDX"]
+    },
+    "credit": {
+      "$id": "#/properties/credit",
+      "type": "string",
+      "title": "The credit schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "<a href=https://data.humdata.org/dataset/mozambique-cyclone-idai-4w target=_blank data-credit=credit>HDX</a>"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

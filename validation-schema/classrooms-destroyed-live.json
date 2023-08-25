@@ -1,0 +1,164 @@
+{
+  "description": "",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "data": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "slice-id": {
+              "type": "number"
+            }
+          },
+          "required": ["type", "slice-id"]
+        },
+        "layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "join": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": ["type", "data", "layer", "url", "join"]
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "property": {
+      "type": "string",
+      "minLength": 1
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "breaks": {
+          "type": "string",
+          "minLength": 1
+        },
+        "color": {
+          "type": "string",
+          "minLength": 1
+        },
+        "clusters": {
+          "type": "number"
+        }
+      },
+      "required": ["breaks", "color", "clusters"]
+    },
+    "aggregate": {
+      "type": "object",
+      "properties": {
+        "timeseries": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "field": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["type", "field"]
+        },
+        "filter": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "accepted-filter-values": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "filter-label": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        },
+        "filter-type": {
+          "type": "array",
+          "items": {
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "required": [
+        "timeseries",
+        "filter",
+        "accepted-filter-values",
+        "filter-label",
+        "filter-type"
+      ]
+    },
+    "popup": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["header", "body"]
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "menu-credit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "label",
+    "source",
+    "type",
+    "property",
+    "categories",
+    "aggregate",
+    "popup",
+    "visible",
+    "menu-credit",
+    "credit"
+  ]
+}
