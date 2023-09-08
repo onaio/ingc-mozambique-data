@@ -1,0 +1,23 @@
+{
+  "name": "layer-validator",
+  "version": "1.0.0",
+  "description": "JSON files validator",
+  "main": "index.js",
+  "scripts": {
+    "validate": "sh validate.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onaio/ingc-mozambique-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onaio/ingc-mozambique-data/issues"
+  },
+  "homepage": "https://github.com/onaio/ingc-mozambique-data#readme",
+  "dependencies": {
+    "ajv-cli": "^5.0.0"
+  }
+}
